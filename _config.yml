@@ -12,6 +12,12 @@ author:
   name:              2bhapby
   url:               
   email:             2bhapby@gmail.com
+  
+  #footer
+  
+  footer-links:
+    github: https://2bhapby.github.com
+  
 
 # Gems
 plugins:
