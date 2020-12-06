@@ -1,7 +1,7 @@
 # Setup
 title:               B3 Hapby
 tagline:             '2bhapby-dev'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         '2bhapby-dev'
 url:                 https://2bhapby.github.io
 baseurl:             ''
 paginate:            5
@@ -9,9 +9,9 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              2bhapby
+  url:               
+  email:             2bhapby@gmail.com
 
 # Gems
 plugins:
