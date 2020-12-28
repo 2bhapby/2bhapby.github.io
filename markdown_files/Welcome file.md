@@ -1,8 +1,12 @@
 # 모델 훈련
 
+비선
+
 모델 훈련을 시키는 두가지 방법
 - 직접 계산 공식을 사용하여 가장 잘 맞는 모델 파라미터를 해석적으로 구한다.
 - 경사하강법을 사용하여 비용함수를 훈련 세트에 대해 최소화 시킨다. (배치 경사 하강법, 미니배치 경사 하강법, 확률적 경사 하강법)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI3MzU1NjBdfQ==
+eyJoaXN0b3J5IjpbODAwNzMzNjUyXX0=
 -->
