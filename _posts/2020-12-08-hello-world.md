@@ -7,5 +7,5 @@ comments: true
 
 hello world
 
-$$2^{2}$$
-$$\sum (\alpha \pm \beta)$$
+$\Gamma(n) = (n-1)!\quad\forall
+n\in\mathbb N$
