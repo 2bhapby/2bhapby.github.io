@@ -1,6 +1,6 @@
 # 모델 훈련
 
-비선
+## 선형회귀
 
 모델 훈련을 시키는 두가지 방법
 - 직접 계산 공식을 사용하여 가장 잘 맞는 모델 파라미터를 해석적으로 구한다.
@@ -8,5 +8,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwNzMzNjUyXX0=
+eyJoaXN0b3J5IjpbLTk5ODQ0MDE5OV19
 -->
