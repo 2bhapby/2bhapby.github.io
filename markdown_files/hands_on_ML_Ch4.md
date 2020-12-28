@@ -8,9 +8,12 @@
 
 ## 비선형 모델
 
-다항 회귀의 경우에는 선형 회귀보다 파라미터가 많아 overfitting되기 쉽다.
+다항 회귀의 경우에는 선형 회귀보다 파라미터가 많아 과대적합(overfitting)되기 쉽다.
 
-학습 곡선(learning curve)를 사용해서 
+과대적합을 감
+학습 곡선(learning curve)를 사용해서 모델이 과대적합(overfitting)되는지 감지한다.
+
+규제를 통해서 과대적합(overfitting)을 감소시킨다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzgwOTE5OF19
+eyJoaXN0b3J5IjpbMTAzNTY0OTI3Nl19
 -->
