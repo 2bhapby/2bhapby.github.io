@@ -1,3 +1,8 @@
+---
+layout: post
+title: 모델훈련
+d
+
 # 모델 훈련
 
 ## 선형 모델
@@ -19,5 +24,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODQxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbMTMwNTkyNjgzLC01Mzg0MTgyNDIsLTE3NT
+Q2Mjk3NDRdfQ==
 -->
