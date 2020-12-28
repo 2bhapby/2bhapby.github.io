@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 모델훈련
-d
+---
 
 # 모델 훈련
 
@@ -24,6 +24,6 @@ d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTkyNjgzLC01Mzg0MTgyNDIsLTE3NT
+eyJoaXN0b3J5IjpbMjA2ODM1NDc2LC01Mzg0MTgyNDIsLTE3NT
 Q2Mjk3NDRdfQ==
 -->
