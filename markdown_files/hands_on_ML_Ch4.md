@@ -16,9 +16,8 @@
 
 ## 선형 회귀
 
-$\Gamma(n) = (n-1)!\quad\forall
-n\in\mathbb N$
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTczNTExNywtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbLTUzODQxODI0MiwtMTc1NDYyOTc0NF19
 -->
