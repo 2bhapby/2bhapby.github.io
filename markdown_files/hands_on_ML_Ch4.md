@@ -14,6 +14,9 @@
 - 학습 곡선(learning curve)를 사용해서 모델이 과대적합(overfitting)되는지 감지한다.
 - 규제를 통해서 과대적합(overfitting)을 감소시킨다.
 
+## 선형 회귀
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NTEwNTAxXX0=
+eyJoaXN0b3J5IjpbLTE3NTQ2Mjk3NDRdfQ==
 -->
