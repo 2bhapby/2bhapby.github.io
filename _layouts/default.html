@@ -27,9 +27,10 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
   </body>
 </html>
 
-{% if page.use_math %}
-  {% include mathjax.html %}
-{% endif %}
+
