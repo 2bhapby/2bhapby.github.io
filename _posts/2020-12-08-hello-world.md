@@ -7,5 +7,5 @@ comments: true
 
 hello world
 
-2^{2}
+$$2^{2}$$
 
