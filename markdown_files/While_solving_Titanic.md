@@ -1,6 +1,6 @@
 ---
 layout:post
-tilte:titanic 문제를 풀며
+title:titanic 문제를 풀며
 ---
 
 # Titanic 문제를 풀며  
@@ -62,5 +62,5 @@ https://gomguard.tistory.com/51
 https://injo.tistory.com/15#Decision-Tree(%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC)-:  
 https://nonmeyet.tistory.com/entry/R-SVM-%EC%84%9C%ED%8F%AC%ED%8A%B8-%EB%B2%A1%ED%84%B0-%EB%A8%B8%EC%8B%A0%EC%9D%98-%EC%A0%95%EC%9D%98%EC%99%80-%EC%84%A4%EB%AA%85 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA1MzYwMTQsLTI2MjA1NTM2Ml19
+eyJoaXN0b3J5IjpbNDc2MDE2MDM0LC0yNjIwNTUzNjJdfQ==
 -->
