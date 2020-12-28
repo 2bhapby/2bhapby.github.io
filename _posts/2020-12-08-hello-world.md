@@ -5,7 +5,8 @@ use_math: true
 comments: true
 ---
 
-hello world
-
-$\Gamma(n) = (n-1)!\quad\forall
-n\in\mathbb N$
+$$
+\lim_{x\to 0}{\frac{e^x-1}{2x}}
+\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
+\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
+$$
