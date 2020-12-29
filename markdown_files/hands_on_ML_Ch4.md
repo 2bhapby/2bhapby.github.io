@@ -21,9 +21,11 @@ title: 모델훈련
 
 ## 선형 회귀
 
+선형 모델 식
+$ \hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}x_{n} $
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODM1NDc2LC01Mzg0MTgyNDIsLTE3NT
-Q2Mjk3NDRdfQ==
+eyJoaXN0b3J5IjpbLTM0MDg2MDIzNSwyMDY4MzU0NzYsLTUzOD
+QxODI0MiwtMTc1NDYyOTc0NF19
 -->
