@@ -10,4 +10,4 @@ $$
 \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
 $$  
 
-hello  math
+hello  math gi
