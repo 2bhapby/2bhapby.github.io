@@ -26,10 +26,15 @@ title: 모델훈련
 $$\hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}x_{n}$$
 - $\hat{y}$ : 예측값
 - n : 특성의 수
-- $x_{i}$ : 
+- $x_{i}$ : $i$번째 특성
+- $\theta_{j}$ : j 번째 모델 파라미터
+ 
+ 이를 벡터 형식으로 나타내면
+
+$$\hat{y} = h_{\theta}(x) = \theta $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDUyMjEwMSwyMDY4MzU0NzYsLTUzOD
-QxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbNzU0MTM5NDg1LDIwNjgzNTQ3NiwtNTM4ND
+E4MjQyLC0xNzU0NjI5NzQ0XX0=
 -->
