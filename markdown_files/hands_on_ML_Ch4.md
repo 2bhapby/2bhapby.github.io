@@ -47,9 +47,11 @@ MSE cost function
 $\bm{\theta}$를 구하기 위한 해석적인 방법이 있는데 이 방정식을 정규방정식이라 부른다.
 
 $$\hat{\bm{\theta}} = (\textbf{X}^{T}\textbf{X})^{-1}\textbf{X}^T\textbf{y}$$
-- $\hat{\bm{\theta}}$
+- $\hat{\bm{\theta}}$ : 비용함수를 최소하하는 ${\bm{\theta}}$
+- $\textbf{y}$ : 타깃 벡터
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDA0Mjk0NiwtNTYwNTEwODY2LDkyOD
+eyJoaXN0b3J5IjpbMTI0ODEwODcxMywtNTYwNTEwODY2LDkyOD
 E4MTQ3OCwyMDY4MzU0NzYsLTUzODQxODI0MiwtMTc1NDYyOTc0
 NF19
 -->
