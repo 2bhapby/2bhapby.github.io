@@ -31,10 +31,10 @@ $$\hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}
  
  이를 벡터 형식으로 나타내면
 
-$$\hat{y} = h_{\theta}(\textbf{x}) = \textbf{\theta} \cdot \textx$$
+$$\hat{y} = h_{\theta}(\textbf{x}) = \b,{\theta} \cdot \textbf{x}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA5OTY4NjQsMjA2ODM1NDc2LC01Mz
-g0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
+eyJoaXN0b3J5IjpbLTg5ODk3MzE4MSwyMDY4MzU0NzYsLTUzOD
+QxODI0MiwtMTc1NDYyOTc0NF19
 -->
