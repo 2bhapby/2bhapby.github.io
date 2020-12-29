@@ -1,8 +1,6 @@
 ---
 layout: post
 title: What's Jekyll?
-mathjax: true
-comments: true
 ---
 
 $$
