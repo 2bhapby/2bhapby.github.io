@@ -36,8 +36,8 @@ $$\hat{y} = h_{\theta}(\textbf{x}) = \bm{\theta} \cdot \textbf{x}$$
 -	$\textbf{x}$ : 특성 벡터
 -	$h_{\bm{\theta}}$ : 모델 파라미터 $\bm{\theta}$ 를 사용한 가설 함수
 
-
+$MSE(\textbf{X}, h_{\theta} = \frac{1}{m} \Sigma $
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTMyMzY1MiwyMDY4MzU0NzYsLTUzOD
-QxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbNTEyOTM3MTcxLDIwNjgzNTQ3NiwtNTM4ND
+E4MjQyLC0xNzU0NjI5NzQ0XX0=
 -->
