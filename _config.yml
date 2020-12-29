@@ -8,9 +8,9 @@ paginate:            5
 permalink:           pretty
 
 # About/contact
-#author:
+author:
   name:              2bhapby
-#  url:               
+  url:               
   email:             2bhapby@gmail.com
   
   #footer
