@@ -34,8 +34,8 @@ $$\hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}
 $$\hat{y} = h_{\theta}(\textbf{x}) = \bm{\theta} \cdot \textbf{x}$$
 
 -	$\textbf{x}$ : ㅌㄱ성 벡터
--	$\bm{\theta =$ 
+-	$h_{\bm{\theta}}$ : 모델 파라미터 $\bm{\theta}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5ODYxNDQ1LDIwNjgzNTQ3NiwtNTM4ND
-E4MjQyLC0xNzU0NjI5NzQ0XX0=
+eyJoaXN0b3J5IjpbLTEwMzc1NzMwNDEsMjA2ODM1NDc2LC01Mz
+g0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
 -->
