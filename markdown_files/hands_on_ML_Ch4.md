@@ -39,8 +39,9 @@ $$\hat{y} = h_{\theta}(\textbf{x}) = \bm{\theta} \cdot \textbf{x}$$
 MSE cost function 
 - $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$
 
-비용함수를 
+>cost function == loss function
+>우리는 cost function이 최소가 되는 $\bm{\theta}$ 를 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4MTgxNDc4LDIwNjgzNTQ3NiwtNTM4ND
-E4MjQyLC0xNzU0NjI5NzQ0XX0=
+eyJoaXN0b3J5IjpbMzM3NTk5MzcxLDkyODE4MTQ3OCwyMDY4Mz
+U0NzYsLTUzODQxODI0MiwtMTc1NDYyOTc0NF19
 -->
