@@ -44,9 +44,11 @@ MSE cost function
 
 ### 정규방정식
 
-$\bm{\theta}를 구하기 위한 해석적인 방법이 있는데 이 방정식을 정규방정식이라 $
+$\bm{\theta}$를 구하기 위한 해석적인 방법이 있는데 이 방정식을 정규방정식이라 부른다.
+
+- $\hat{\bm{\theta}} = (\bfX^{T}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk1MzIwNTgsLTU2MDUxMDg2Niw5Mj
-gxODE0NzgsMjA2ODM1NDc2LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3
-NDRdfQ==
+eyJoaXN0b3J5IjpbMjc2OTA3MzY0LC01NjA1MTA4NjYsOTI4MT
+gxNDc4LDIwNjgzNTQ3NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0
+XX0=
 -->
