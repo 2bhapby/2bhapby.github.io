@@ -33,9 +33,11 @@ $$\hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}
 
 $$\hat{y} = h_{\theta}(\textbf{x}) = \bm{\theta} \cdot \textbf{x}$$
 
--	$\textbf{x}$ : ㅌㄱ성 벡터
--	$h_{\bm{\theta}}$ : 모델 파라미터 $\bm{\theta}$
+-	$\textbf{x}$ : 특성 벡터
+-	$h_{\bm{\theta}}$ : 모델 파라미터 $\bm{\theta}$ 를 사용한 가설 함수
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc1NzMwNDEsMjA2ODM1NDc2LC01Mz
-g0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
+eyJoaXN0b3J5IjpbMTM5NTMyMzY1MiwyMDY4MzU0NzYsLTUzOD
+QxODI0MiwtMTc1NDYyOTc0NF19
 -->
