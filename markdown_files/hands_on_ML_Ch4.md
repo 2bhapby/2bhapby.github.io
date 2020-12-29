@@ -41,8 +41,12 @@ MSE cost function
 
 >cost function : 예측 값과 실제 값의 차이를 나타낸 함수(미묘한 차이가 있긴하지만 loss function이라고 생각해도 무관하다.)
 >우리는 cost function이 최소가 되는 $\bm{\theta}$ 를 찾는 것이 목표이다.
+
+### 정규방정식
+
+$\bm{\theta}를 구하기 위한 해석적인 방법이 있는데 이 방정식을 정규방정식이라 $
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTE1MjQzNywtNTYwNTEwODY2LDkyOD
-E4MTQ3OCwyMDY4MzU0NzYsLTUzODQxODI0MiwtMTc1NDYyOTc0
-NF19
+eyJoaXN0b3J5IjpbLTE5NDk1MzIwNTgsLTU2MDUxMDg2Niw5Mj
+gxODE0NzgsMjA2ODM1NDc2LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3
+NDRdfQ==
 -->
