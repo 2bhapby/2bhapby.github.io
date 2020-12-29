@@ -22,10 +22,12 @@ title: 모델훈련
 ## 선형 회귀
 
 선형 모델 식
-$ \hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}x_{n} $
+
+$$\hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}x_{n}$
+$\hat{y}$ : 예측값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDg2MDIzNSwyMDY4MzU0NzYsLTUzOD
-QxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbLTExNzk4NDczMzYsMjA2ODM1NDc2LC01Mz
+g0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
 -->
