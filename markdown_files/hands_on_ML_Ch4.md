@@ -36,12 +36,13 @@ $$\hat{y} = h_{\theta}(\textbf{x}) = \bm{\theta} \cdot \textbf{x}$$
 -	$\textbf{x}$ : 특성 벡터
 -	$h_{\bm{\theta}}$ : 모델 파라미터 $\bm{\theta}$ 를 사용한 가설 함수
 
-MSE cost function(loss function)
+MSE cost function
 - $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$
 
->cost function : 
+>cost function : 예측 값과 실제 값의 차이를 나타낸 함수(미묘한 차이가 있긴하지만 loss function이라고 생각해도 무관하다.)
 >우리는 cost function이 최소가 되는 $\bm{\theta}$ 를 찾는 것이 목표이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDUxMDg2Niw5MjgxODE0NzgsMjA2OD
-M1NDc2LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
+eyJoaXN0b3J5IjpbMTMxMTE1MjQzNywtNTYwNTEwODY2LDkyOD
+E4MTQ3OCwyMDY4MzU0NzYsLTUzODQxODI0MiwtMTc1NDYyOTc0
+NF19
 -->
