@@ -1,6 +1,6 @@
 ---
-layout:post
-title:titanic 문제를 풀며
+layout: post
+title: titanic 문제를 풀며
 ---
 
 # Titanic 문제를 풀며  
