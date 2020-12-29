@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's Jekyll?
-use_math: true
+mathjax: true
 comments: true
 ---
 
