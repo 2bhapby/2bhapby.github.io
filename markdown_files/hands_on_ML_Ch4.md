@@ -92,12 +92,13 @@ $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수�
 ### 학습률(learning rate)
 
 경사하강법에서 중요한 파라미터로 학습률 (learning rate)이 있다. 학습률은 하이퍼 파라미터로 스텝의 크기이다.
+
 >학습률이 너무 작으면 수렴하기 위해 반복을 많이 진행해야 한다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjg1MDAxNiwxMzM5MTcwOTc1LDUxOD
-MxNzU0MywxMzA4Nzc5MjIwLDEyNDgxMDg3MTMsLTU2MDUxMDg2
-Niw5MjgxODE0NzgsMjA2ODM1NDc2LC01Mzg0MTgyNDIsLTE3NT
-Q2Mjk3NDRdfQ==
+eyJoaXN0b3J5IjpbMTU5OTg2NjcwMiwyMDA2ODUwMDE2LDEzMz
+kxNzA5NzUsNTE4MzE3NTQzLDEzMDg3NzkyMjAsMTI0ODEwODcx
+MywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYsLTUzOD
+QxODI0MiwtMTc1NDYyOTc0NF19
 -->
