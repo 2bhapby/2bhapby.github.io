@@ -99,10 +99,12 @@ $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수�
 
 경사하강법을 사용할 때는 반드시 모든 특성이 같은 스케일을 갖도록 만들어야한다. (StandardScaler)
 
+## 배치 경사 하강법(Batch Gradient Descent)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2NTM0MjE4LDIwMDY4NTAwMTYsMTMzOT
-E3MDk3NSw1MTgzMTc1NDMsMTMwODc3OTIyMCwxMjQ4MTA4NzEz
-LC01NjA1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3NiwtNTM4ND
-E4MjQyLC0xNzU0NjI5NzQ0XX0=
+eyJoaXN0b3J5IjpbMTUwMTM0MTU5MCwyMDA2ODUwMDE2LDEzMz
+kxNzA5NzUsNTE4MzE3NTQzLDEzMDg3NzkyMjAsMTI0ODEwODcx
+MywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYsLTUzOD
+QxODI0MiwtMTc1NDYyOTc0NF19
 -->
