@@ -52,9 +52,9 @@ $$\hat{\bm{\theta}} = (\textbf{X}^{T}\textbf{X})^{-1}\textbf{X}^T\textbf{y}$$
 
 $$\hat{\textbf{y}} = \textbf{X} \bm{\theta}  $$
 
-- $\hat{y}$ : 예측 벡터
+- $\hat{\textbf{y}}$ : 예측 벡터
 
-위와 같은 방법으로 우리는 $\hat\bm{\theta}$를 구할 수 있다.
+위와 같은 방법으로 우리는 $\hat\bm{\theta}$를 구할 수 있고 이를 통해 $\hat{\textbf{y}}$를 예측할 수 있다.
 
 ### 사이킷런에서의 선형회귀
 
@@ -68,7 +68,7 @@ $\textbf{X}^+$는 유사역행렬이다.
 > 유사역행렬은 특잇값 분해라는 표준 행렬 분해 기법을 사용해 계산된다.
 > 특잇값분해(SVD) : $\textbf{X} = \textbf{U}\Sigma\textbf{V}^T$로 분해, 유사역행렬의 경우 $\textbf{X}^+ = \textbf{U}\Sigma^+\textbf{V}^T$로 분해
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3NTM1MTMxLDEzMDg3NzkyMjAsMTI0OD
-EwODcxMywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYs
-LTUzODQxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbLTE0NjE3MzM0ODcsMTMwODc3OTIyMCwxMj
+Q4MTA4NzEzLC01NjA1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3
+NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0XX0=
 -->
