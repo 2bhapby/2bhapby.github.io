@@ -60,11 +60,14 @@ $$\hat{\textbf{y}} = \textbf{X} \bm{\theta}  $$
 
 LinearRegression 클래스를 사용하면 매우 쉽게 $\hat\bm{\theta}$를 구할 수 있다.
 
-LinearRegre
+LinearRegression 클래스는 scipy.linalg.lstsq() 함수를 기반으로 작동한다.
 
+함수의 특징
+
+- $\hat\bm{\theta} = \$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDQ4OTAwLDEzMDg3NzkyMjAsMTI0OD
+eyJoaXN0b3J5IjpbMjIyMDE2MjAxLDEzMDg3NzkyMjAsMTI0OD
 EwODcxMywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYs
 LTUzODQxODI0MiwtMTc1NDYyOTc0NF19
 -->
