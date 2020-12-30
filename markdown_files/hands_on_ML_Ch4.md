@@ -54,10 +54,17 @@ $$\hat{\textbf{y}} = \textbf{X} \bm{\theta}  $$
 
 - $\hat{y}$ : 예측 벡터
 
-위와 같은 방법으로 우리는 $\hat\bm{\theta}$
+위와 같은 방법으로 우리는 $\hat\bm{\theta}$를 구할 수 있다.
+
+### 사이킷런에서의 선형회귀
+
+LinearRegression 클래스를 사용하면 매우 쉽게 $\hat\bm{\theta}$를 구할 수 있다.
+
+LinearRegre
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjk4NjI4MSwxMzA4Nzc5MjIwLDEyND
-gxMDg3MTMsLTU2MDUxMDg2Niw5MjgxODE0NzgsMjA2ODM1NDc2
-LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
+eyJoaXN0b3J5IjpbLTgyNDQ4OTAwLDEzMDg3NzkyMjAsMTI0OD
+EwODcxMywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYs
+LTUzODQxODI0MiwtMTc1NDYyOTc0NF19
 -->
