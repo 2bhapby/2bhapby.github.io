@@ -101,10 +101,10 @@ $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수�
 
 ## 배치 경사 하강법(Batch Gradient Descent)
 
-
+\frac{\partial }{\partial \theta _{j}} MSE(\theta) = \frac{2}{m}\sum_{i=1}^{m}(\theta^{T}x^{(i)} - y^{(i)})x{_{j}}^{(i)}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTM0MTU5MCwyMDA2ODUwMDE2LDEzMz
-kxNzA5NzUsNTE4MzE3NTQzLDEzMDg3NzkyMjAsMTI0ODEwODcx
-MywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYsLTUzOD
-QxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbLTE2MzcyNDI2MTMsMTUwMTM0MTU5MCwyMD
+A2ODUwMDE2LDEzMzkxNzA5NzUsNTE4MzE3NTQzLDEzMDg3Nzky
+MjAsMTI0ODEwODcxMywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMD
+Y4MzU0NzYsLTUzODQxODI0MiwtMTc1NDYyOTc0NF19
 -->
