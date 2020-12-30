@@ -73,8 +73,9 @@ $\textbf{X}^+$는 유사역행렬이다.
 
 유사역행렬의 장점으로는 $\textbf{X}^{T}\textbf{X}$의 역행렬은 존재하지 않는 경우가 있지만 유사역행렬은 항상 존재한다.
 
+위와 같이 정규방정식 혹은 다른 알고리즘을 이요해서 선형 회귀 모델을 예측하는 것은 매우 빠르다는 장점을 갖고 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjUzODg4OTMsMTMwODc3OTIyMCwxMj
-Q4MTA4NzEzLC01NjA1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3
-NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0XX0=
+eyJoaXN0b3J5IjpbMTgzMTU2OTQwOSwxMzA4Nzc5MjIwLDEyND
+gxMDg3MTMsLTU2MDUxMDg2Niw5MjgxODE0NzgsMjA2ODM1NDc2
+LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
 -->
