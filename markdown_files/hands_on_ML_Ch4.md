@@ -95,9 +95,14 @@ $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수�
 
 >학습률이 너무 작으면 수렴하기 위해 반복을 많이 진행해야 한다.
 
+###  주의사항
+
+경사하강법을 사용할 때는 반드시 모든 특성이 같은 스케일을 갖도록 만들어야한다. (StandardScaler)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzIwNTA0NCwyMDA2ODUwMDE2LDEzMz
-kxNzA5NzUsNTE4MzE3NTQzLDEzMDg3NzkyMjAsMTI0ODEwODcx
-MywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYsLTUzOD
-QxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbODY2NTM0MjE4LDIwMDY4NTAwMTYsMTMzOT
+E3MDk3NSw1MTgzMTc1NDMsMTMwODc3OTIyMCwxMjQ4MTA4NzEz
+LC01NjA1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3NiwtNTM4ND
+E4MjQyLC0xNzU0NjI5NzQ0XX0=
 -->
