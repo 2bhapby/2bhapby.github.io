@@ -87,9 +87,9 @@ $\textbf{X}^+$는 유사역행렬이다.
  
 >$\bm{\theta}$에 대해 비용 함수의 현재 gradient를 계산하고 이를 감소하는 방향으로 진행한다. 그리고 gradient가 0이 되며 최솟값에 도달한 것이다.
 
-
+$\bm{\theta}$를 임의의 값으로 random initialization 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzQwMDkzMiw1MTgzMTc1NDMsMTMwOD
+eyJoaXN0b3J5IjpbMTIxMTkwMzk4Miw1MTgzMTc1NDMsMTMwOD
 c3OTIyMCwxMjQ4MTA4NzEzLC01NjA1MTA4NjYsOTI4MTgxNDc4
 LDIwNjgzNTQ3NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0XX0=
 -->
