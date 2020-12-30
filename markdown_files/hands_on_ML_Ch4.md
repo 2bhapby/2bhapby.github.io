@@ -82,9 +82,11 @@ $\textbf{X}^+$는 유사역행렬이다.
 
 ## 경사하강법(Gradient Descent)
 
+### 경사하강법이란?
+ 비용 함수를 최적화하기 위해 반복해서 파라미터를 조정해
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4MzE3NTQzLDEzMDg3NzkyMjAsMTI0OD
-EwODcxMywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYs
-LTUzODQxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbMTQ4MDU4MTE4OCw1MTgzMTc1NDMsMTMwOD
+c3OTIyMCwxMjQ4MTA4NzEzLC01NjA1MTA4NjYsOTI4MTgxNDc4
+LDIwNjgzNTQ3NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0XX0=
 -->
