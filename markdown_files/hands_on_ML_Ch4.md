@@ -36,7 +36,7 @@ $$\hat{y} = h_{\theta}(\textbf{x}) = \bm{\theta} \cdot \textbf{x}$$
 -	$\textbf{x}$ : 특성 벡터
 -	$h_{\bm{\theta}}$ : 모델 파라미터 $\bm{\theta}$ 를 사용한 가설 함수
 
-MSE cost function
+MSE cost function은 아래와 같이 표현된다.
 - $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$
 
 >cost function : 예측 값과 실제 값의 차이를 나타낸 함수(미묘한 차이가 있긴하지만 loss function이라고 생각해도 무관하다.)
@@ -68,7 +68,7 @@ $\textbf{X}^+$는 유사역행렬이다.
 > 유사역행렬은 특잇값 분해라는 표준 행렬 분해 기법을 사용해 계산된다.
 > 특잇값분해(SVD) : $\textbf{X} = \textbf{U}\Sigma\textbf{V}^T$로 분해, 유사역행렬의 경우 $\textbf{X}^+ = \textbf{U}\Sigma^+\textbf{V}^T$로 분해
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM0ODIwMDIsMTMwODc3OTIyMCwxMj
-Q4MTA4NzEzLC01NjA1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3
-NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0XX0=
+eyJoaXN0b3J5IjpbOTU3NTM1MTMxLDEzMDg3NzkyMjAsMTI0OD
+EwODcxMywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYs
+LTUzODQxODI0MiwtMTc1NDYyOTc0NF19
 -->
