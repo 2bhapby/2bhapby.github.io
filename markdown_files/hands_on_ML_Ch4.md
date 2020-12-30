@@ -50,9 +50,9 @@ $$\hat{\bm{\theta}} = (\textbf{X}^{T}\textbf{X})^{-1}\textbf{X}^T\textbf{y}$$
 - $\hat{\bm{\theta}}$ : 비용함수를 최소하하는 ${\bm{\theta}}$
 - $\textbf{y}$ : 타깃 벡터
 
-$$y$$
+$$\hat{y} = \bm{\theta} \$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTEyOTEyNjAsMTI0ODEwODcxMywtNT
+eyJoaXN0b3J5IjpbLTE2MDc4NTU2MDMsMTI0ODEwODcxMywtNT
 YwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYsLTUzODQxODI0
 MiwtMTc1NDYyOTc0NF19
 -->
