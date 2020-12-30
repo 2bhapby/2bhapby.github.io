@@ -77,8 +77,14 @@ $\textbf{X}^+$는 유사역행렬이다.
 위와 같이 정규방정식 혹은 다른 알고리즘을 이용해서 선형 회귀 모델을 예측하는 것은 매우 빠르다는 장점을 갖고 있다. 
 
 단, 정규방정식과 SVD방식 모두 특성 수가 많아 지면 매우 느려진다.
+
+또한 예측 계산 복잡도는 샘플 수와 특성 수에 선형적이다.
+
+## 경사하강법(Gradient Descent)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjEwMjEwMCwxMzA4Nzc5MjIwLDEyND
-gxMDg3MTMsLTU2MDUxMDg2Niw5MjgxODE0NzgsMjA2ODM1NDc2
-LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
+eyJoaXN0b3J5IjpbNTE4MzE3NTQzLDEzMDg3NzkyMjAsMTI0OD
+EwODcxMywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYs
+LTUzODQxODI0MiwtMTc1NDYyOTc0NF19
 -->
