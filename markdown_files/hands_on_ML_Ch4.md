@@ -89,11 +89,10 @@ $\textbf{X}^+$는 유사역행렬이다.
 
 $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수렴할 때까지 점진적으로 진행한다.
 
-### 학습률 (learning rate)
-
-
+경사하강법에서 중요한 파라미터로 학습률 (learning rate)이 있다. 학습률은 스텝의 크기이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTE3MDk3NSw1MTgzMTc1NDMsMTMwOD
-c3OTIyMCwxMjQ4MTA4NzEzLC01NjA1MTA4NjYsOTI4MTgxNDc4
-LDIwNjgzNTQ3NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0XX0=
+eyJoaXN0b3J5IjpbLTYxODgyMjg5MSwxMzM5MTcwOTc1LDUxOD
+MxNzU0MywxMzA4Nzc5MjIwLDEyNDgxMDg3MTMsLTU2MDUxMDg2
+Niw5MjgxODE0NzgsMjA2ODM1NDc2LC01Mzg0MTgyNDIsLTE3NT
+Q2Mjk3NDRdfQ==
 -->
