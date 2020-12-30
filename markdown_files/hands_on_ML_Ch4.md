@@ -54,10 +54,10 @@ $$\hat{\textbf{y}} = \textbf{X} \bm{\theta}  $$
 
 - $\hat{y}$ : 예측 벡터
 
-
+위와 같은 방법으로 우리는 $\hat\bm{\theta}$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzY4MjY2OCwxMzA4Nzc5MjIwLDEyND
+eyJoaXN0b3J5IjpbMTkyMjk4NjI4MSwxMzA4Nzc5MjIwLDEyND
 gxMDg3MTMsLTU2MDUxMDg2Niw5MjgxODE0NzgsMjA2ODM1NDc2
 LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
 -->
