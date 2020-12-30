@@ -62,12 +62,12 @@ LinearRegression 클래스를 사용하면 매우 쉽게 $\hat\bm{\theta}$를 �
 
 LinearRegression 클래스는 scipy.linalg.lstsq() 함수를 기반으로 작동한다.
 
-함수의 특징
-
-- $\hat\bm{\theta} = \$
-
+이 함수는 $\hat\bm{\theta} = \textbf{X}^+\textbf{y}$를 계산한다.
+> $\textbf{X}^+$는 유사역행렬이다.
+> 유사역행렬은 특잇값 분해라는 표준 행렬 분해 기법을 사용해 계산된다.
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyMDE2MjAxLDEzMDg3NzkyMjAsMTI0OD
-EwODcxMywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYs
-LTUzODQxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbLTEwNTgwODg5NTksMTMwODc3OTIyMCwxMj
+Q4MTA4NzEzLC01NjA1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3
+NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0XX0=
 -->
