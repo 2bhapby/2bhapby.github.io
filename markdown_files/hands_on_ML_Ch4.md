@@ -66,10 +66,15 @@ LinearRegression 클래스는 scipy.linalg.lstsq() 함수를 기반으로 작동
 
 $\textbf{X}^+$는 유사역행렬이다.
 > 유사역행렬은 특잇값 분해라는 표준 행렬 분해 기법을 사용해 계산된다.
+> 
 > 특잇값분해(SVD) : $\textbf{X} = \textbf{U}\Sigma\textbf{V}^T$로 분해, 유사역행렬의 경우 $\textbf{X}^+ = \textbf{U}\Sigma^+\textbf{V}^T$로 분해한다.
+> 
 > $\Sigma^+$ 는 $\Sigma$를 먼저 구한후 임곗값보다 작은 모든 수를 0으로 바꾼다.
+
+유사역행렬의 장점으로는 $\textbf{X}^{T}\textbf{X}$의 역행렬은 존재하지 않는 경우가 있지만 유사역행렬은 항상 존재한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM1MTI0MDcsMTMwODc3OTIyMCwxMj
+eyJoaXN0b3J5IjpbLTE1NjUzODg4OTMsMTMwODc3OTIyMCwxMj
 Q4MTA4NzEzLC01NjA1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3
 NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0XX0=
 -->
