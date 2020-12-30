@@ -50,11 +50,14 @@ $$\hat{\bm{\theta}} = (\textbf{X}^{T}\textbf{X})^{-1}\textbf{X}^T\textbf{y}$$
 - $\hat{\bm{\theta}}$ : 비용함수를 최소하하는 ${\bm{\theta}}$
 - $\textbf{y}$ : 타깃 벡터
 
-$$\hat{y} = \textbf{X} \bm{\theta}  $$
+$$\hat{\textbf{y}} = \textbf{X} \bm{\theta}  $$
+
+- $\hat{y}$ : 예측 벡터
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMTQ5MTQwLDEzMDg3NzkyMjAsMTI0OD
-EwODcxMywtNTYwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYs
-LTUzODQxODI0MiwtMTc1NDYyOTc0NF19
+eyJoaXN0b3J5IjpbLTY0MzY4MjY2OCwxMzA4Nzc5MjIwLDEyND
+gxMDg3MTMsLTU2MDUxMDg2Niw5MjgxODE0NzgsMjA2ODM1NDc2
+LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3NDRdfQ==
 -->
