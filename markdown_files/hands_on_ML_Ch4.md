@@ -21,7 +21,7 @@ title: 모델훈련
 
 ## 선형 회귀
 
-선형 모델 식
+### 선형 모델 식
 
 $$\hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}x_{n}$$
 - $\hat{y}$ : 예측값
@@ -66,9 +66,10 @@ LinearRegression 클래스는 scipy.linalg.lstsq() 함수를 기반으로 작동
 
 $\textbf{X}^+$는 유사역행렬이다.
 > 유사역행렬은 특잇값 분해라는 표준 행렬 분해 기법을 사용해 계산된다.
-> 특잇값분해(SVD) : $\textbf{X} = \textbf{U}\Sigma\textbf{V}^T$로 분해, 유사역행렬의 경우 $\textbf{X}^+ = \textbf{U}\Sigma^+\textbf{V}^T$로 분해
+> 특잇값분해(SVD) : $\textbf{X} = \textbf{U}\Sigma\textbf{V}^T$로 분해, 유사역행렬의 경우 $\textbf{X}^+ = \textbf{U}\Sigma^+\textbf{V}^T$로 분해한다.
+> $\Sigma^+$ 는 $\Sigma$를 먼저 구한후 임곗값보다 작은 모든 수를 0으로 바꾼다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE3MzM0ODcsMTMwODc3OTIyMCwxMj
+eyJoaXN0b3J5IjpbLTEzNDM1MTI0MDcsMTMwODc3OTIyMCwxMj
 Q4MTA4NzEzLC01NjA1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3
 NiwtNTM4NDE4MjQyLC0xNzU0NjI5NzQ0XX0=
 -->
