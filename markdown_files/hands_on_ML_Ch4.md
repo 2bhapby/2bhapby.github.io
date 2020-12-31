@@ -111,16 +111,16 @@ $$\frac{\partial }{\partial \bm{\theta} _{j}} MSE(\bm\theta) = \frac{2}{m}\sum_{
 비용함수의 그레디언트 벡터
 
 $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
-\ \frac{\partial }{\partial \boldsymbol{\theta} _{0}} 
-\\ \frac{\partial }{\partial \boldsymbol{\theta} _{1}} 
+\ \frac{\partial }{\partial \boldsymbol{\theta} _{0}} MSE(\boldsymbol{\theta})
+\\ \frac{\partial }{\partial \boldsymbol{\theta} _{1}} MSE(\boldsymbol{\theta})
 \\ \vdots 
-\\ \frac{\partial }{\partial \boldsymbol{\theta} _{n}} 
+\\ \frac{\partial }{\partial \boldsymbol{\theta} _{n}} MSE(\boldsymbol{\theta})
 \end{pmatrix}
 = \frac{2}{m}\boldsymbol{X}^T(\boldsymbol{X\theta - }\textbf{y})$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDY0OTMxMCwtNjMxMTg5NjgsLTE4Mj
+eyJoaXN0b3J5IjpbMTM2ODI4MzkxMywtNjMxMTg5NjgsLTE4Mj
 k0MDUwNzksMTUwMTM0MTU5MCwyMDA2ODUwMDE2LDEzMzkxNzA5
 NzUsNTE4MzE3NTQzLDEzMDg3NzkyMjAsMTI0ODEwODcxMywtNT
 YwNTEwODY2LDkyODE4MTQ3OCwyMDY4MzU0NzYsLTUzODQxODI0
