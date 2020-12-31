@@ -123,8 +123,9 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 
 
 위의 방법으로 그레디언트 벡터가 구해지면 반대 방향으로 가야한다.
-즉, $\boldsymbol{\theta}^{(next\_step)} = \boldsymbol\theta - \$
+즉, $\boldsymbol{\theta}^{(next\_step)} = \boldsymbol\theta - \eta\nabla_\theta MSE(\boldsymbol{\theta})$
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc3NDk1OTEsLTE4NjEyMjM5ODcsLT
-E4NjEyMjM5ODcsLTE2MDA1MzM3NjldfQ==
+eyJoaXN0b3J5IjpbMTY5NzQ5MDA0OSwtMTg2MTIyMzk4NywtMT
+g2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
