@@ -103,14 +103,14 @@ $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수�
 
 배치 경사하강법을 구현하려면 각 모델 파라미터 $\theta_j$에 대해 비용 함수의 그레디언트를 계산해야한다.
 
-비용함수의 편도함수
+**비용함수의 편도함수**
 $$\frac{\partial }{\partial \bm{\theta} _{j}} MSE(\bm\theta) = \frac{2}{m}\sum_{i=1}^{m}(\bm\theta^{T}\textbf{x}^{(i)} - y^{(i)})x{_{j}}^{(i)}$$
 
 > $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$ 를 $\theta_j로$ 편미분한 것
 
 일일이 편도함수를 계산하는 대신에 한꺼번에 계산할 수 있는 방법이 있다.
 
-비용함수의 그레디언트 벡터
+**비용함수의 그레디언트 벡터**
 
 $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 \ \frac{\partial }{\partial \boldsymbol{\theta} _{0}} MSE(\boldsymbol{\theta})
@@ -122,8 +122,9 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 >이 부분에 대해서는 조금 더 공부가 필요하다. 식의 이해가 부족함
 
 
-
+위의 방법으로 그레디언트 벡터가 구해지면 반대 방향으로 가야한다.
+즉, $\theta^{(next step)} =$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODQ0NDg2MCwtMTg2MTIyMzk4NywtMT
+eyJoaXN0b3J5IjpbMTkxMzU4NDcyNywtMTg2MTIyMzk4NywtMT
 g2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
