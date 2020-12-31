@@ -101,15 +101,16 @@ $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수�
 
 ## 배치 경사 하강법(Batch Gradient Descent)
 
-배치 경사하강법을 구현하려면 각 모델 파라미터 $\theta_j$에 대해 비용 함수의 그레디언트를 계산
+배치 경사하강법을 구현하려면 각 모델 파라미터 $\theta_j$에 대해 비용 함수의 그레디언트를 계산해야한다.
 
+### 비용함수의 편도함수
 $\frac{\partial }{\partial \bm{\theta} _{j}} MSE(\bm\theta) = \frac{2}{m}\sum_{i=1}^{m}(\bm\theta^{T}\textbf{x}^{(i)} - y^{(i)})x{_{j}}^{(i)}$
 
-
+일일이 편도함수를 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTI4Mzg1LC0xODI5NDA1MDc5LDE1MD
-EzNDE1OTAsMjAwNjg1MDAxNiwxMzM5MTcwOTc1LDUxODMxNzU0
-MywxMzA4Nzc5MjIwLDEyNDgxMDg3MTMsLTU2MDUxMDg2Niw5Mj
-gxODE0NzgsMjA2ODM1NDc2LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3
-NDRdfQ==
+eyJoaXN0b3J5IjpbMjExNzA5NDYxNywtMTgyOTQwNTA3OSwxNT
+AxMzQxNTkwLDIwMDY4NTAwMTYsMTMzOTE3MDk3NSw1MTgzMTc1
+NDMsMTMwODc3OTIyMCwxMjQ4MTA4NzEzLC01NjA1MTA4NjYsOT
+I4MTgxNDc4LDIwNjgzNTQ3NiwtNTM4NDE4MjQyLC0xNzU0NjI5
+NzQ0XX0=
 -->
