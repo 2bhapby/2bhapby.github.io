@@ -119,10 +119,11 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 \\ \frac{\partial }{\partial \boldsymbol{\theta} _{n}} MSE(\boldsymbol{\theta})
 \end{pmatrix}
 = \frac{2}{m}\boldsymbol{X}^T(\boldsymbol{X\theta - }\textbf{y})$$
+>이 부분에 대해서는 조금 더 공부가 필요하다. 식의 이해가 부족함
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcsLT
-E2MDA1MzM3NjldfQ==
+eyJoaXN0b3J5IjpbLTUzODQ0NDg2MCwtMTg2MTIyMzk4NywtMT
+g2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
