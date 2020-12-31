@@ -108,10 +108,12 @@ $$\frac{\partial }{\partial \bm{\theta} _{j}} MSE(\bm\theta) = \frac{2}{m}\sum_{
 
 일일이 편도함수를 계산하는 대신에 한꺼번에 계산할 수 있는 방법이 있다.
 
+비용함수의 그레디언트 벡터
+$$$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTQ5NDc0MCwtMTgyOTQwNTA3OSwxNT
-AxMzQxNTkwLDIwMDY4NTAwMTYsMTMzOTE3MDk3NSw1MTgzMTc1
-NDMsMTMwODc3OTIyMCwxMjQ4MTA4NzEzLC01NjA1MTA4NjYsOT
-I4MTgxNDc4LDIwNjgzNTQ3NiwtNTM4NDE4MjQyLC0xNzU0NjI5
-NzQ0XX0=
+eyJoaXN0b3J5IjpbLTYzMTE4OTY4LC0xODI5NDA1MDc5LDE1MD
+EzNDE1OTAsMjAwNjg1MDAxNiwxMzM5MTcwOTc1LDUxODMxNzU0
+MywxMzA4Nzc5MjIwLDEyNDgxMDg3MTMsLTU2MDUxMDg2Niw5Mj
+gxODE0NzgsMjA2ODM1NDc2LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3
+NDRdfQ==
 -->
