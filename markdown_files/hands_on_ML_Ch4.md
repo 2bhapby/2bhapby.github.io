@@ -109,11 +109,17 @@ $$\frac{\partial }{\partial \bm{\theta} _{j}} MSE(\bm\theta) = \frac{2}{m}\sum_{
 일일이 편도함수를 계산하는 대신에 한꺼번에 계산할 수 있는 방법이 있다.
 
 비용함수의 그레디언트 벡터
-$$$$
+$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
+\ \frac{\partial }{\partial \boldsymbol{\theta} _{0}} 
+\\ \frac{\partial }{\partial \boldsymbol{\theta} _{1}} 
+\\ \vdots 
+\\ \frac{\partial }{\partial \boldsymbol{\theta} _{n}} 
+\end{pmatrix}
+= \frac{2}{m}\boldsymbol{X}^T(\boldsymbol{X\theta - y})$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTE4OTY4LC0xODI5NDA1MDc5LDE1MD
-EzNDE1OTAsMjAwNjg1MDAxNiwxMzM5MTcwOTc1LDUxODMxNzU0
-MywxMzA4Nzc5MjIwLDEyNDgxMDg3MTMsLTU2MDUxMDg2Niw5Mj
-gxODE0NzgsMjA2ODM1NDc2LC01Mzg0MTgyNDIsLTE3NTQ2Mjk3
-NDRdfQ==
+eyJoaXN0b3J5IjpbMzkyMjA5NjEzLC02MzExODk2OCwtMTgyOT
+QwNTA3OSwxNTAxMzQxNTkwLDIwMDY4NTAwMTYsMTMzOTE3MDk3
+NSw1MTgzMTc1NDMsMTMwODc3OTIyMCwxMjQ4MTA4NzEzLC01Nj
+A1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3NiwtNTM4NDE4MjQy
+LC0xNzU0NjI5NzQ0XX0=
 -->
