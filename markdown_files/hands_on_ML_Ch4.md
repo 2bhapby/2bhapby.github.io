@@ -115,11 +115,11 @@ $\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 \\ \vdots 
 \\ \frac{\partial }{\partial \boldsymbol{\theta} _{n}} 
 \end{pmatrix}
-= \frac{2}{m}\boldsymbol{X}^T(\boldsymbol{X\theta - y})$
+= \frac{2}{m}\boldsymbol{X}^T(\boldsymbol{X\theta - }\textbf{y})$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMjA5NjEzLC02MzExODk2OCwtMTgyOT
-QwNTA3OSwxNTAxMzQxNTkwLDIwMDY4NTAwMTYsMTMzOTE3MDk3
-NSw1MTgzMTc1NDMsMTMwODc3OTIyMCwxMjQ4MTA4NzEzLC01Nj
-A1MTA4NjYsOTI4MTgxNDc4LDIwNjgzNTQ3NiwtNTM4NDE4MjQy
-LC0xNzU0NjI5NzQ0XX0=
+eyJoaXN0b3J5IjpbNTUwNDk2OTYsLTYzMTE4OTY4LC0xODI5ND
+A1MDc5LDE1MDEzNDE1OTAsMjAwNjg1MDAxNiwxMzM5MTcwOTc1
+LDUxODMxNzU0MywxMzA4Nzc5MjIwLDEyNDgxMDg3MTMsLTU2MD
+UxMDg2Niw5MjgxODE0NzgsMjA2ODM1NDc2LC01Mzg0MTgyNDIs
+LTE3NTQ2Mjk3NDRdfQ==
 -->
