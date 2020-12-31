@@ -123,9 +123,11 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 
 
 위의 방법으로 그레디언트 벡터가 구해지면 반대 방향으로 가야한다.
+
 즉, $\boldsymbol{\theta}^{(next\_step)} = \boldsymbol\theta - \eta\nabla_\theta MSE(\boldsymbol{\theta})$
->
+>$\eta$는 learning rate이다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzQ5MDA0OSwtMTg2MTIyMzk4NywtMT
-g2MTIyMzk4NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4Nj
+EyMjM5ODcsLTE2MDA1MzM3NjldfQ==
 -->
