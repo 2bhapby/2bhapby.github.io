@@ -106,7 +106,7 @@ $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수�
 비용함수의 편도함수
 $$\frac{\partial }{\partial \bm{\theta} _{j}} MSE(\bm\theta) = \frac{2}{m}\sum_{i=1}^{m}(\bm\theta^{T}\textbf{x}^{(i)} - y^{(i)})x{_{j}}^{(i)}$$
 
-> $MSE(\textbf{X}..0, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$ 를 $\theta_j로$ 편미분한 것
+> $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$ 를 $\theta_j로$ 편미분한 것
 
 일일이 편도함수를 계산하는 대신에 한꺼번에 계산할 수 있는 방법이 있다.
 
@@ -123,6 +123,6 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTUyOTEyNywtMTg2MTIyMzk4NywtMT
-YwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbLTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcsLT
+E2MDA1MzM3NjldfQ==
 -->
