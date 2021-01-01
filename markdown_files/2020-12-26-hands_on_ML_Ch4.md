@@ -155,9 +155,11 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 - SGD를 사용할 때 훈련 샘플이 IID를 만족해야 평균적으로 파라미터가 전역 최적점을 향해 진행한다고 보장할 수 있다.
 - 이를 만드는 법은 훈련하는 동안 샘플을 섞는 것이다.
 
+## 미니배치 경사하강법(Mini-batch Gradient Descent)
 
+**미니배치 경사하강법이란*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTMxMjg1LC04MzM3NTAxNTMsLTYzND
-I2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4
-NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbMjA3ODI4MTI3NCwtODMzNzUwMTUzLC02Mz
+QyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5
+ODcsLTE2MDA1MzM3NjldfQ==
 -->
