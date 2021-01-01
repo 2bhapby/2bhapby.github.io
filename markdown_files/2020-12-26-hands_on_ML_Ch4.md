@@ -173,11 +173,11 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 |정규방정식  | 빠름 | No|빠름|>= 2|Yes|SGDRegressor|
 |정규방정식  | 빠름 | No|빠름|>= 2|Yes|SGDRegressor|
 
- 다항 회귀
+## 다항 회귀
 >각 특성의 거듭제곱을 새로운 특성으로 추가하고, 확장된 특성을 포함한 데이터셋에 선형 모델을 훈련시키는 기법
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDU3NjQwMiwtNDM5MTU3Njc3LC04Mz
-M3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4
-NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbOTg1MjE5ODkwLC00MzkxNTc2NzcsLTgzMz
+c1MDE1MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3
+LC0xODYxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
 -->
