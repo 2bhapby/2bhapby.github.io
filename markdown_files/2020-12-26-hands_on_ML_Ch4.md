@@ -129,7 +129,7 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 
 - 학습률이 너무 작으면 최적점에 도달하는 시간이 길어진다.
 - 학습률이 너무 크면 최적점에서 점점더 멀어져 발산한다.
-- 적절한 학습률을 찾는 방법으로 그리드 탐색을 사용하면 된다. 단, 수렴하는데 너무 오래걸리는 모델을 막기 위해 반복 횟수를 제한해야하는데 이때 사용하는 것이 허용오차(tolerance)이다.
+- 적절한 학습률을 찾는 방법으로 그리드 탐색을 사용하면 된다. 단, 수렴하는데 너무 오래걸리는 모델을 막기 위해 반복 횟수를 제한해야하는데 이때 사용하는 것이 **허용오차(tolerance)** 이다.
 - 벡터의 노름이 어떤 값 $\varepsilon$보다 작아지면 알고리즘을 종료한다.
 
 ## 확률적 경사 하강업(Stochastic Gradient Descent)
@@ -147,12 +147,14 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 - 비슷한 맥락으로 좋은 파라미터가 구해지겠지만 최적값은 아님
 - 지역 최소는 탈출하지만 전역 최솟값에 도달하기 힘듦
 -- 해결하는 방법으로 담금질 기법(simulated annealing)과 유사한 방법으로 학습률을 점진적으로 감소시키는 방법이 있다.
--- 매 반복에서 학습률을 결정하는 함수를 학습 스케쥴(learning schedule)이라고 한다.
+-- 매 반복에서 학습률을 결정하는 함수를 **학습 스케쥴(learning schedule)** 이라고 한다.
 - 샘플을 무작위로 선택하기에 어떤 샘플은 한 에포크에서 여러번 선택될 수도, 한번도 선택되지 않을 수도 있다.
 -- 해결방법 : 에포크마다 훈련세트를 섞은 후 순서대로 하나씩 선택한다.(단, 보통 더 늦게 수렴한다는 단점이 있다)
 
+**주의사항**
+- SGD를 사용할 때 훈련 샘플이 IID를 만족해야 평균적으로 파라미
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4NzQ4MTA4LC04MzM3NTAxNTMsLTYzND
-I2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4
-NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbLTkyNTczMzA2NiwtODMzNzUwMTUzLC02Mz
+QyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5
+ODcsLTE2MDA1MzM3NjldfQ==
 -->
