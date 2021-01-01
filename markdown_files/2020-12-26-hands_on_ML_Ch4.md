@@ -149,8 +149,9 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 -- 해결하는 방법으로 담금질 기법(simulated annealing)과 유사한 방법으로 학습률을 점진적으로 감소시키는 방법이 있다.
 -- 매 반복에서 학습률을 결정하는 함수를 학습 스케쥴(learning schedule)이라고 한다.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTY4NzE1OSwtNjM0MjYxOTcwLDg1MT
+eyJoaXN0b3J5IjpbLTgzMzc1MDE1MywtNjM0MjYxOTcwLDg1MT
 AxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIzOTg3LC0xNjAwNTMz
 NzY5XX0=
 -->
