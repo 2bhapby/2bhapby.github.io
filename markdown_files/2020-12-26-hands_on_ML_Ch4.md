@@ -145,12 +145,12 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 - 배치 경사 하강법보다 불안정하다
 -- 최솟값에는 근접하겠지만 아착하지는 못함
 - 비슷한 맥락으로 좋은 파라미터가 구해지겠지만 최적값은 아님
-- 지역 최소는 탈출하지만 전역 최솟값엔ㄴ 도달하기 힘듦
+- 지역 최소는 탈출하지만 전역 최솟값에 도달하기 힘듦
 -- 해결하는 방법으로 담금질 기법(simulated annealing)과 유사한 방법으로 학습률을 점진적으로 감소시키는 방법이 있다.
 -- 매 반복에서 학습률을 결정하는 함수를 학습 스케쥴(learning schedule)이라고 한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMjE0OTk5LC02MzQyNjE5NzAsODUxMD
-EzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcsLTE2MDA1MzM3
-NjldfQ==
+eyJoaXN0b3J5IjpbLTQwOTY4NzE1OSwtNjM0MjYxOTcwLDg1MT
+AxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIzOTg3LC0xNjAwNTMz
+NzY5XX0=
 -->
