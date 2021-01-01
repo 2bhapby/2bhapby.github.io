@@ -137,11 +137,18 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 확률적 경사 하강버은 매 스텝에서 한 개의 샘플을 무작위로 선택하고 그 샘플에 대한 그레디언트를 계산한다.
 
 **SGD의 장점**
-- 알고리즘의 속도가 매우 ㅏ름
-- 매우 큰 훈련 세트도 훈련시킬 수 있으
+- 알고리즘의 속도가 매우 빠름
+- 매우 큰 훈련 세트도 훈련시킬 수 있음
+- 비용한수가 불규칙할 때 지역 최솟값에서 탈출시켜줌
+
+**SGD의 단점**
+- 배치 경사 하강법보다 불안정하다
+-- 최솟값에는 근접하겠지만 아착하지는 못함
+- 비슷한 맥락으로 좋은 파라미터가 구해지겠지만 최적값은 아님
+- 지역 최소는 탈출하지만 전역 최솟값엔ㄴ 도달
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTE0MzA0NCwtNjM0MjYxOTcwLDg1MT
-AxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIzOTg3LC0xNjAwNTMz
-NzY5XX0=
+eyJoaXN0b3J5IjpbNjU3NDA4MDk1LC02MzQyNjE5NzAsODUxMD
+EzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcsLTE2MDA1MzM3
+NjldfQ==
 -->
