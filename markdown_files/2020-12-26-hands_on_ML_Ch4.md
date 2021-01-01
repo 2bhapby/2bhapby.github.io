@@ -131,7 +131,9 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 - 학습률이 너무 크면 최적점에서 점점더 멀어져 발산한다.
 - 적절한 학습률을 찾는 방법으로 그리드 탐색을 사용하면 된다. 단, 수렴하는데 너무 오래걸리는 모델을 막기 위해 반복 횟수를 제한해야하는데 이때 사용하는 것이 허용오차(tolerance)이다.
 - 벡터의 노름이 어떤 값 $\varepsilon$보다 작아지면 알고리즘을 종료한다.
+
+## 확률적 경사 하강업(Stochastic gradient descent)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzgzMzM3MSw4NTEwMTM2MSwtMTg2MT
+eyJoaXN0b3J5IjpbLTg3MDU2MzI0Niw4NTEwMTM2MSwtMTg2MT
 IyMzk4NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
