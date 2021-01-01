@@ -148,9 +148,11 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 - 지역 최소는 탈출하지만 전역 최솟값에 도달하기 힘듦
 -- 해결하는 방법으로 담금질 기법(simulated annealing)과 유사한 방법으로 학습률을 점진적으로 감소시키는 방법이 있다.
 -- 매 반복에서 학습률을 결정하는 함수를 학습 스케쥴(learning schedule)이라고 한다.
-- 샘플을 무작위로 선택하기에 어떤 샘플은 한 에포크에서 여러번 선택될 수도, 한번도 선택되지 않을수도 이
+- 샘플을 무작위로 선택하기에 어떤 샘플은 한 에포크에서 여러번 선택될 수도, 한번도 선택되지 않을 수도 있다.
+-- 해결방법 : 에포크마다 훈련세트를 섞은 후 순서대로 하나씩 선택한다.(단, 보통 더 늦게 수렴한다는 단점이 있다)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk5MDAxNzQsLTgzMzc1MDE1MywtNj
-M0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIz
-OTg3LC0xNjAwNTMzNzY5XX0=
+eyJoaXN0b3J5IjpbODA4NzQ4MTA4LC04MzM3NTAxNTMsLTYzND
+I2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4
+NywtMTYwMDUzMzc2OV19
 -->
