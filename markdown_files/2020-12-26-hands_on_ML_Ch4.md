@@ -166,22 +166,15 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 
 
 |알고리즘  | m이 클 때 | 외부 메모리 학습지원 | n이 클때 | 하이퍼 파라미터 수 | 스케일 조정 필요 | 사이킷런|
-
-|정규방정식  | 빠름 | No|느림|0|No|N/A|
-
-|정규방정식  | 빠름 | No|느림|0|No|N/A|
 |--|--|--|--|--|--|--|
 |정규방정식  | 빠름 | No|느림|0|No|N/A|
-|--|--|--|--|--|--|--|
-|정규방정식  | 빠름 | No|느림|0|No|N/A|
-|--|--|--|--|--|--|--|
-|정규방정식  | 빠름 | No|느림|0|No|N/A|
-|--|--|--|--|--|--|--|
-|정규방정식  | 빠름 | No|느림|0|No|N/A|
-
+|SVD  | 빠름 | No|느림|0|No|LinearRegression|
+|배치 경사 하강법  | 느림 | No|빠름|2|No|N/A|
+|정규방정식  | 빠름 | No|빠름|2|No|N/A|
+|정규방정식  | 빠름 | No|빠름|2|No|N/A|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjU4MTkzNSwtNDM5MTU3Njc3LC04Mz
+eyJoaXN0b3J5IjpbMTg3NjY2MDM0NSwtNDM5MTU3Njc3LC04Mz
 M3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4
 NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
