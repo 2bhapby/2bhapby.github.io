@@ -134,8 +134,14 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 
 ## 확률적 경사 하강업(Stochastic Gradient Descent)
 
+확률적 경사 하강버은 매 스텝에서 한 개의 샘플을 무작위로 선택하고 그 샘플에 대한 그레디언트를 계산한다.
+
+**SGD의 장점**
+- 알고리즘의 속도가 매우 ㅏ름
+- 매우 큰 훈련 세트도 훈련시킬 수 있으
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MT
-IyMzk4NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbLTY1MTE0MzA0NCwtNjM0MjYxOTcwLDg1MT
+AxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIzOTg3LC0xNjAwNTMz
+NzY5XX0=
 -->
