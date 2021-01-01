@@ -165,17 +165,23 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 미니배치를 크게하면 SGD보다 덜 불규칙하게 움직이며 SGD보다 최솟값에 더 가까이 도달하게 된다. 하지만 지역 최솟값에서 빠져나오기는 더 힘들지도 모른다.
 
 
-|알고리즘  | m이 클 때 | 외부 메모리 학습지원 | n이 클때 | 하이퍼 파라미터 수 | 스케일 조정 필요 | 사이킷런
-|--|--|--|--|--|--|--|
-|  |  |
-|--|--|--|--|--|--|--|
-|--|--|--|--|--|--|--|
-|--|--|--|--|--|--|--|
+|알고리즘  | m이 클 때 | 외부 메모리 학습지원 | n이 클때 | 하이퍼 파라미터 수 | 스케일 조정 필요 | 사이킷런|
 
+|정규방정식  | 빠름 | No|느림|0|No|N/A|
+
+|정규방정식  | 빠름 | No|느림|0|No|N/A|
+|--|--|--|--|--|--|--|
+|정규방정식  | 빠름 | No|느림|0|No|N/A|
+|--|--|--|--|--|--|--|
+|정규방정식  | 빠름 | No|느림|0|No|N/A|
+|--|--|--|--|--|--|--|
+|정규방정식  | 빠름 | No|느림|0|No|N/A|
+|--|--|--|--|--|--|--|
+|정규방정식  | 빠름 | No|느림|0|No|N/A|
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTE1NzY3NywtODMzNzUwMTUzLC02Mz
-QyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5
-ODcsLTE2MDA1MzM3NjldfQ==
+eyJoaXN0b3J5IjpbMTgzMjU4MTkzNSwtNDM5MTU3Njc3LC04Mz
+M3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4
+NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
