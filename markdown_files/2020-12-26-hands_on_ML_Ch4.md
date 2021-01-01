@@ -173,11 +173,11 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 |정규방정식  | 빠름 | No|빠름|>= 2|Yes|SGDRegressor|
 |정규방정식  | 빠름 | No|빠름|>= 2|Yes|SGDRegressor|
 
-
+## 다항 회귀
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NjU4NjEzLC00MzkxNTc2NzcsLTgzMz
-c1MDE1MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3
-LC0xODYxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
+eyJoaXN0b3J5IjpbLTIwMjgyODQ0MzgsLTQzOTE1NzY3NywtOD
+MzNzUwMTUzLC02MzQyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5
+ODcsLTE4NjEyMjM5ODcsLTE2MDA1MzM3NjldfQ==
 -->
