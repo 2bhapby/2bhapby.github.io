@@ -127,7 +127,11 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 즉, $\boldsymbol{\theta}^{(next\_step)} = \boldsymbol\theta - \eta\nabla_\theta MSE(\boldsymbol{\theta})$
 >$\eta$는 learning rate이다.
 
+학습률이 너무 작으면 최적점에 도달하는 시간이 길어진다.
+학습률이 너무 크면 최적점에서 점점더 멀어져 발산한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4Nj
-EyMjM5ODcsLTE2MDA1MzM3NjldfQ==
+eyJoaXN0b3J5IjpbLTE5NjU0MTk5MjAsODUxMDEzNjEsLTE4Nj
+EyMjM5ODcsLTE4NjEyMjM5ODcsLTE2MDA1MzM3NjldfQ==
 -->
