@@ -157,9 +157,12 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 
 ## 미니배치 경사하강법(Mini-batch Gradient Descent)
 
-**미니배치 경사하강법이란*
+**미니배치 경사하강법이란**
+
+- 미니배치라 부르는 임의의 작은 샘플 세트에 대해 그레디언트를 계산한다.
+- 주요 장점으로는 행렬 연산에 최적화된 하드웨어(GPU)를 사용해서 얻는 성능향상ㅇ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODI4MTI3NCwtODMzNzUwMTUzLC02Mz
+eyJoaXN0b3J5IjpbMTc0NTg1ODI0MiwtODMzNzUwMTUzLC02Mz
 QyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5
 ODcsLTE2MDA1MzM3NjldfQ==
 -->
