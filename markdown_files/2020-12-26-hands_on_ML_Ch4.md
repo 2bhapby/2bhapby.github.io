@@ -127,11 +127,10 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 즉, $\boldsymbol{\theta}^{(next\_step)} = \boldsymbol\theta - \eta\nabla_\theta MSE(\boldsymbol{\theta})$
 >$\eta$는 learning rate이다.
 
-학습률이 너무 작으면 최적점에 도달하는 시간이 길어진다.
-학습률이 너무 크면 최적점에서 점점더 멀어져 발산한다.
-
-
+- 학습률이 너무 작으면 최적점에 도달하는 시간이 길어진다.
+- 학습률이 너무 크면 최적점에서 점점더 멀어져 발산한다.
+- 적절한 학습률을 찾는 방법으로 그리드 탐색을 사용하면 된다. 단, 수렴하는데 너무 오래걸리는 모델을 막기 위해 반복 횟수를 제한해야하는데 이때 사용하는 것이 허용오차(tolerance)이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU0MTk5MjAsODUxMDEzNjEsLTE4Nj
+eyJoaXN0b3J5IjpbLTExNTY1OTA4MjQsODUxMDEzNjEsLTE4Nj
 EyMjM5ODcsLTE4NjEyMjM5ODcsLTE2MDA1MzM3NjldfQ==
 -->
