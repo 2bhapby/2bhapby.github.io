@@ -219,12 +219,17 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 위 그래프는 10차 다항식으로 회귀한 것이다.
 - 훈련 데이터의 오차가 선형 회귀 모데로다 훨씬 낮다
+
 - 두 곡선 사이에 공간이 있다. 즉, 훈련데이터에서의 성능이 검증 데이터에서보다 훨씬 낫다.
 - 과대적합의 전형적인 모습이다.
+- 더 큰 훈련 세트를 사용하면 두 곡선이 점점 가까워진다.
+---
+**편향/분산 트레이드오프**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwNTI5MDY1LDE5MDgyNjQ4NTQsMjY0NT
-U0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0Niwt
-NjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NT
-AxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4Nywt
-MTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbMTg0NzU2NDU0MSwxOTA4MjY0ODU0LDI2ND
+U1NDgyMSw0MTUzODg3ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYs
+LTYxOTQyMjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNz
+UwMTUzLC02MzQyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcs
+LTE4NjEyMjM5ODcsLTE2MDA1MzM3NjldfQ==
 -->
