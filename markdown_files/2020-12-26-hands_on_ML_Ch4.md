@@ -246,12 +246,15 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 ### 릿지 회귀(Ridge)
 
-규제항 : $\alpha \sum_{i=1}_{n}$
+릿지 회귀는 비용 함수에 규제(항)이 추가된 선형 회귀 버전이다.
+>규제항: $\alpha \sum_{i=1}^{n} \theta_i^2$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5MTgzNTUwLC0xMjcxODY0MjczLC0xMD
-EzMDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2NDg1NCwyNjQ1NTQ4
-MjEsNDE1Mzg4Nzg5LDc0OTE1MzI4NywxNDIyMDU4MzQ2LC02MT
-k0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1
-MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xOD
-YxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
+eyJoaXN0b3J5IjpbLTkzMzE5MjI1OCwtMTI3MTg2NDI3MywtMT
+AxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0
+ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNj
+E5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAx
+NTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMT
+g2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
