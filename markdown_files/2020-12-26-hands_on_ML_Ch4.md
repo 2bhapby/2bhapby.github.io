@@ -227,11 +227,16 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 **편향/분산 트레이드오프**
 
 - **편향**
-	일반화 오차 중에서 편향은 잘못된 가정으로 인한 
+	--일반화 오차 중에서 편향은 잘못된 가정으로 인한 것
+	(ex. 데이터는 실제로 2차지만 선형으로 가정)
+	--편향이 큰 모델은 훈련 데이터에 과소적합되기 쉬움
+
+- **분산**
+- -
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwNDEyNTAzLDE4NDc1NjQ1NDEsMTkwOD
-I2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1MzI4Nywx
-NDIyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNT
-c2NzcsLTgzMzc1MDE1MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0x
-ODYxMjIzOTg3LC0xODYxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
+eyJoaXN0b3J5IjpbMTQzNzM4NjY2MCwxODQ3NTY0NTQxLDE5MD
+gyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcs
+MTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MT
+U3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwt
+MTg2MTIyMzk4NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
