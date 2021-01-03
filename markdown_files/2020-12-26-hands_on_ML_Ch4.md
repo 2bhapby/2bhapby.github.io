@@ -179,10 +179,14 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 - 각 특성의 거듭제곱을 새로운 특성으로 추가하고, 확장된 특성을 포함한 데이터셋에 선형 모델을 훈련시키는 기법
 > sklearn의 PolynomialFeatures 사용
 
+**PolynomialFeatures**
+- sklearn의 preprocessing 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Nj
-g2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3
-MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4NywtMT
-YwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbMTEzOTM1OTg4NCwxNDIyMDU4MzQ2LC02MT
+k0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1
+MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xOD
+YxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
 -->
