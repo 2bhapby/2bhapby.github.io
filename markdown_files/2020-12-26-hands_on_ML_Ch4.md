@@ -211,15 +211,18 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 - 훈련 데이터는 0에서 시작해서 훈려 세트에 한 개 혹은 두 개의 샘플이 있을때 완벽하게 작동한다. 하지만 그 이후에는 데이터가 비선형이기 때문에 어느 정도 평평해질 때까지 오차가 상승한다. 어느 정도 평평해진 이후에는 데이터가 추가되어도 크게 변동이 없다.
 
 - 검증 데이터는 훈련 샘플 수가 적을 때는 훈련이 제대로 될 수 없어 오차가 매우크다. 그 이후 훈련 샘플이 추가됨에 따라 검증 오차가 천천히 감소한다. 하지만 데이터를 잘 모델링 할 수 없으므로 훈련 세트 그래프와 가까워진다.
-- 과소적합의 전형적인 모습. 
+- 과소적합의 전형적인 모습이다. 
 - 두 곡선이 수평한 구간을 만들고 꽤 높은 오차에서 매우 가까이 근접
 
 ---
 ![10 degree learning curve](https://2bhapby.github.io/images/learning_curve_10deg.png)
 
-위 그래프는 10차 닿
+위 그래프는 10차 다항식으로 회귀한 것이다.
+- 훈련 데이터의 오차가 선형 회귀 모데로다 훨씬 낮다
+- 두 곡선 사이에 공간이 있다. 즉, 훈련데이터에서의 성능이 검증 데이터에서보다 훨씬 낫다.
+- 과대적합의 전형적인 모습이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MTIyNDM5LDE5MDgyNjQ4NTQsMjY0NT
+eyJoaXN0b3J5IjpbMjUwNTI5MDY1LDE5MDgyNjQ4NTQsMjY0NT
 U0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0Niwt
 NjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NT
 AxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4Nywt
