@@ -201,13 +201,18 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 	- 훈련 세트와 검증 세트의 모델 성능을 훈련 세트 크기의 함수로 나타낸 그래프
 	- 이 그래프를 생성하는 방법은 훈련 세트에서 크기가 다른 서브 세트를 만들어 모델을 여러 번 훈련시키면 된다.
 
-	![linear learning curve](https://2bhapby.github.io/images/learning_curve_linear.png)
+**학습 곡선**
+	
+![linear learning curve](https://2bhapby.github.io/images/learning_curve_linear.png)
 
-	-	위 그래프는 선형 회귀 모델의 학습 곡선이다.
+위 그래프는 선형 회귀 모델의 학습 곡선이다.
+
+그래프 분석
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNT
-MyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OCwt
-NDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMT
-M2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2
-OV19
+eyJoaXN0b3J5IjpbLTEyOTY5OTMzNjUsMjY0NTU0ODIxLDQxNT
+M4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0
+LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzND
+I2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4
+NywtMTYwMDUzMzc2OV19
 -->
