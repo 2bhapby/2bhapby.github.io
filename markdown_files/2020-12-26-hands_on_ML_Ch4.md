@@ -198,11 +198,12 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 	- 양쪽에 모두 좋지 않으면 과소적합
 
 2. 학습 곡선
+	- 훈련 세트와 검증 세트의 모델 성능을 훈련 세트 크기의 함수로 나타낸 그래프
 	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTYyMjUxNSwxNDIyMDU4MzQ2LC02MT
-k0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1
-MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xOD
-YxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
+eyJoaXN0b3J5IjpbODkyNDgzOTg1LDE0MjIwNTgzNDYsLTYxOT
+QyMjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUwMTUz
+LC02MzQyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4Nj
+EyMjM5ODcsLTE2MDA1MzM3NjldfQ==
 -->
