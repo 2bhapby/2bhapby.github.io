@@ -244,14 +244,14 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 > 선형회귀 모델에서는 모델의 가중치를 제한함으로써 규제를 가한다. (릿지 회귀, 라쏘 회귀, 엘라스틱넷)
 
-### 릿지 회귀
+### 릿지 회귀(Ridge)
 
-
+규제항 : $\alpha \sum_{i=1}_{n}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMT
-g0NzU2NDU0MSwxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3
-ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OT
-Y4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5
-NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcsLT
-E2MDA1MzM3NjldfQ==
+eyJoaXN0b3J5IjpbNzk5MTgzNTUwLC0xMjcxODY0MjczLC0xMD
+EzMDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2NDg1NCwyNjQ1NTQ4
+MjEsNDE1Mzg4Nzg5LDc0OTE1MzI4NywxNDIyMDU4MzQ2LC02MT
+k0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1
+MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xOD
+YxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
 -->
