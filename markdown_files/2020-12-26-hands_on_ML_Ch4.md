@@ -181,14 +181,15 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 
 **PolynomialFeatures**
 - sklearn의 preprocessing 클래스 중 하나로 특성이 n개인 배열을 $\frac{(n + d)!}{d!n!}$개인 배열로 변환한다.
-(ex. $(a, b) \rightarrow (a, n, )$)
+(ex. $(a, b) \rightarrow (1, a, b, a^2, ab, b^2)$)
 - include_bias의 기본값은 True 인데 True이면 편향을 위한 특성($x_0$)인 1이 추가된다.
 
+PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해서 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjc1MTQyLDE0MjIwNTgzNDYsLTYxOT
-QyMjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUwMTUz
-LC02MzQyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4Nj
-EyMjM5ODcsLTE2MDA1MzM3NjldfQ==
+eyJoaXN0b3J5IjpbLTE0NjkxNDA3OTcsMTQyMjA1ODM0NiwtNj
+E5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAx
+NTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMT
+g2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
