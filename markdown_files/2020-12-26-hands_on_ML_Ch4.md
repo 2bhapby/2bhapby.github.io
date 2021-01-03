@@ -232,9 +232,12 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 	--편향이 큰 모델은 훈련 데이터에 과소적합되기 쉬움
 
 - **분산**
-- -
+	-- 훈련 데이터에 있는 작은 변동에 모델이 과도하게 민감하기 때문에 나타난다.
+	-- 자유도가 높은 모델이 높은 분산을 갖기 쉬워 과대적합되는 경향이 있다.
+
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzM4NjY2MCwxODQ3NTY0NTQxLDE5MD
+eyJoaXN0b3J5IjpbMTA0ODQ4NjUzOSwxODQ3NTY0NTQxLDE5MD
 gyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcs
 MTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MT
 U3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwt
