@@ -245,13 +245,16 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 > 선형회귀 모델에서는 모델의 가중치를 제한함으로써 규제를 가한다. (릿지 회귀, 라쏘 회귀, 엘라스틱넷)
 
 ### 릿지 회귀(Ridge)
-
+---
 릿지 회귀는 비용 함수에 규제(항)이 추가된 선형 회귀 버전이다.
 >규제항: $\alpha \sum_{i=1}^{n} \theta_i^2$
 
+모델의 훈련이 끝나면 모델의 성능을 규제가 없는 성능 지표로 평가한다.
+
+비용함수
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzE5MjI1OCwtMTI3MTg2NDI3MywtMT
+eyJoaXN0b3J5IjpbMTEyMzI0Njk3NCwtMTI3MTg2NDI3MywtMT
 AxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0
 ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNj
 E5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAx
