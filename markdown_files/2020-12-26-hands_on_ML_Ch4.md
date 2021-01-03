@@ -213,11 +213,11 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 - 과소적합의 전형적인 모습. 
 - 두 곡선이 수평한 구간을 만들고 꽤 높은 오차에서 매우 가까이 근접
 
-
+![linear learning curve](https://2bhapby.github.io/images/learning_curve_10deg.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mz
-g4Nzg5LDc0OTE1MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQs
-NTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0Mj
-YxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIzOTg3
-LC0xNjAwNTMzNzY5XX0=
+eyJoaXN0b3J5IjpbMjEwNzUwNTc2NywxOTA4MjY0ODU0LDI2ND
+U1NDgyMSw0MTUzODg3ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYs
+LTYxOTQyMjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNz
+UwMTUzLC02MzQyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcs
+LTE4NjEyMjM5ODcsLTE2MDA1MzM3NjldfQ==
 -->
