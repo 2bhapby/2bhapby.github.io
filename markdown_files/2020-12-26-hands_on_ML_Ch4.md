@@ -194,12 +194,12 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 이를 해결하는 방법으로는 교차 검증과 학습 곡선을 살펴보는 두 가지 방법이 존재한다.
 1. 교차  검증
-
+	-  훈련 데이텅
 2. 학습 곡선
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5MDM1NSwxNDIyMDU4MzQ2LC02MTk0Mj
-I1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1Mywt
-NjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xODYxMj
-IzOTg3LC0xNjAwNTMzNzY5XX0=
+eyJoaXN0b3J5IjpbODA2NzEwMzczLDE0MjIwNTgzNDYsLTYxOT
+QyMjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUwMTUz
+LC02MzQyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4Nj
+EyMjM5ODcsLTE2MDA1MzM3NjldfQ==
 -->
