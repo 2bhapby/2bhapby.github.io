@@ -180,12 +180,12 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 > sklearn의 PolynomialFeatures 사용
 
 **PolynomialFeatures**
-- sklearn의 preprocessing 
+- sklearn의 preprocessing 클래스 중 하나로 특성이 n
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTM1OTg4NCwxNDIyMDU4MzQ2LC02MT
+eyJoaXN0b3J5IjpbLTQ0MjU3MDEwNywxNDIyMDU4MzQ2LC02MT
 k0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1
 MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xOD
 YxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
