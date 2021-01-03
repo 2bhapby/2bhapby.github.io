@@ -190,11 +190,13 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 우리가 다항회귀를 할 경우 과연 얼마나 복잡한 모델을 사용하는 것이 가장 효과적인가에 대한 의문점이 생길 수 있다.
 
-어떤 데이터가 2차 방정식으로 생성ㅎ
+어떤 데이터가 2차 방정식으로 생성되었다고 하자. 선형회귀를 할 경우 과소적합이고 300차 방정식으로 회귀 모델을 잡을 경우 과대적합이 일어나게 된다.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODU0MDgzODgsMTQyMjA1ODM0NiwtNj
-E5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAx
-NTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMT
-g2MTIyMzk4NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbMTEwMjM2Njc0MCwxNDIyMDU4MzQ2LC02MT
+k0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1
+MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xOD
+YxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
 -->
