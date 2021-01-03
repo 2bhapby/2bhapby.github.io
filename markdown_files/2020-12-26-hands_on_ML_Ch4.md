@@ -209,11 +209,15 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 - 훈련 데이터는 0에서 시작해서 훈려 세트에 한 개 혹은 두 개의 샘플이 있을때 완벽하게 작동한다. 하지만 그 이후에는 데이터가 비선형이기 때문에 어느 정도 평평해질 때까지 오차가 상승한다. 어느 정도 평평해진 이후에는 데이터가 추가되어도 크게 변동이 없다.
 
-- 검증 데이터는 훈련 샘플 수가 적을 때는 훈련이 제대로 될 수 없어 오차가 매우크다. 그 이후 훈련 샘플이 추가됨에 따라 검증 오차가 천천히 감소한다. 하지만 데이터를 잘 모델링 할 수 없으므로 훈련
+- 검증 데이터는 훈련 샘플 수가 적을 때는 훈련이 제대로 될 수 없어 오차가 매우크다. 그 이후 훈련 샘플이 추가됨에 따라 검증 오차가 천천히 감소한다. 하지만 데이터를 잘 모델링 할 수 없으므로 훈련 세트 그래프와 가까워진다.
+- 과소적합의 전형적인 모습. 
+- 두 곡선이 수평한 구간을 만들고 꽤 높은 오차에서 매우 가까이 근접
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5NDY4NTk2LDI2NDU1NDgyMSw0MTUzOD
-g3ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1
-OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNj
-E5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcs
-LTE2MDA1MzM3NjldfQ==
+eyJoaXN0b3J5IjpbMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mz
+g4Nzg5LDc0OTE1MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQs
+NTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0Mj
+YxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIzOTg3
+LC0xNjAwNTMzNzY5XX0=
 -->
