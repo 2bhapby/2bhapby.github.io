@@ -240,9 +240,11 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 	--유일한 해결 방법은 데이터에서 잡음 제거
 
 ## 규제가 있는 선형 모델
-> 과대적합을 감소시키는 ㅗㅎ은 ㅂ
+> 규제는 과대적합을 감소시키는 좋은 방법이다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM4NTA5OTEsMTg0NzU2NDU0MSwxOT
+eyJoaXN0b3J5IjpbLTEwMTMwMDQxNTksMTg0NzU2NDU0MSwxOT
 A4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUzMjg3
 LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OTY4NjkzOTgsLTQzOT
 E1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5NzAsODUxMDEzNjEs
