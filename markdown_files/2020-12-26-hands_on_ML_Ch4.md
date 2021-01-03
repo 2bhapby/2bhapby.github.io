@@ -202,7 +202,8 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 	- 이 그래프를 생성하는 방법은 훈련 세트에서 크기가 다른 서브 세트를 만들어 모델을 여러 번 훈련시키면 된다.
 
 **학습 곡선**
-	
+
+---
 ![linear learning curve](https://2bhapby.github.io/images/learning_curve_linear.png)
 
 위 그래프는 선형 회귀 모델의 학습 곡선이다.
@@ -213,11 +214,14 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 - 과소적합의 전형적인 모습. 
 - 두 곡선이 수평한 구간을 만들고 꽤 높은 오차에서 매우 가까이 근접
 
-![linear learning curve](https://2bhapby.github.io/images/learning_curve_10deg.png)
+---
+![10 degree learning curve](https://2bhapby.github.io/images/learning_curve_10deg.png)
+
+위 그래프는 10차 닿
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzUwNTc2NywxOTA4MjY0ODU0LDI2ND
-U1NDgyMSw0MTUzODg3ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYs
-LTYxOTQyMjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNz
-UwMTUzLC02MzQyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcs
-LTE4NjEyMjM5ODcsLTE2MDA1MzM3NjldfQ==
+eyJoaXN0b3J5IjpbNTk2MTIyNDM5LDE5MDgyNjQ4NTQsMjY0NT
+U0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0Niwt
+NjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NT
+AxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4Nywt
+MTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
