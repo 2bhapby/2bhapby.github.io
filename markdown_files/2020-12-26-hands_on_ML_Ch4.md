@@ -207,13 +207,13 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 위 그래프는 선형 회귀 모델의 학습 곡선이다.
 
-- 훈련데이터는 0에서 시작해서 훈려 세트에 한 개 혹은 두 개의 샘플이 있을때 완벽하게 작동하지만 그 이후에는 어느 정도 평평해질 때까지 오차가 상승한다.
-	>(비선형이기 때문)
-- 
+- 훈련 데이터는 0에서 시작해서 훈려 세트에 한 개 혹은 두 개의 샘플이 있을때 완벽하게 작동한다. 하지만 그 이후에는 데이터가 비선형이기 때문에 어느 정도 평평해질 때까지 오차가 상승한다. 어느 정도 평평해진 이후에는 
+
+- 검증 데이터는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE3NDM2NDEsMjY0NTU0ODIxLDQxNT
-M4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0
-LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzND
-I2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4
-NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbLTUyMDExODY4MCwyNjQ1NTQ4MjEsNDE1Mz
+g4Nzg5LDc0OTE1MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQs
+NTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0Mj
+YxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIzOTg3
+LC0xNjAwNTMzNzY5XX0=
 -->
