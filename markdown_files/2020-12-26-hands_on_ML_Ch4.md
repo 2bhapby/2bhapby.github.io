@@ -177,10 +177,11 @@ $$\nabla_\theta MSE(\boldsymbol{\theta}) = \begin{pmatrix}
 **다항 회귀란**
 
 - 각 특성의 거듭제곱을 새로운 특성으로 추가하고, 확장된 특성을 포함한 데이터셋에 선형 모델을 훈련시키는 기법
-
+> sklearn의 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMz
-c1MDE1MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3
-LC0xODYxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
+eyJoaXN0b3J5IjpbLTYxOTQyMjU4NCw1OTY4NjkzOTgsLTQzOT
+E1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5NzAsODUxMDEzNjEs
+LTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcsLTE2MDA1MzM3NjldfQ
+==
 -->
