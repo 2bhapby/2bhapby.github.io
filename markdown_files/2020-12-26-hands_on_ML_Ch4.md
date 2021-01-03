@@ -241,16 +241,17 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 ## 규제가 있는 선형 모델
 > 규제는 과대적합을 감소시키는 좋은 방법이다.
-> 
+
 > 선형회귀 모델에서는 모델의 가중치를 제한함으로써 규제를 가한다. (릿지 회귀, 라쏘 회귀, 엘라스틱넷)
+
 ### 릿지 회귀
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTA5NDMzMSwtMTAxMzAwNDE1OSwxOD
-Q3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4
-OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Nj
-g2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3
-MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4NywtMT
-YwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMT
+g0NzU2NDU0MSwxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3
+ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OT
+Y4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5
+NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcsLT
+E2MDA1MzM3NjldfQ==
 -->
