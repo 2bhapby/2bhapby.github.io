@@ -201,10 +201,13 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 	- 훈련 세트와 검증 세트의 모델 성능을 훈련 세트 크기의 함수로 나타낸 그래프
 	- 이 그래프를 생성하는 방법은 훈련 세트에서 크기가 다른 서브 세트를 만들어 모델을 여러 번 훈련시키면 된다.
 
+			![linear learning curve](https://2bhapby.github.io/images/learning_curve_linear.png)
 
+위 그래프는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1Mzg4Nzg5LDc0OTE1MzI4NywxNDIyMD
-U4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2Nzcs
-LTgzMzc1MDE1MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMj
-IzOTg3LC0xODYxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
+eyJoaXN0b3J5IjpbLTYzMDcyOTMyOCw0MTUzODg3ODksNzQ5MT
+UzMjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OTY4NjkzOTgs
+LTQzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5NzAsODUxMD
+EzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcsLTE2MDA1MzM3
+NjldfQ==
 -->
