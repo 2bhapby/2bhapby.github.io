@@ -188,10 +188,12 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 ## 학습 곡선
 
-우리가 다항회귀를 할 경우 생기는 의문점은 과연 얼마나 복잡한 모델을 사용할지 
+우리가 다항회귀를 할 경우 과연 얼마나 복잡한 모델을 사용하는 것이 가장 효과적인가에 대한 의문점이 생길 수 있다.
+
+어떤 데이터가 2차 방정식으로 생성ㅎ
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTg4OTYwODAsMTQyMjA1ODM0NiwtNj
+eyJoaXN0b3J5IjpbLTE0ODU0MDgzODgsMTQyMjA1ODM0NiwtNj
 E5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAx
 NTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMT
 g2MTIyMzk4NywtMTYwMDUzMzc2OV19
