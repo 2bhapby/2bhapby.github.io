@@ -235,11 +235,15 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 	-- 훈련 데이터에 있는 작은 변동에 모델이 과도하게 민감하기 때문에 나타난다.
 	-- 자유도가 높은 모델이 높은 분산을 갖기 쉬워 과대적합되는 경향이 있다.
 
--
+- **줄일 수 없는 오차(irreducible error)**
+	-- 데이터 자체에 있는 잡음 때문에 발생
+	--유일한 해결 방법은 데이터에서 잡음 제거
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODQ4NjUzOSwxODQ3NTY0NTQxLDE5MD
-gyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcs
-MTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MT
-U3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwt
-MTg2MTIyMzk4NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbNTc5MDY5Mzg1LDE4NDc1NjQ1NDEsMTkwOD
+I2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1MzI4Nywx
+NDIyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNT
+c2NzcsLTgzMzc1MDE1MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0x
+ODYxMjIzOTg3LC0xODYxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
 -->
