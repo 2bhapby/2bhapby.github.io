@@ -226,10 +226,10 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 ---
 **편향/분산 트레이드오프**
 
-- 편향
-	- 
+- **편향**
+	일반화 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTIwOTgwNiwxODQ3NTY0NTQxLDE5MD
+eyJoaXN0b3J5IjpbMjA3MDEyOTMwNSwxODQ3NTY0NTQxLDE5MD
 gyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcs
 MTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MT
 U3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwt
