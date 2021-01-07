@@ -253,15 +253,16 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 **비용함수**
 $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum_{n}^{i=1}\theta_i^2$$
+>$\bold{w}$ 를 특성의 가중치 벡터라고 정의하면 
 
 이때 편향 $\theta_0$는 규제되지 않는다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk4NzQzNjEsLTc0OTA0MzgwNiwtMT
-I3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgy
-NjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMT
-QyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3
-Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMT
-g2MTIyMzk4NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbMTQxMTY3NDc2MCwtNzQ5MDQzODA2LC0xMj
+cxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2
+NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1MzI4NywxND
+IyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2
+NzcsLTgzMzc1MDE1MywtNjM0MjYxOTcwLDg1MTAxMzYxLC0xOD
+YxMjIzOTg3LC0xODYxMjIzOTg3LC0xNjAwNTMzNzY5XX0=
 -->
