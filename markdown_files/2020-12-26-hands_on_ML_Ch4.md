@@ -282,9 +282,9 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 
 등고선과 수직으로 줄어든다고 보면 마름모 꼴의 경우 어느 한 파라미터가 먼저 0에 도달한다. 그렇기에 어떠한 특성은 0이 되어버린다.
 
-하지만 원형의 경우 둘 모두 조그
+하지만 원형의 경우 둘 모두 조금씩 줄다가 동시에 원점에서 만나기 때문에 0에 수렴할 뿐 0이 되지 않는다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAyMzA3MjUsLTgwNTkxNTM3LC0yMD
+eyJoaXN0b3J5IjpbLTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMD
 M1NDMyNjQ2LC00MjYwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2
 NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NT
 QsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1
