@@ -321,12 +321,12 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 
 에러가 최솟값에 도달하면 훈련을 바로 중지시키는 것
 
-
+>SGD 혹은 미니배치 경사하강법은 곡선이 매끄럽지 않아 검증 에러가 일정 시간 동안 최솟값보다 클 때 학습을 멈추고 검증에러가 최소였ㅇㄹ 때의 모델 파라미터로 되돌리는 것
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODYxMzEzOSwtMTc4OTAwMjE1OSwtOD
+eyJoaXN0b3J5IjpbLTQzNTYwOTQ4OSwtMTc4OTAwMjE1OSwtOD
 A1OTE1MzcsLTIwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQz
 ODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1ND
 EsMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1
