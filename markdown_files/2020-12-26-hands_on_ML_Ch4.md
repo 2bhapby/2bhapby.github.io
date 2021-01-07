@@ -280,13 +280,15 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 
 그 이유는 그래프로 생각해보면 간단하다. 특성이 2개라고 생각을 해보자. $l_1$ 규제의 경우 등고선을 그려보면 마름모 꼴이고 $l_2$ 규제의 경우 원형이다.
 
+등고선과 수직으로 줄어든다고 보면 마름모 꼴의 경우 어느 한 파라미터가 먼저 0에 도달한다. 그렇기에 어떠한 특성은 0이 되어버린다.
 
+하지만 원형의 경우 둘 모두 조그
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00Mj
-YwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAw
-NDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLD
-QxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIy
-NTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAxNTMsLT
-YzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIy
+eyJoaXN0b3J5IjpbLTEwNzAyMzA3MjUsLTgwNTkxNTM3LC0yMD
+M1NDMyNjQ2LC00MjYwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2
+NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NT
+QsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1
+ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC
+04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIy
 Mzk4N119
 -->
