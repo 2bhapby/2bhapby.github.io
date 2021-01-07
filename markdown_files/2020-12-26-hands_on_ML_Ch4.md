@@ -336,15 +336,17 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 
 $\hat{p}= h_\theta(\bold{x}) = \sigma(\boldsymbol{\theta}^T\bold{x})$
 > $\sigma$는 sigmoid 함수로 $\sigma(t) = \frac{1}{1+exp(-t)}$
->
+
+
+
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mz
-c3MjYsLTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2
-LC00MjYwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMT
-AxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0
-ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNj
-E5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAx
-NTNdfQ==
+eyJoaXN0b3J5IjpbNjU4MTAyODAxLDE1NDIwODMwOTMsNTcwNj
+U4NTQ3LC01NTM3NzI2LC0xNzg5MDAyMTU5LC04MDU5MTUzNywt
+MjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4MDYsLTEyNz
+E4NjQyNzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MSwxOTA4MjY0
+ODU0LDI2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUzMjg3LDE0Mj
+IwNTgzNDYsLTYxOTQyMjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3
+N119
 -->
