@@ -261,9 +261,9 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 
 **릿지 회귀의 정규방정식**
 
-$\hat\theta = (\bold{X}^T\bold{X} + \al)$
+$\hat\theta = (\bold{X}^T\bold{X} + \alpha\bold A)^{-1}\bold X^T\bold y$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMDE4NTE0LC00MjYwNDg3MjYsLTc0OT
+eyJoaXN0b3J5IjpbNjA3MTU3OTgwLC00MjYwNDg3MjYsLTc0OT
 A0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0
 NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3ND
 kxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5
