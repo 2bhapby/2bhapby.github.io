@@ -340,16 +340,20 @@ $\hat{p}= h_\theta(\bold{x}) = \sigma(\boldsymbol{\theta}^T\bold{x})$
 
 **로지스틱 회귀 모델 예측**
 
+$\hat{y} = 
+\left\{\begin{matrix} 0 \hat{p} < 0.5 일때 
+\\ 1 \hat{p} < 0.5 일때 
+\end{matrix}\right.$
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjc0MTc0OSw2NTgxMDI4MDEsMTU0Mj
-A4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3MjYsLTE3ODkwMDIxNTks
-LTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00MjYwNDg3MjYsLTc0OT
-A0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0
-NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3ND
-kxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5
-OF19
+eyJoaXN0b3J5IjpbLTIxMzI2NDgxODEsMTgzMjc0MTc0OSw2NT
+gxMDI4MDEsMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3MjYs
+LTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00Mj
+YwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAw
+NDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLD
+QxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIy
+NTg0XX0=
 -->
