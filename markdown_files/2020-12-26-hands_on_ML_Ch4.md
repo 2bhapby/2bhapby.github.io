@@ -271,14 +271,14 @@ $\hat\theta = (\bold{X}^T\bold{X} + \alpha\bold A)^{-1}\bold X^T\bold y$
 $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum_{n}^{i=1}|\theta_i|$$
 
 - **특징**
--- 덜 중요한 특성의 가중치를 제거하려고 한다.
+-- 덜 중요한 특성의 가중치를 제거하려고 한다.($\theta_i$를 0으로 보낸다.)
 -- 자동으로 특성 선택을 하고 희소 모델을 만든다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNz
-Q5MDQzODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1
-NjQ1NDEsMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LD
-c0OTE1MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5
-Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0MjYxOTcwLD
-g1MTAxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIzOTg3LC0xNjAw
-NTMzNzY5XX0=
+eyJoaXN0b3J5IjpbMTQ5NTE1MTQ0NSwtMjAzNTQzMjY0NiwtND
+I2MDQ4NzI2LC03NDkwNDM4MDYsLTEyNzE4NjQyNzMsLTEwMTMw
+MDQxNTksMTg0NzU2NDU0MSwxOTA4MjY0ODU0LDI2NDU1NDgyMS
+w0MTUzODg3ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYsLTYxOTQy
+MjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUwMTUzLC
+02MzQyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEy
+MjM5ODddfQ==
 -->
