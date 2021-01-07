@@ -300,19 +300,20 @@ $$g(\boldsymbol \theta, J) = \nabla_\theta MSE(\boldsymbol\theta) + \alpha \begi
 **비용함수**
 $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1}{2}\sum_{n}^{i=1}|\theta_i| + \frac{1-r}{2}\alpha \frac{1}{2}\sum_{n}^{i=1}\theta_i^2$$
 
-릿지가 기본이 되고 특성이 몇 개뿐이라고 의심되면 라쏘나 엘라스틱넷, 특성 수가 훈련 샘플 수보다 많거나 특성 몇개가 강하게 연관되어 있으면 엘라스틱넷.
-
+- 대부분의 경우 : 릿지
+- 특성이 몇개뿐이라고 의심 : 라쏘, 엘라스틱넷
+- 특성수가 훈련 샘플 수보다 많거나 특성 몇개가 강하게 연관 : 엘라스틱넷
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzU5ODk2MywtMTc4OTAwMjE1OSwtOD
-A1OTE1MzcsLTIwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQz
-ODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1ND
-EsMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1
-MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC
-00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0MjYxOTcwLDg1MTAx
-MzYxXX0=
+eyJoaXN0b3J5IjpbNzEwMTk4NDc5LC0xNzg5MDAyMTU5LC04MD
+U5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4
+MDYsLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MS
+wxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUz
+Mjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OTY4NjkzOTgsLT
+QzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5NzAsODUxMDEz
+NjFdfQ==
 -->
