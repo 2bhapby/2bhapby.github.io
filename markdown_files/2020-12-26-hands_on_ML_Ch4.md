@@ -273,6 +273,10 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 - **특징**
 -- 덜 중요한 특성의 가중치를 제거하려고 한다.($\theta_i$를 0으로 만든다.)
 -- 자동으로 특성 선택을 하고 희소 모델을 만든다.
+--$\theta_i = 0$에서 미분 불가능하다. 하지만 이때 서브그레디언트 벡터 $\bold g$를 사용하면 경사하강법을 적용하는데 문제 없다.
+
+**서브그레디언트 벡터 g**
+
 
 
 
@@ -292,11 +296,11 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDYyNTk3NCwtMTc4OTAwMjE1OSwtOD
-A1OTE1MzcsLTIwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQz
-ODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1ND
-EsMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1
-MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC
-00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0MjYxOTcwLDg1MTAx
-MzYxXX0=
+eyJoaXN0b3J5IjpbNjExMDIwNjU1LC0xNzg5MDAyMTU5LC04MD
+U5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4
+MDYsLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MS
+wxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUz
+Mjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OTY4NjkzOTgsLT
+QzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5NzAsODUxMDEz
+NjFdfQ==
 -->
