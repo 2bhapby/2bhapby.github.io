@@ -324,15 +324,19 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 >SGD 혹은 미니배치 경사하강법은 곡선이 매끄럽지 않아 검증 에러가 일정 시간 동안 최솟값보다 클 때 학습을 멈추고 검증에러가 최소였을 때의 모델 파라미터로 되돌린다.
 
 
+## 로지스틱 회귀
+
+
+
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTc0NzE3MCwtNTUzNzcyNiwtMTc4OT
-AwMjE1OSwtODA1OTE1MzcsLTIwMzU0MzI2NDYsLTQyNjA0ODcy
-NiwtNzQ5MDQzODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LD
-E4NDc1NjQ1NDEsMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4
-Nzg5LDc0OTE1MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQsNT
-k2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0MjYx
-OTcwXX0=
+eyJoaXN0b3J5IjpbNTcwNjU4NTQ3LC01NTM3NzI2LC0xNzg5MD
+AyMTU5LC04MDU5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2
+LC03NDkwNDM4MDYsLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMT
+g0NzU2NDU0MSwxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3
+ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OT
+Y4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5
+NzBdfQ==
 -->
