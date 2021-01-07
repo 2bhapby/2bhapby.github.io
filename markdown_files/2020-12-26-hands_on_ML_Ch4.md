@@ -246,6 +246,8 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 > 입력 특성의 스케일에 민감하기에 스케일을 맞춰주는 것이 중요하다.
 
+---
+
 ### 릿지 회귀(Ridge)
 
 릿지 회귀는 비용 함수에 규제(항)이 추가된 선형 회귀 버전이다.
@@ -263,6 +265,8 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 
 $\hat\theta = (\bold{X}^T\bold{X} + \alpha\bold A)^{-1}\bold X^T\bold y$
 
+---
+
 ### 라쏘 회귀(Least Absolute Shrinkage and Selection Operator)
 
 규제항으로 $l_2$ norm 대신에 $l_1$ norm을 사용한다.
@@ -275,6 +279,8 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 -- 자동으로 특성 선택을 하고 희소 모델을 만든다.
 --$\theta_i = 0$에서 미분 불가능하다. 하지만 이때 서브그레디언트 벡터 $\bold g$를 사용하면 경사하강법을 적용하는데 문제 없다.
 
+---
+
 **서브그레디언트 벡터 g**
 
 $$g(\boldsymbol \theta, J) = \nabla_\theta MSE(\boldsymbol\theta) + \alpha \begin{pmatrix} sign(\theta_1)
@@ -282,6 +288,8 @@ $$g(\boldsymbol \theta, J) = \nabla_\theta MSE(\boldsymbol\theta) + \alpha \begi
 \\ \vdots 
 \\ sign(\theta_n)\end{pmatrix}$$ 이때 $sign(\theta_i) = -1, 0, 1$(각각 0보다 작을 때, 0일 때, 0보다 클 때)
 
+
+---
 
 **릿지 회귀 라쏘 회귀의 가장 큰 차이점**
 
@@ -295,6 +303,8 @@ $$g(\boldsymbol \theta, J) = \nabla_\theta MSE(\boldsymbol\theta) + \alpha \begi
 
 또한 릿지회귀는 전역 최적점에 가까워질수록 그레디언트가 작아진다.
 
+---
+
 ### 엘라스틱넷
 
 **비용함수**
@@ -304,12 +314,18 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 - 특성이 몇개뿐이라고 의심 : 라쏘, 엘라스틱넷
 - 특성수가 훈련 샘플 수보다 많거나 특성 몇개가 강하게 연관 : 엘라스틱넷
 
+---
+
+### 조기종료
+
+에러가 최솟값에 도달하면 훈련을 바로 중지시키는 것
+
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMTk4NDc5LC0xNzg5MDAyMTU5LC04MD
+eyJoaXN0b3J5IjpbNzQyOTM1ODY0LC0xNzg5MDAyMTU5LC04MD
 U5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4
 MDYsLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MS
 wxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUz
