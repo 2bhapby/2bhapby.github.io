@@ -295,15 +295,23 @@ $$g(\boldsymbol \theta, J) = \nabla_\theta MSE(\boldsymbol\theta) + \alpha \begi
 
 또한 릿지회귀는 전역 최적점에 가까워질수록 그레디언트가 작아진다.
 
+### 엘라스틱넷
+
+**비용함수**
+$$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1}{2}\sum_{n}^{i=1}|\theta_i| + \frac{1-r}{2}\alpha \frac{1}{2}\sum_{n}^{i=1}\theta_i^2$$
+
+
+
+
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY5Mjc4NDYsLTE3ODkwMDIxNTksLT
-gwNTkxNTM3LC0yMDM1NDMyNjQ2LC00MjYwNDg3MjYsLTc0OTA0
-MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NT
-QxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkx
-NTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OC
-wtNDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEw
-MTM2MV19
+eyJoaXN0b3J5IjpbLTIyMDk2MjczLC0xNzg5MDAyMTU5LC04MD
+U5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4
+MDYsLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MS
+wxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUz
+Mjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OTY4NjkzOTgsLT
+QzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5NzAsODUxMDEz
+NjFdfQ==
 -->
