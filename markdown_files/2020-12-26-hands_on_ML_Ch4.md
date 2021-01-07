@@ -270,13 +270,15 @@ $\hat\theta = (\bold{X}^T\bold{X} + \alpha\bold A)^{-1}\bold X^T\bold y$
 **비용함수**
 $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum_{n}^{i=1}|\theta_i|$$
 
-
+- **특징**
+-- 덜 중요한 특성의 가중치를 제거하려고 한다.
+-- 자동으로 특성 선택을 하고 희소 몯
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5NTI3MTk5LC00MjYwNDg3MjYsLTc0OT
-A0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0
-NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3ND
-kxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5
-OCwtNDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NT
-EwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4NywtMTYwMDUz
-Mzc2OV19
+eyJoaXN0b3J5IjpbMTc1MzU1NDQzMywtNDI2MDQ4NzI2LC03ND
+kwNDM4MDYsLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMTg0NzU2
+NDU0MSwxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3ODksNz
+Q5MTUzMjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OTY4Njkz
+OTgsLTQzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5NzAsOD
+UxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEyMjM5ODcsLTE2MDA1
+MzM3NjldfQ==
 -->
