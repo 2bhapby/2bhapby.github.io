@@ -273,12 +273,17 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 - **특징**
 -- 덜 중요한 특성의 가중치를 제거하려고 한다.($\theta_i$를 0으로 보낸다.)
 -- 자동으로 특성 선택을 하고 희소 모델을 만든다.
+
+**릿지 회귀 라쏘 회귀의 가장 큰 차이점**
+
+릿지 회귀는 특성값을 0으로 수렴하게 할 뿐 0이 되진 않는다. 하지만 라쏘 회귀는 0으로 만들어버린다.
+그 이유는 그래프로 생각해보면 간단한데 $l_$l1 규제의 경우
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTE1MTQ0NSwtMjAzNTQzMjY0NiwtND
-I2MDQ4NzI2LC03NDkwNDM4MDYsLTEyNzE4NjQyNzMsLTEwMTMw
-MDQxNTksMTg0NzU2NDU0MSwxOTA4MjY0ODU0LDI2NDU1NDgyMS
-w0MTUzODg3ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYsLTYxOTQy
-MjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUwMTUzLC
-02MzQyNjE5NzAsODUxMDEzNjEsLTE4NjEyMjM5ODcsLTE4NjEy
-MjM5ODddfQ==
+eyJoaXN0b3J5IjpbLTE2NTU5MzIwNDksLTIwMzU0MzI2NDYsLT
+QyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcxODY0MjczLC0xMDEz
+MDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2NDg1NCwyNjQ1NTQ4Mj
+EsNDE1Mzg4Nzg5LDc0OTE1MzI4NywxNDIyMDU4MzQ2LC02MTk0
+MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1My
+wtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xODYx
+MjIzOTg3XX0=
 -->
