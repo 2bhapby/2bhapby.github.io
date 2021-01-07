@@ -306,6 +306,7 @@ $$g(\boldsymbol \theta, J) = \nabla_\theta MSE(\boldsymbol\theta) + \alpha \begi
 ---
 
 ### 엘라스틱넷
+>릿지 라쏘 회귀의 절충 모델
 
 **비용함수**
 $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1}{2}\sum_{n}^{i=1}|\theta_i| + \frac{1-r}{2}\alpha \frac{1}{2}\sum_{n}^{i=1}\theta_i^2$$
@@ -325,11 +326,11 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIxOTAzNDcsLTE3ODkwMDIxNTksLT
-gwNTkxNTM3LC0yMDM1NDMyNjQ2LC00MjYwNDg3MjYsLTc0OTA0
-MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NT
-QxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkx
-NTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OC
-wtNDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEw
-MTM2MV19
+eyJoaXN0b3J5IjpbMTE0ODYxMzEzOSwtMTc4OTAwMjE1OSwtOD
+A1OTE1MzcsLTIwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQz
+ODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1ND
+EsMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1
+MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC
+00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0MjYxOTcwLDg1MTAx
+MzYxXX0=
 -->
