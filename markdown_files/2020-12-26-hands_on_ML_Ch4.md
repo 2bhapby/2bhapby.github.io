@@ -326,17 +326,20 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 
 ## 로지스틱 회귀
 
->
+샘플이 특정 클래스에 속할 확률을 추정하는 데 널리 사용한다.
+즉, 회귀 알고리즘이지만 분류에서도 사용한다.
+추정 확률이 50%가 넘으면 그 샘플이 해당 클래스에 속한다고 예측한다. 아니면 속하지 않는다고 예측한다.
+(레이블 1인 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjA2MTc0NSw1NzA2NTg1NDcsLTU1Mz
-c3MjYsLTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2
-LC00MjYwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMT
-AxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0
-ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNj
-E5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAx
-NTNdfQ==
+eyJoaXN0b3J5IjpbLTE5NDYyNTM3MjcsNTcwNjU4NTQ3LC01NT
+M3NzI2LC0xNzg5MDAyMTU5LC04MDU5MTUzNywtMjAzNTQzMjY0
+NiwtNDI2MDQ4NzI2LC03NDkwNDM4MDYsLTEyNzE4NjQyNzMsLT
+EwMTMwMDQxNTksMTg0NzU2NDU0MSwxOTA4MjY0ODU0LDI2NDU1
+NDgyMSw0MTUzODg3ODksNzQ5MTUzMjg3LDE0MjIwNTgzNDYsLT
+YxOTQyMjU4NCw1OTY4NjkzOTgsLTQzOTE1NzY3NywtODMzNzUw
+MTUzXX0=
 -->
