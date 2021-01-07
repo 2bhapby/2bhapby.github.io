@@ -265,13 +265,18 @@ $\hat\theta = (\bold{X}^T\bold{X} + \alpha\bold A)^{-1}\bold X^T\bold y$
 
 ### 라쏘 회귀(Least Absolute Shrinkage and Selection Operator)
 
+규제항으로 $l_2$ norm 대신에 $l_1$ norm을 사용한다.
+
+**비용함수**
+$$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum_{n}^{i=1}|\theta_i|$$
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDMwOTYwMzcsLTQyNjA0ODcyNiwtNz
-Q5MDQzODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1
-NjQ1NDEsMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LD
-c0OTE1MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5
-Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0MjYxOTcwLD
-g1MTAxMzYxLC0xODYxMjIzOTg3LC0xODYxMjIzOTg3LC0xNjAw
-NTMzNzY5XX0=
+eyJoaXN0b3J5IjpbNDM5NTI3MTk5LC00MjYwNDg3MjYsLTc0OT
+A0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0
+NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3ND
+kxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5
+OCwtNDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NT
+EwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIyMzk4NywtMTYwMDUz
+Mzc2OV19
 -->
