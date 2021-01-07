@@ -252,9 +252,13 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 모델의 훈련이 끝나면 모델의 성능을 규제가 없는 성능 지표로 평가한다.
 
 **비용함수**
-$$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum{n}{i=1}$$
+$$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum_{n}^{i=1}\theta_i^2$$
+
+이때 편향 $\theta_0$는 규제되지 않는다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjAxMDY2MTAsLTc0OTA0MzgwNiwtMT
+eyJoaXN0b3J5IjpbLTEyNzk4NzQzNjEsLTc0OTA0MzgwNiwtMT
 I3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgy
 NjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMT
 QyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3
