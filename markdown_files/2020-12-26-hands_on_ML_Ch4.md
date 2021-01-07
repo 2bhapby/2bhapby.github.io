@@ -277,7 +277,10 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 
 **서브그레디언트 벡터 g**
 
-$$g(\boldsymbol \theta, J) = \nabla_\theta MSE(\boldsymbol\theta) + \alpha$$
+$$g(\boldsymbol \theta, J) = \nabla_\theta MSE(\boldsymbol\theta) + \alpha \begin{pmatrix} sign(\theta_1)
+\\ sign(\theta_2) 
+\\ \vdots 
+\\ sign(\theta_n)\end{pmatrix}$$ 이때 sign($\theta_i) = -1, 0, 1$(각)
 
 
 **릿지 회귀 라쏘 회귀의 가장 큰 차이점**
@@ -296,11 +299,11 @@ $$g(\boldsymbol \theta, J) = \nabla_\theta MSE(\boldsymbol\theta) + \alpha$$
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODE2NTMwNiwtMTc4OTAwMjE1OSwtOD
-A1OTE1MzcsLTIwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQz
-ODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1ND
-EsMTkwODI2NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1
-MzI4NywxNDIyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC
-00MzkxNTc2NzcsLTgzMzc1MDE1MywtNjM0MjYxOTcwLDg1MTAx
-MzYxXX0=
+eyJoaXN0b3J5IjpbMjcyMDgwNTQ2LC0xNzg5MDAyMTU5LC04MD
+U5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4
+MDYsLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MS
+wxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUz
+Mjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OTY4NjkzOTgsLT
+QzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5NzAsODUxMDEz
+NjFdfQ==
 -->
