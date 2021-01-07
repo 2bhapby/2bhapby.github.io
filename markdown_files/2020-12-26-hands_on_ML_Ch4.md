@@ -253,13 +253,13 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 **비용함수**
 $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum_{n}^{i=1}\theta_i^2$$
->$\bold{w}$ 를 특성의 가중치 벡터라고 정의하면 
+>$\bold{w}$ 를 특성의 가중치 벡터라고 정의하면 규제항은 $\frac12(\left \| \bold{w}\right \|_2)^2$와 같다.
 
 이때 편향 $\theta_0$는 규제되지 않는다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTY3NDc2MCwtNzQ5MDQzODA2LC0xMj
+eyJoaXN0b3J5IjpbMjAzMDIxMDkxOCwtNzQ5MDQzODA2LC0xMj
 cxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2
 NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1MzI4NywxND
 IyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2
