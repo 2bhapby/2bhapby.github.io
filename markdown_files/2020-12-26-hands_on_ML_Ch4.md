@@ -341,15 +341,16 @@ $\hat{p}= h_\theta(\bold{x}) = \sigma(\boldsymbol{\theta}^T\bold{x})$
 **로지스틱 회귀 모델 예측**
 
 $\hat{y} = 
-\left\{\begin{matrix} 0 \hat{p} < 0.5 일때 
-\\ 1 \hat{p} < 0.5 일때 
+\left\{\begin{matrix} 0  \quad \hat{p} < 0.5 일때 
+\\ 1  \quad \hat{p} < 0.5 일때 
 \end{matrix}\right.$
+
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI2NDgxODEsMTgzMjc0MTc0OSw2NT
+eyJoaXN0b3J5IjpbLTE0MjUxODc5NDMsMTgzMjc0MTc0OSw2NT
 gxMDI4MDEsMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3MjYs
 LTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00Mj
 YwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAw
