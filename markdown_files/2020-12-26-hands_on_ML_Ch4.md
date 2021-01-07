@@ -244,6 +244,8 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 > 선형회귀 모델에서는 모델의 가중치를 제한함으로써 규제를 가한다. (릿지 회귀, 라쏘 회귀, 엘라스틱넷)
 
+> 입력 특성의 스케일에 민감하기에 스케일을 맞춰주는 것이 중요하다.
+
 ### 릿지 회귀(Ridge)
 
 릿지 회귀는 비용 함수에 규제(항)이 추가된 선형 회귀 버전이다.
@@ -259,7 +261,7 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDIxMDkxOCwtNzQ5MDQzODA2LC0xMj
+eyJoaXN0b3J5IjpbLTQyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMj
 cxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2
 NDg1NCwyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1MzI4NywxND
 IyMDU4MzQ2LC02MTk0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2
