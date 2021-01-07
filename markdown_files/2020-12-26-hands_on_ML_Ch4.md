@@ -332,17 +332,21 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 
 ### 확률 추정
 
+입력 특성의 가중치의 합을 계산한다.(편향 더함) 대신 선형 회귀처럼 바로 결과를 출력하지 않고 결괏값의 로지스틱을 출력한다.
+
+$ \hat_p= h_\theta(\bold{x}) $
+
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDY0NTQwLDU3MDY1ODU0NywtNTUzNz
-cyNiwtMTc4OTAwMjE1OSwtODA1OTE1MzcsLTIwMzU0MzI2NDYs
-LTQyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcxODY0MjczLC0xMD
-EzMDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2NDg1NCwyNjQ1NTQ4
-MjEsNDE1Mzg4Nzg5LDc0OTE1MzI4NywxNDIyMDU4MzQ2LC02MT
-k0MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1
-M119
+eyJoaXN0b3J5IjpbMTUyNjkzNzE3MSw1NzA2NTg1NDcsLTU1Mz
+c3MjYsLTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2
+LC00MjYwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMT
+AxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0
+ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNj
+E5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAx
+NTNdfQ==
 -->
