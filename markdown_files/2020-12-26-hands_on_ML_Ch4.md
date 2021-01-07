@@ -252,12 +252,12 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 모델의 훈련이 끝나면 모델의 성능을 규제가 없는 성능 지표로 평가한다.
 
 **비용함수**
-$$\boldsymbol{J(\theta)} = MSE(\boldsymbol{theta}$$
+$$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum{n}{i=1}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMT
-AxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0
-ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNj
-E5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAx
-NTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMT
-g2MTIyMzk4NywtMTYwMDUzMzc2OV19
+eyJoaXN0b3J5IjpbLTEzMjAxMDY2MTAsLTc0OTA0MzgwNiwtMT
+I3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgy
+NjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMyODcsMT
+QyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OCwtNDM5MTU3
+Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEwMTM2MSwtMT
+g2MTIyMzk4NywtMTg2MTIyMzk4NywtMTYwMDUzMzc2OV19
 -->
