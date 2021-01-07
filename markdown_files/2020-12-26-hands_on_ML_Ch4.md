@@ -279,7 +279,7 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 -- 자동으로 특성 선택을 하고 희소 모델을 만든다.
 --$\theta_i = 0$에서 미분 불가능하다. 하지만 이때 서브그레디언트 벡터 $\bold g$를 사용하면 경사하강법을 적용하는데 문제 없다.
 
----
+
 
 **서브그레디언트 벡터 g**
 
@@ -325,11 +325,11 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyOTM1ODY0LC0xNzg5MDAyMTU5LC04MD
-U5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4
-MDYsLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MS
-wxOTA4MjY0ODU0LDI2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUz
-Mjg3LDE0MjIwNTgzNDYsLTYxOTQyMjU4NCw1OTY4NjkzOTgsLT
-QzOTE1NzY3NywtODMzNzUwMTUzLC02MzQyNjE5NzAsODUxMDEz
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTEzMTIxOTAzNDcsLTE3ODkwMDIxNTksLT
+gwNTkxNTM3LC0yMDM1NDMyNjQ2LC00MjYwNDg3MjYsLTc0OTA0
+MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NT
+QxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkx
+NTMyODcsMTQyMjA1ODM0NiwtNjE5NDIyNTg0LDU5Njg2OTM5OC
+wtNDM5MTU3Njc3LC04MzM3NTAxNTMsLTYzNDI2MTk3MCw4NTEw
+MTM2MV19
 -->
