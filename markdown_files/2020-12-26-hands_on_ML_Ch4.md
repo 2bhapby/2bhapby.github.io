@@ -277,13 +277,16 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 **릿지 회귀 라쏘 회귀의 가장 큰 차이점**
 
 릿지 회귀는 특성값을 0으로 수렴하게 할 뿐 0이 되진 않는다. 하지만 라쏘 회귀는 0으로 만들어버린다.
-그 이유는 그래프로 생각해보면 간단한데 $l_$l1 규제의 경우
+
+그 이유는 그래프로 생각해보면 간단하다. 특성이 2개라고 생각을 해보자. $l_1$ 규제의 경우 등고선을 그려보면 마름모 꼴이고 $l_2$ 규제의 경우 원형이다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU5MzIwNDksLTIwMzU0MzI2NDYsLT
-QyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcxODY0MjczLC0xMDEz
-MDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2NDg1NCwyNjQ1NTQ4Mj
-EsNDE1Mzg4Nzg5LDc0OTE1MzI4NywxNDIyMDU4MzQ2LC02MTk0
-MjI1ODQsNTk2ODY5Mzk4LC00MzkxNTc2NzcsLTgzMzc1MDE1My
-wtNjM0MjYxOTcwLDg1MTAxMzYxLC0xODYxMjIzOTg3LC0xODYx
-MjIzOTg3XX0=
+eyJoaXN0b3J5IjpbLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00Mj
+YwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAw
+NDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLD
+QxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIy
+NTg0LDU5Njg2OTM5OCwtNDM5MTU3Njc3LC04MzM3NTAxNTMsLT
+YzNDI2MTk3MCw4NTEwMTM2MSwtMTg2MTIyMzk4NywtMTg2MTIy
+Mzk4N119
 -->
