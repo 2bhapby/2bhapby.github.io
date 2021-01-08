@@ -362,7 +362,7 @@ $t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ �
 
 **비용 함수**
 
-하나의 훈련샘플 $\textbf{x}$에 ㄷ
+하나의 훈련샘플 $\textbf{x}$에 대한 비용함수
 
 $c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 -log(\hat{p}) \quad\quad\quad y = 1 일때 \\ -log(1-\hat{p}) \quad y = 0 일때
@@ -379,11 +379,11 @@ $c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NTAzMjcxLC0xMjYxNjE2MTMsMjA1Mz
-UwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4MjYz
-MSwtMTQyNTE4Nzk0MywxODMyNzQxNzQ5LDY1ODEwMjgwMSwxNT
-QyMDgzMDkzLDU3MDY1ODU0NywtNTUzNzcyNiwtMTc4OTAwMjE1
-OSwtODA1OTE1MzcsLTIwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNz
-Q5MDQzODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1
-NjQ1NDFdfQ==
+eyJoaXN0b3J5IjpbLTIwNTA5OTk1NDcsLTEyNjE2MTYxMywyMD
+UzNTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNzEsLTIyNjgy
+NjMxLC0xNDI1MTg3OTQzLDE4MzI3NDE3NDksNjU4MTAyODAxLD
+E1NDIwODMwOTMsNTcwNjU4NTQ3LC01NTM3NzI2LC0xNzg5MDAy
+MTU5LC04MDU5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC
+03NDkwNDM4MDYsLTEyNzE4NjQyNzMsLTEwMTMwMDQxNTksMTg0
+NzU2NDU0MV19
 -->
