@@ -384,14 +384,14 @@ $$\textbf{J}(\boldsymbol{\theta}) = -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(\hat{p
 
 $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=1}^{m}(\sigma(\boldsymbol{\theta}^T\textbf{x}^{(i)}) - y^{(i)})x_j^{(i)}$$
 
-
+#
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzMxNDQ3MSwtMTkwMjU5MjU3NCwxMj
-UxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMywyMDUzNTAz
-ODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNzEsLTIyNjgyNjMxLC
-0xNDI1MTg3OTQzLDE4MzI3NDE3NDksNjU4MTAyODAxLDE1NDIw
-ODMwOTMsNTcwNjU4NTQ3LC01NTM3NzI2LC0xNzg5MDAyMTU5LC
-04MDU5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkw
-NDM4MDZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTc3Mjk1ODQsLTMwNzMxNDQ3MSwtMT
+kwMjU5MjU3NCwxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2
+MTYxMywyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNz
+EsLTIyNjgyNjMxLC0xNDI1MTg3OTQzLDE4MzI3NDE3NDksNjU4
+MTAyODAxLDE1NDIwODMwOTMsNTcwNjU4NTQ3LC01NTM3NzI2LC
+0xNzg5MDAyMTU5LC04MDU5MTUzNywtMjAzNTQzMjY0NiwtNDI2
+MDQ4NzI2XX0=
 -->
