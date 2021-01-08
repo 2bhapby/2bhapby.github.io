@@ -362,11 +362,11 @@ $t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ �
 
 **비용 함수**
 
-하나의 훈련샘플 $\textbf{x}$에 대한 비용함수
+- 하나의 훈련샘플 $\textbf{x}$에 대한 비용함수
 
-$c(\boldsymbol{\theta}) = \left\{\begin{matrix}
+$$c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 -log(\hat{p}) \quad\quad\quad y = 1 일때 \\ -log(1-\hat{p}) \quad y = 0 일때
-\end{matrix}\right.$
+\end{matrix}\right.$$
 
 > t가 0에 가까워지면 -log(t)가 매우 커진다 -> 양성 샘플에 대하여 비용이 크게 증가하므로 타당하다.
 
@@ -374,18 +374,24 @@ $c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 
 >  음성 샘플에 대해서도 유사하게 적용가능하다.
 
-로지스틱 회귀의 비용 함수(로그 손실)
+- 로지스틱 회귀의 비용 함수(로그 손실)
 
-$\textbf{J}(\boldsymbol{\theta}) = -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(\hat{p}^{(i)})+(1-y^{(i)})log(1-\hat{p}^{(i)})]$
+$$\textbf{J}(\boldsymbol{\theta}) = -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(\hat{p}^{(i)})+(1-y^{(i)})log(1-\hat{p}^{(i)})]$$
+
+최솟ㄱ값을 계산하는 알려진 해는 없지만 볼록 함수이므로 경사 하강법이 전역 최솟값을 찾는 것을 보장한다.
+
+- 로지스틱 비용 함수의 편도함수
+
+$$\frac{\}{}$$
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM2MTQxNDMsLTYzMTMxMzcyNiwtMT
-I2MTYxNjEzLDIwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2
-NDA3MSwtMjI2ODI2MzEsLTE0MjUxODc5NDMsMTgzMjc0MTc0OS
-w2NTgxMDI4MDEsMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3
-MjYsLTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC
-00MjYwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAx
-MzAwNDE1OV19
+eyJoaXN0b3J5IjpbMTI1MTA1MDQ4OCwtNjMxMzEzNzI2LC0xMj
+YxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0
+MDcxLC0yMjY4MjYzMSwtMTQyNTE4Nzk0MywxODMyNzQxNzQ5LD
+Y1ODEwMjgwMSwxNTQyMDgzMDkzLDU3MDY1ODU0NywtNTUzNzcy
+NiwtMTc4OTAwMjE1OSwtODA1OTE1MzcsLTIwMzU0MzI2NDYsLT
+QyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcxODY0MjczLC0xMDEz
+MDA0MTU5XX0=
 -->
