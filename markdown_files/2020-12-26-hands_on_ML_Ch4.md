@@ -360,6 +360,7 @@ $t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ �
 - 양성 샘플$(y=1)$에 대해서는 높은 확률을 추정, 음성 샘플$(y=0)$에 대해서는 낮은 확률을 추정하는 모델의 파라미터 벡터 $\boldsymbol\theta$를 찾는 것
 
 
+**비용 함수**
 
 
 
@@ -367,11 +368,11 @@ $t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ �
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTM2NDA3MSwtMjI2ODI2MzEsLTE0Mj
-UxODc5NDMsMTgzMjc0MTc0OSw2NTgxMDI4MDEsMTU0MjA4MzA5
-Myw1NzA2NTg1NDcsLTU1Mzc3MjYsLTE3ODkwMDIxNTksLTgwNT
-kxNTM3LC0yMDM1NDMyNjQ2LC00MjYwNDg3MjYsLTc0OTA0Mzgw
-NiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NTQxLD
-E5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMy
-ODddfQ==
+eyJoaXN0b3J5IjpbLTE0NDc4NjY2OTYsMTA4OTM2NDA3MSwtMj
+I2ODI2MzEsLTE0MjUxODc5NDMsMTgzMjc0MTc0OSw2NTgxMDI4
+MDEsMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3MjYsLTE3OD
+kwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00MjYwNDg3
+MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OS
+wxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4
+ODc4OV19
 -->
