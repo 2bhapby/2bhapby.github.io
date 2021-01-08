@@ -342,21 +342,21 @@ $\hat{p}= h_\theta(\bold{x}) = \sigma(\boldsymbol{\theta}^T\bold{x})$
 
 $\hat{y} = 
 \left\{\begin{matrix} 0  \quad \hat{p} < 0.5 일때 
-\\ 1  \quad \hat{p} \ 0.5 일때 
+\\ 1  \quad \hat{p} \geq 0.5 일때 
 \end{matrix}\right.$
 
-
+$t < 0$ 이면 $\sigma(t) < 0.5$이고 $ㅅ$
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjgwOTIzLC0xNDI1MTg3OTQzLDE4Mz
-I3NDE3NDksNjU4MTAyODAxLDE1NDIwODMwOTMsNTcwNjU4NTQ3
-LC01NTM3NzI2LC0xNzg5MDAyMTU5LC04MDU5MTUzNywtMjAzNT
-QzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4MDYsLTEyNzE4NjQy
-NzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MSwxOTA4MjY0ODU0LD
-I2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUzMjg3LDE0MjIwNTgz
-NDZdfQ==
+eyJoaXN0b3J5IjpbLTg5OTc2MjI4NiwtMTQyNTE4Nzk0MywxOD
+MyNzQxNzQ5LDY1ODEwMjgwMSwxNTQyMDgzMDkzLDU3MDY1ODU0
+NywtNTUzNzcyNiwtMTc4OTAwMjE1OSwtODA1OTE1MzcsLTIwMz
+U0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcxODY0
+MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2NDg1NC
+wyNjQ1NTQ4MjEsNDE1Mzg4Nzg5LDc0OTE1MzI4NywxNDIyMDU4
+MzQ2XX0=
 -->
