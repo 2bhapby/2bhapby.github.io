@@ -342,19 +342,21 @@ $\hat{p}= h_\theta(\bold{x}) = \sigma(\boldsymbol{\theta}^T\bold{x})$
 
 $\hat{y} = 
 \left\{\begin{matrix} 0  \quad \hat{p} < 0.5 일때 
-\\ 1  \quad \hat{p} < 0.5 일때 
+\\ 1  \quad \hat{p} \ 0.5 일때 
 \end{matrix}\right.$
+
+
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUxODc5NDMsMTgzMjc0MTc0OSw2NT
-gxMDI4MDEsMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3MjYs
-LTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00Mj
-YwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAw
-NDE1OSwxODQ3NTY0NTQxLDE5MDgyNjQ4NTQsMjY0NTU0ODIxLD
-QxNTM4ODc4OSw3NDkxNTMyODcsMTQyMjA1ODM0NiwtNjE5NDIy
-NTg0XX0=
+eyJoaXN0b3J5IjpbLTMwNjgwOTIzLC0xNDI1MTg3OTQzLDE4Mz
+I3NDE3NDksNjU4MTAyODAxLDE1NDIwODMwOTMsNTcwNjU4NTQ3
+LC01NTM3NzI2LC0xNzg5MDAyMTU5LC04MDU5MTUzNywtMjAzNT
+QzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4MDYsLTEyNzE4NjQy
+NzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MSwxOTA4MjY0ODU0LD
+I2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUzMjg3LDE0MjIwNTgz
+NDZdfQ==
 -->
