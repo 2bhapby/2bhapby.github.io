@@ -376,16 +376,16 @@ $c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 
 로지스틱 회귀의 비용 함수(로그 손실)
 
-$$
+$\textbf{J}(\boldsymbol{\theta}) = -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(\hat{p}^{(i)})+(1-y^{(i)})log(1-\hat{p}^{(i)})]$
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTMxMzcyNiwtMTI2MTYxNjEzLDIwNT
-M1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2NDA3MSwtMjI2ODI2
-MzEsLTE0MjUxODc5NDMsMTgzMjc0MTc0OSw2NTgxMDI4MDEsMT
-U0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3MjYsLTE3ODkwMDIx
-NTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00MjYwNDg3MjYsLT
-c0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3
-NTY0NTQxXX0=
+eyJoaXN0b3J5IjpbLTExMDM2MTQxNDMsLTYzMTMxMzcyNiwtMT
+I2MTYxNjEzLDIwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2
+NDA3MSwtMjI2ODI2MzEsLTE0MjUxODc5NDMsMTgzMjc0MTc0OS
+w2NTgxMDI4MDEsMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3
+MjYsLTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC
+00MjYwNDg3MjYsLTc0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAx
+MzAwNDE1OV19
 -->
