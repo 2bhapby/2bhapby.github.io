@@ -366,18 +366,19 @@ $c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 -log(\hat{p}) \quad\quad\quad y = 1 일때 \\ -log(1-\hat{p}) \quad y = 0 일때
 \end{matrix}\right.$
 
-
+> t가 0에 가까워지면 -log(t)가 매우 커지므로 타당하다
+> 모델이 양성 샘플을 0에 가까운 확률로 추정하면 비용이 크게 증가할 것이다.
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Njg4NTMxLDIwNTM1MDM4NDksLTE0ND
-c4NjY2OTYsMTA4OTM2NDA3MSwtMjI2ODI2MzEsLTE0MjUxODc5
-NDMsMTgzMjc0MTc0OSw2NTgxMDI4MDEsMTU0MjA4MzA5Myw1Nz
-A2NTg1NDcsLTU1Mzc3MjYsLTE3ODkwMDIxNTksLTgwNTkxNTM3
-LC0yMDM1NDMyNjQ2LC00MjYwNDg3MjYsLTc0OTA0MzgwNiwtMT
-I3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NTQxLDE5MDgy
-NjQ4NTRdfQ==
+eyJoaXN0b3J5IjpbLTEyNjE2MTYxMywyMDUzNTAzODQ5LC0xND
+Q3ODY2Njk2LDEwODkzNjQwNzEsLTIyNjgyNjMxLC0xNDI1MTg3
+OTQzLDE4MzI3NDE3NDksNjU4MTAyODAxLDE1NDIwODMwOTMsNT
+cwNjU4NTQ3LC01NTM3NzI2LC0xNzg5MDAyMTU5LC04MDU5MTUz
+NywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4MDYsLT
+EyNzE4NjQyNzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MSwxOTA4
+MjY0ODU0XX0=
 -->
