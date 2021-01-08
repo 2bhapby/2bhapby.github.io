@@ -411,15 +411,15 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 
 
 $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{argmax}s_k((\textbf x)) = \underset{k}{argmax}((\boldsymbol{\theta}^{(k)})^T\textbf x)$
- >argma
+ >argmax 는 함수를 최대화하는 변수의 값을 반환
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE3MjA1MTMsMjM0MzU2ODA2LDEwMT
-EzNDY2NjksLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMTkwMjU5
-MjU3NCwxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMy
-wyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNzEsLTIy
-NjgyNjMxLC0xNDI1MTg3OTQzLDE4MzI3NDE3NDksNjU4MTAyOD
-AxLDE1NDIwODMwOTMsNTcwNjU4NTQ3LC01NTM3NzI2LC0xNzg5
-MDAyMTU5XX0=
+eyJoaXN0b3J5IjpbLTExNDcwNjU2OSwyMzQzNTY4MDYsMTAxMT
+M0NjY2OSwtMjA5NDUzNTA1NSwtMzA3MzE0NDcxLC0xOTAyNTky
+NTc0LDEyNTEwNTA0ODgsLTYzMTMxMzcyNiwtMTI2MTYxNjEzLD
+IwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2NDA3MSwtMjI2
+ODI2MzEsLTE0MjUxODc5NDMsMTgzMjc0MTc0OSw2NTgxMDI4MD
+EsMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3MjYsLTE3ODkw
+MDIxNTldfQ==
 -->
