@@ -337,7 +337,7 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 
 $\hat{p}= h_\theta(\bold{x}) = \sigma(\boldsymbol{\theta}^T\bold{x})$
 > $\sigma$는 sigmoid 함수로 $\sigma(t) = \frac{1}{1+exp(-t)}$
----
+
 
 **로지스틱 회귀 모델 예측**
 
@@ -353,7 +353,12 @@ $t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ �
 
 ---
 
-**로지스틱 회귀 모델 훈련과 비용함수**
+### 로지스틱 회귀 모델 훈련과 비용함수
+
+**훈련 목적**
+
+- 양성 샘플에 대해서는 높은 확률을 추정, 음성 샘플에 대해서는 낮은 확률을 추정하는 모델의 파라미터 벡터 $\theta$를 찾는 것
+
 
 
 
@@ -362,11 +367,11 @@ $t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ �
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjgyNjMxLC0xNDI1MTg3OTQzLDE4Mz
-I3NDE3NDksNjU4MTAyODAxLDE1NDIwODMwOTMsNTcwNjU4NTQ3
-LC01NTM3NzI2LC0xNzg5MDAyMTU5LC04MDU5MTUzNywtMjAzNT
-QzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4MDYsLTEyNzE4NjQy
-NzMsLTEwMTMwMDQxNTksMTg0NzU2NDU0MSwxOTA4MjY0ODU0LD
-I2NDU1NDgyMSw0MTUzODg3ODksNzQ5MTUzMjg3LDE0MjIwNTgz
-NDZdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjQyMzI2NSwtMjI2ODI2MzEsLTE0Mj
+UxODc5NDMsMTgzMjc0MTc0OSw2NTgxMDI4MDEsMTU0MjA4MzA5
+Myw1NzA2NTg1NDcsLTU1Mzc3MjYsLTE3ODkwMDIxNTksLTgwNT
+kxNTM3LC0yMDM1NDMyNjQ2LC00MjYwNDg3MjYsLTc0OTA0Mzgw
+NiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3NTY0NTQxLD
+E5MDgyNjQ4NTQsMjY0NTU0ODIxLDQxNTM4ODc4OSw3NDkxNTMy
+ODddfQ==
 -->
