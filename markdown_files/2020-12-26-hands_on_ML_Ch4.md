@@ -345,14 +345,14 @@ $\hat{y} =
 \\ 1  \quad \hat{p} \geq 0.5 일때 
 \end{matrix}\right.$
 
-$t < 0$ 이면 $\sigma(t) < 0.5$이고 $ㅅ$
+$t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ 이므로 로지스틱 회귀 모델은 $\boldsymbol{\theta}^T\textbf{x}$
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTc2MjI4NiwtMTQyNTE4Nzk0MywxOD
+eyJoaXN0b3J5IjpbLTYxNDc5MjE3MSwtMTQyNTE4Nzk0MywxOD
 MyNzQxNzQ5LDY1ODEwMjgwMSwxNTQyMDgzMDkzLDU3MDY1ODU0
 NywtNTUzNzcyNiwtMTc4OTAwMjE1OSwtODA1OTE1MzcsLTIwMz
 U0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcxODY0
