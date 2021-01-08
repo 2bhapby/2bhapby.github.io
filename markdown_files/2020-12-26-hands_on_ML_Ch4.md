@@ -386,14 +386,25 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 
 ### 결정 경계
 
-로지스틱 회귀에서 양쪽의 확률이 똑같이 50%가 되는 
+로지스틱 회귀에서 양쪽의 확률이 똑같이 50%가 되는 곳 근방에서 결정 경계가 만들어진다.
+
+
+### 소프트맥스 회귀
+
+로지스틱 회귀 모델은 여러 개의 이진 분류기를 훈련시켜 연겨
+
+
+
+
+
+
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODM3NzI4LC0zMDczMTQ0NzEsLTE5MD
-I1OTI1NzQsMTI1MTA1MDQ4OCwtNjMxMzEzNzI2LC0xMjYxNjE2
-MTMsMjA1MzUwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC
-0yMjY4MjYzMSwtMTQyNTE4Nzk0MywxODMyNzQxNzQ5LDY1ODEw
-MjgwMSwxNTQyMDgzMDkzLDU3MDY1ODU0NywtNTUzNzcyNiwtMT
-c4OTAwMjE1OSwtODA1OTE1MzcsLTIwMzU0MzI2NDYsLTQyNjA0
-ODcyNl19
+eyJoaXN0b3J5IjpbLTc1ODIwODI0MSwtMzA3MzE0NDcxLC0xOT
+AyNTkyNTc0LDEyNTEwNTA0ODgsLTYzMTMxMzcyNiwtMTI2MTYx
+NjEzLDIwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2NDA3MS
+wtMjI2ODI2MzEsLTE0MjUxODc5NDMsMTgzMjc0MTc0OSw2NTgx
+MDI4MDEsMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3MjYsLT
+E3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00MjYw
+NDg3MjZdfQ==
 -->
