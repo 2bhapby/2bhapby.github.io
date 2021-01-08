@@ -366,18 +366,20 @@ $c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 -log(\hat{p}) \quad\quad\quad y = 1 일때 \\ -log(1-\hat{p}) \quad y = 0 일때
 \end{matrix}\right.$
 
-> t가 0에 가까워지면 -log(t)가 매우 커
+> t가 0에 가까워지면 -log(t)가 매우 커진다 -> 양성 샘플에 대하여 비용이 크게 증가하므로 타당하다.
+> t가 1에 가까워지면 -log(1-t) 가 매우 커진다 -> 음성 샘플에 대하여 비용이 크게 증가하므로 타당하다.
+> 
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDc2MjczOSwtMTI2MTYxNjEzLDIwNT
-M1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2NDA3MSwtMjI2ODI2
-MzEsLTE0MjUxODc5NDMsMTgzMjc0MTc0OSw2NTgxMDI4MDEsMT
-U0MjA4MzA5Myw1NzA2NTg1NDcsLTU1Mzc3MjYsLTE3ODkwMDIx
-NTksLTgwNTkxNTM3LC0yMDM1NDMyNjQ2LC00MjYwNDg3MjYsLT
-c0OTA0MzgwNiwtMTI3MTg2NDI3MywtMTAxMzAwNDE1OSwxODQ3
-NTY0NTQxXX0=
+eyJoaXN0b3J5IjpbNDgwNzc1NTQ1LC0xMjYxNjE2MTMsMjA1Mz
+UwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4MjYz
+MSwtMTQyNTE4Nzk0MywxODMyNzQxNzQ5LDY1ODEwMjgwMSwxNT
+QyMDgzMDkzLDU3MDY1ODU0NywtNTUzNzcyNiwtMTc4OTAwMjE1
+OSwtODA1OTE1MzcsLTIwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNz
+Q5MDQzODA2LC0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1
+NjQ1NDFdfQ==
 -->
