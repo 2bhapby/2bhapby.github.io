@@ -395,7 +395,8 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 
 **개념**
 
-- 샘플 $\textbf x$가 주어지면 소프트맥스 회귀 모델이 각 클래스 $k$에 대한 점수 $s_k(\textbf x)$를 계산하고 그 점수에 소프트맥스 함수를 적용하여 각 클래스의 확률을 추정한다.
+- 샘플 $\textbf x$가 주어지면 소프트맥스 회귀 모델이 각 클래스 $k$에 대한 점수 $s_k(\textbf x)$를 계산
+- 그 점수에 소프트맥스 함수를 적용하여 각 클래스의 확률을 추정한다.
 
 
 
@@ -404,7 +405,7 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzI1MzE5OSwtMjA5NDUzNTA1NSwtMz
+eyJoaXN0b3J5IjpbMTU4MTc2OTE3NiwtMjA5NDUzNTA1NSwtMz
 A3MzE0NDcxLC0xOTAyNTkyNTc0LDEyNTEwNTA0ODgsLTYzMTMx
 MzcyNiwtMTI2MTYxNjEzLDIwNTM1MDM4NDksLTE0NDc4NjY2OT
 YsMTA4OTM2NDA3MSwtMjI2ODI2MzEsLTE0MjUxODc5NDMsMTgz
