@@ -362,20 +362,24 @@ $t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ �
 
 **비용 함수**
 
+하나의 훈련샘플 $\textbf{x}$에 ㄷ
+
 $c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 -log(\hat{p}) \quad\quad\quad y = 1 일때 \\ -log(1-\hat{p}) \quad y = 0 일때
 \end{matrix}\right.$
 
 > t가 0에 가까워지면 -log(t)가 매우 커진다 -> 양성 샘플에 대하여 비용이 크게 증가하므로 타당하다.
-> t가 1에 가까워지면 -log(1-t) 가 매우 커진다 -> 음성 샘플에 대하여 비용이 크게 증가하므로 타당하다.
-> 
+
+> t가 1에 가까워지면 -log(t) 가 0이 된다 -> 양성 샘플에 대하여 비용이 0에 가까워지므로 타당하다.
+
+>  음성 샘플에 대해서도 유사하게 적용가능하다.
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNzc1NTQ1LC0xMjYxNjE2MTMsMjA1Mz
+eyJoaXN0b3J5IjpbMjY4NTAzMjcxLC0xMjYxNjE2MTMsMjA1Mz
 UwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4MjYz
 MSwtMTQyNTE4Nzk0MywxODMyNzQxNzQ5LDY1ODEwMjgwMSwxNT
 QyMDgzMDkzLDU3MDY1ODU0NywtNTUzNzcyNiwtMTc4OTAwMjE1
