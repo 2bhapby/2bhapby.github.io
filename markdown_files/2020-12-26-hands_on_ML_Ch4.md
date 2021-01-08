@@ -413,9 +413,11 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{argmax}s_k((\textbf x)) = \underset{k}{argmax}((\boldsymbol{\theta}^{(k)})^T\textbf x)$
  >argmax 는 함수를 최대화하는 변수의 값을 반환
 
+*소프트맥스 회귀 분류기는 한 번에 하나의 클래스만 예측한다. 그래서 상호 배타적인 클래스에서만 사용해야한다.*
+
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDcwNjU2OSwyMzQzNTY4MDYsMTAxMT
+eyJoaXN0b3J5IjpbLTk5NjE3MTY5NiwyMzQzNTY4MDYsMTAxMT
 M0NjY2OSwtMjA5NDUzNTA1NSwtMzA3MzE0NDcxLC0xOTAyNTky
 NTc0LDEyNTEwNTA0ODgsLTYzMTMxMzcyNiwtMTI2MTYxNjEzLD
 IwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2NDA3MSwtMjI2
