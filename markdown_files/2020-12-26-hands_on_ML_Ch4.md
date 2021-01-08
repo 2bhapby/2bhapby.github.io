@@ -363,7 +363,7 @@ $t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ �
 **비용 함수**
 
 $c(\boldsymbol{\theta}) = \left\{\begin{matrix}
--log(\hat{p}) \quad y = 1 일때 \\ -log(1-\hat{p}) \quad y = 0 일때
+-log(\hat{p}) \quad\quad\quad y = 1 일때 \\ -log(1-\hat{p}) \quad y = 0 일때
 \end{matrix}\right.$
 
 
@@ -371,11 +371,11 @@ $c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzUwMzg0OSwtMTQ0Nzg2NjY5NiwxMD
-g5MzY0MDcxLC0yMjY4MjYzMSwtMTQyNTE4Nzk0MywxODMyNzQx
-NzQ5LDY1ODEwMjgwMSwxNTQyMDgzMDkzLDU3MDY1ODU0NywtNT
-UzNzcyNiwtMTc4OTAwMjE1OSwtODA1OTE1MzcsLTIwMzU0MzI2
-NDYsLTQyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcxODY0MjczLC
-0xMDEzMDA0MTU5LDE4NDc1NjQ1NDEsMTkwODI2NDg1NCwyNjQ1
-NTQ4MjFdfQ==
+eyJoaXN0b3J5IjpbLTEwNTEyMDYwODksMjA1MzUwMzg0OSwtMT
+Q0Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4MjYzMSwtMTQyNTE4
+Nzk0MywxODMyNzQxNzQ5LDY1ODEwMjgwMSwxNTQyMDgzMDkzLD
+U3MDY1ODU0NywtNTUzNzcyNiwtMTc4OTAwMjE1OSwtODA1OTE1
+MzcsLTIwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQzODA2LC
+0xMjcxODY0MjczLC0xMDEzMDA0MTU5LDE4NDc1NjQ1NDEsMTkw
+ODI2NDg1NF19
 -->
