@@ -410,16 +410,16 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 >  - $\sigma(\textbf{s}(\textbf{x}))_k$ : 샘플  $\textbf{x}$에 대한 각 클래스의 점수가 주어졌을 때 이 샘플이 클래스 k에 속할 추정 확률
 
 
-$hat{y}  = $
+$hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{argmax}s_k((\textbf x)) = \underset{k}{argmax}((\boldsymbol{\theta}^{(k)})^T\textbf x)$
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0MzU2ODA2LDEwMTEzNDY2NjksLTIwOT
-Q1MzUwNTUsLTMwNzMxNDQ3MSwtMTkwMjU5MjU3NCwxMjUxMDUw
-NDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMywyMDUzNTAzODQ5LC
-0xNDQ3ODY2Njk2LDEwODkzNjQwNzEsLTIyNjgyNjMxLC0xNDI1
-MTg3OTQzLDE4MzI3NDE3NDksNjU4MTAyODAxLDE1NDIwODMwOT
-MsNTcwNjU4NTQ3LC01NTM3NzI2LC0xNzg5MDAyMTU5LC04MDU5
-MTUzN119
+eyJoaXN0b3J5IjpbOTI5MjYyNzgxLDIzNDM1NjgwNiwxMDExMz
+Q2NjY5LC0yMDk0NTM1MDU1LC0zMDczMTQ0NzEsLTE5MDI1OTI1
+NzQsMTI1MTA1MDQ4OCwtNjMxMzEzNzI2LC0xMjYxNjE2MTMsMj
+A1MzUwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4
+MjYzMSwtMTQyNTE4Nzk0MywxODMyNzQxNzQ5LDY1ODEwMjgwMS
+wxNTQyMDgzMDkzLDU3MDY1ODU0NywtNTUzNzcyNiwtMTc4OTAw
+MjE1OV19
 -->
