@@ -337,6 +337,7 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 
 $\hat{p}= h_\theta(\bold{x}) = \sigma(\boldsymbol{\theta}^T\bold{x})$
 > $\sigma$는 sigmoid 함수로 $\sigma(t) = \frac{1}{1+exp(-t)}$
+---
 
 **로지스틱 회귀 모델 예측**
 
@@ -348,14 +349,20 @@ $\hat{y} =
 $t < 0$ 이면 $\sigma(t) < 0.5$이고 $t \geq 0$ 이면 $\sigma(t) \geq 0.5$ 이므로 로지스틱 회귀 모델은 $\boldsymbol{\theta}^T\textbf{x}$가 양수일 때 1, 음수일 때 0이라고 예측
 
 >t = logit = log-odds
->$logit(p) = log(p / ( 1 - p ))$
+>$t = logit(p) = log(p / ( 1 - p ))$
+
+---
+
+**로지스틱 회귀 모델 훈련과 비용함수**
+
+
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MjY1NzY4LC0xNDI1MTg3OTQzLDE4Mz
+eyJoaXN0b3J5IjpbLTIyNjgyNjMxLC0xNDI1MTg3OTQzLDE4Mz
 I3NDE3NDksNjU4MTAyODAxLDE1NDIwODMwOTMsNTcwNjU4NTQ3
 LC01NTM3NzI2LC0xNzg5MDAyMTU5LC04MDU5MTUzNywtMjAzNT
 QzMjY0NiwtNDI2MDQ4NzI2LC03NDkwNDM4MDYsLTEyNzE4NjQy
