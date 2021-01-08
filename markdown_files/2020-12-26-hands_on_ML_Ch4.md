@@ -382,16 +382,16 @@ $$\textbf{J}(\boldsymbol{\theta}) = -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(\hat{p
 
 - 로지스틱 비용 함수의 편도함수
 
-$$\frac{\}{}$$
+$$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=1}^{m}(\sigma(\boldsymbol{\theta}^T\textbf{x}^{(i)}) - y^{(i)})x_j^{(i)}$$
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTA1MDQ4OCwtNjMxMzEzNzI2LC0xMj
-YxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0
-MDcxLC0yMjY4MjYzMSwtMTQyNTE4Nzk0MywxODMyNzQxNzQ5LD
-Y1ODEwMjgwMSwxNTQyMDgzMDkzLDU3MDY1ODU0NywtNTUzNzcy
-NiwtMTc4OTAwMjE1OSwtODA1OTE1MzcsLTIwMzU0MzI2NDYsLT
-QyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcxODY0MjczLC0xMDEz
-MDA0MTU5XX0=
+eyJoaXN0b3J5IjpbLTE5MDI1OTI1NzQsMTI1MTA1MDQ4OCwtNj
+MxMzEzNzI2LC0xMjYxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0Nzg2
+NjY5NiwxMDg5MzY0MDcxLC0yMjY4MjYzMSwtMTQyNTE4Nzk0My
+wxODMyNzQxNzQ5LDY1ODEwMjgwMSwxNTQyMDgzMDkzLDU3MDY1
+ODU0NywtNTUzNzcyNiwtMTc4OTAwMjE1OSwtODA1OTE1MzcsLT
+IwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcx
+ODY0MjczXX0=
 -->
