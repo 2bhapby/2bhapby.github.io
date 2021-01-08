@@ -411,15 +411,15 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 
 
 $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{argmax}s_k((\textbf x)) = \underset{k}{argmax}((\boldsymbol{\theta}^{(k)})^T\textbf x)$
-
+ >argma
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5MjYyNzgxLDIzNDM1NjgwNiwxMDExMz
-Q2NjY5LC0yMDk0NTM1MDU1LC0zMDczMTQ0NzEsLTE5MDI1OTI1
-NzQsMTI1MTA1MDQ4OCwtNjMxMzEzNzI2LC0xMjYxNjE2MTMsMj
-A1MzUwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4
-MjYzMSwtMTQyNTE4Nzk0MywxODMyNzQxNzQ5LDY1ODEwMjgwMS
-wxNTQyMDgzMDkzLDU3MDY1ODU0NywtNTUzNzcyNiwtMTc4OTAw
-MjE1OV19
+eyJoaXN0b3J5IjpbLTE3MzE3MjA1MTMsMjM0MzU2ODA2LDEwMT
+EzNDY2NjksLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMTkwMjU5
+MjU3NCwxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMy
+wyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNzEsLTIy
+NjgyNjMxLC0xNDI1MTg3OTQzLDE4MzI3NDE3NDksNjU4MTAyOD
+AxLDE1NDIwODMwOTMsNTcwNjU4NTQ3LC01NTM3NzI2LC0xNzg5
+MDAyMTU5XX0=
 -->
