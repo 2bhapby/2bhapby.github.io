@@ -378,7 +378,7 @@ $$c(\boldsymbol{\theta}) = \left\{\begin{matrix}
 
 $$\textbf{J}(\boldsymbol{\theta}) = -\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log(\hat{p}^{(i)})+(1-y^{(i)})log(1-\hat{p}^{(i)})]$$
 
-최솟ㄱ값을 계산하는 알려진 해는 없지만 볼록 함수이므로 경사 하강법이 전역 최솟값을 찾는 것을 보장한다.
+최솟값을 계산하는 알려진 해는 없지만 볼록 함수이므로 경사 하강법이 전역 최솟값을 찾는 것을 보장한다.
 
 - 로지스틱 비용 함수의 편도함수
 
@@ -387,11 +387,11 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI1OTI1NzQsMTI1MTA1MDQ4OCwtNj
-MxMzEzNzI2LC0xMjYxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0Nzg2
-NjY5NiwxMDg5MzY0MDcxLC0yMjY4MjYzMSwtMTQyNTE4Nzk0My
-wxODMyNzQxNzQ5LDY1ODEwMjgwMSwxNTQyMDgzMDkzLDU3MDY1
-ODU0NywtNTUzNzcyNiwtMTc4OTAwMjE1OSwtODA1OTE1MzcsLT
-IwMzU0MzI2NDYsLTQyNjA0ODcyNiwtNzQ5MDQzODA2LC0xMjcx
-ODY0MjczXX0=
+eyJoaXN0b3J5IjpbLTMwNzMxNDQ3MSwtMTkwMjU5MjU3NCwxMj
+UxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMywyMDUzNTAz
+ODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNzEsLTIyNjgyNjMxLC
+0xNDI1MTg3OTQzLDE4MzI3NDE3NDksNjU4MTAyODAxLDE1NDIw
+ODMwOTMsNTcwNjU4NTQ3LC01NTM3NzI2LC0xNzg5MDAyMTU5LC
+04MDU5MTUzNywtMjAzNTQzMjY0NiwtNDI2MDQ4NzI2LC03NDkw
+NDM4MDZdfQ==
 -->
