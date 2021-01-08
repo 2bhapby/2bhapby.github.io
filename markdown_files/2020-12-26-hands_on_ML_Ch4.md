@@ -403,18 +403,19 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 
 각 클래스는 자신만의 파라미터 벡터 $\boldsymbol{\theta}^{(k)}$가 있다. 이 벡터들은 파라미터 행렬 $\Theta$에 행으로 저장된다.
 
-
+>소프트맥스 함수
+> $\hat{p}_k = \sigma(\textbf{s(x)})$
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTYzMjM0OCwtMjA5NDUzNTA1NSwtMz
-A3MzE0NDcxLC0xOTAyNTkyNTc0LDEyNTEwNTA0ODgsLTYzMTMx
-MzcyNiwtMTI2MTYxNjEzLDIwNTM1MDM4NDksLTE0NDc4NjY2OT
-YsMTA4OTM2NDA3MSwtMjI2ODI2MzEsLTE0MjUxODc5NDMsMTgz
-Mjc0MTc0OSw2NTgxMDI4MDEsMTU0MjA4MzA5Myw1NzA2NTg1ND
-csLTU1Mzc3MjYsLTE3ODkwMDIxNTksLTgwNTkxNTM3LC0yMDM1
-NDMyNjQ2XX0=
+eyJoaXN0b3J5IjpbMzE1MzcyODQ0LC0yMDk0NTM1MDU1LC0zMD
+czMTQ0NzEsLTE5MDI1OTI1NzQsMTI1MTA1MDQ4OCwtNjMxMzEz
+NzI2LC0xMjYxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0Nzg2NjY5Ni
+wxMDg5MzY0MDcxLC0yMjY4MjYzMSwtMTQyNTE4Nzk0MywxODMy
+NzQxNzQ5LDY1ODEwMjgwMSwxNTQyMDgzMDkzLDU3MDY1ODU0Ny
+wtNTUzNzcyNiwtMTc4OTAwMjE1OSwtODA1OTE1MzcsLTIwMzU0
+MzI2NDZdfQ==
 -->
