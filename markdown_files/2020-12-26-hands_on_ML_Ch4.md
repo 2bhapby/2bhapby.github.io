@@ -391,7 +391,11 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 
 ### 소프트맥스 회귀
 
-로지스틱 회귀 모델은 여러 개의 이진 분류기를 훈련시켜 연결하지 않고 직접 다중 클래스를 지원하도록 일반화될 수 있다. 이를 소프트맥스 회귀 혹은 다항 로지스틱 회귀라고 한다.
+로지스틱 회귀 모델은 여러 개의 이진 분류기를 훈련시켜 연결하지 않고 직접 다중 클래스를 지원하도록 일반화될 수 있다. 이를 **소프트맥스 회귀** 혹은 **다항 로지스틱 회귀**라고 한다.
+
+**개념**
+
+- 샘플 
 
 
 
@@ -400,11 +404,11 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMT
-kwMjU5MjU3NCwxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2
-MTYxMywyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNz
-EsLTIyNjgyNjMxLC0xNDI1MTg3OTQzLDE4MzI3NDE3NDksNjU4
-MTAyODAxLDE1NDIwODMwOTMsNTcwNjU4NTQ3LC01NTM3NzI2LC
-0xNzg5MDAyMTU5LC04MDU5MTUzNywtMjAzNTQzMjY0NiwtNDI2
-MDQ4NzI2XX0=
+eyJoaXN0b3J5IjpbLTExNzI0NjQ5NTQsLTIwOTQ1MzUwNTUsLT
+MwNzMxNDQ3MSwtMTkwMjU5MjU3NCwxMjUxMDUwNDg4LC02MzEz
+MTM3MjYsLTEyNjE2MTYxMywyMDUzNTAzODQ5LC0xNDQ3ODY2Nj
+k2LDEwODkzNjQwNzEsLTIyNjgyNjMxLC0xNDI1MTg3OTQzLDE4
+MzI3NDE3NDksNjU4MTAyODAxLDE1NDIwODMwOTMsNTcwNjU4NT
+Q3LC01NTM3NzI2LC0xNzg5MDAyMTU5LC04MDU5MTUzNywtMjAz
+NTQzMjY0Nl19
 -->
