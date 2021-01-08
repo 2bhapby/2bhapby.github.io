@@ -407,18 +407,19 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 > $\hat{p}_k = \sigma(\textbf{s}(\textbf x))_k = \frac{exp(s_k(\mathbf{x}))}{\sum_{j=1}^{K}exp(s_j(\mathbf{x}))}$
 > - K : 클래스 수
 >  - $\textbf{s}(\textbf x)$ : 샘플 $\textbf x$에 대한 각 클래스의 점수를 담은 벡터
->  - $\sigma(\textbf{s}(\textbf$
+>  - $\sigma(\textbf{s}(\textbf{x}))_k$ : 샘플  $\textbf{x}$에 대한 각 클래스의 점수가 주어졌을 때 이 샘플이 클래스 k에 속할 추정 확률
+
 
 
 
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Njk2Njg1OSwxMDExMzQ2NjY5LC0yMD
-k0NTM1MDU1LC0zMDczMTQ0NzEsLTE5MDI1OTI1NzQsMTI1MTA1
-MDQ4OCwtNjMxMzEzNzI2LC0xMjYxNjE2MTMsMjA1MzUwMzg0OS
-wtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4MjYzMSwtMTQy
-NTE4Nzk0MywxODMyNzQxNzQ5LDY1ODEwMjgwMSwxNTQyMDgzMD
-kzLDU3MDY1ODU0NywtNTUzNzcyNiwtMTc4OTAwMjE1OSwtODA1
-OTE1MzddfQ==
+eyJoaXN0b3J5IjpbLTIxMzY3MzYwMzMsMTAxMTM0NjY2OSwtMj
+A5NDUzNTA1NSwtMzA3MzE0NDcxLC0xOTAyNTkyNTc0LDEyNTEw
+NTA0ODgsLTYzMTMxMzcyNiwtMTI2MTYxNjEzLDIwNTM1MDM4ND
+ksLTE0NDc4NjY2OTYsMTA4OTM2NDA3MSwtMjI2ODI2MzEsLTE0
+MjUxODc5NDMsMTgzMjc0MTc0OSw2NTgxMDI4MDEsMTU0MjA4Mz
+A5Myw1NzA2NTg1NDcsLTU1Mzc3MjYsLTE3ODkwMDIxNTksLTgw
+NTkxNTM3XX0=
 -->
