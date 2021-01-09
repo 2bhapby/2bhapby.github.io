@@ -31,34 +31,34 @@ $$\hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}
  
  이를 벡터 형식으로 나타내면
 
-$$\hat{y} = h_{\theta}(\textbf{x}) = \bm{\theta} \cdot \textbf{x}$$
+$$\hat{y} = h_{\theta}(\textbf{x}) = \boldsymbol{\theta} \cdot \textbf{x}$$
 
 -	$\textbf{x}$ : 특성 벡터
--	$h_{\bm{\theta}}$ : 모델 파라미터 $\bm{\theta}$ 를 사용한 가설 함수
+-	$h_{\boldsymbol{\theta}}$ : 모델 파라미터 $\boldsymbol{\theta}$ 를 사용한 가설 함수
 
 MSE cost function은 아래와 같이 표현된다.
-- $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$
+- $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\boldsymbol{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$
 
 >cost function : 예측 값과 실제 값의 차이를 나타낸 함수(미묘한 차이가 있긴하지만 loss function이라고 생각해도 무관하다.)
->우리는 cost function이 최소가 되는 $\bm{\theta}$ 를 찾는 것이 목표이다.
+>우리는 cost function이 최소가 되는 $\boldsymbol{\theta}$ 를 찾는 것이 목표이다.
 
 ### 정규방정식
 
-$\bm{\theta}$를 구하기 위한 해석적인 방법이 있는데 이 방정식을 정규방정식이라 부른다.
+$\boldsymbol{\theta}$를 구하기 위한 해석적인 방법이 있는데 이 방정식을 정규방정식이라 부른다.
 
-$$\hat{\bm{\theta}} = (\textbf{X}^{T}\textbf{X})^{-1}\textbf{X}^T\textbf{y}$$
-- $\hat{\bm{\theta}}$ : 비용함수를 최소하하는 ${\bm{\theta}}$
+$$\hat{\boldsymbol{\theta}} = (\textbf{X}^{T}\textbf{X})^{-1}\textbf{X}^T\textbf{y}$$
+- $\hat{\boldsymbol{\theta}}$ : 비용함수를 최소하하는 ${\boldsymbol{\theta}}$
 - $\textbf{y}$ : 타깃 벡터
 
-$$\hat{\textbf{y}} = \textbf{X} \bm{\theta}  $$
+$$\hat{\textbf{y}} = \textbf{X} \boldsymbol{\theta}  $$
 
 - $\hat{\textbf{y}}$ : 예측 벡터
 
-위와 같은 방법으로 우리는 $\hat\bm{\theta}$를 구할 수 있고 이를 통해 $\hat{\textbf{y}}$를 예측할 수 있다.
+위와 같은 방법으로 우리는 $\hat\boldsymbol{\theta}$를 구할 수 있고 이를 통해 $\hat{\textbf{y}}$를 예측할 수 있다.
 
 ### 사이킷런에서의 선형회귀
 
-LinearRegression 클래스를 사용하면 매우 쉽게 $\hat\bm{\theta}$를 구할 수 있다.
+LinearRegression 클래스를 사용하면 매우 쉽게 $\hat\boldsymbol{\theta}$를 구할 수 있다.
 
 LinearRegression 클래스는 scipy.linalg.lstsq() 함수를 기반으로 작동한다.
 
@@ -444,7 +444,7 @@ solver 매개변수에 "lbfgs"와 같이 소프트맥스 회귀를 지원하는 
 
 reference: Hands-on Machine Learning with Scikit-learn, Keras & Tensorflow, Second Ed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODUzNjY3NywtMzI0ODk1MDY5LDU5ND
+eyJoaXN0b3J5IjpbLTc5MjExMzYzNywtMzI0ODk1MDY5LDU5ND
 k0MTQyNSwtNTU4MDM4NjQzLC0xMDk0NjU2OTQ2LDEwODMwNDk5
 MjIsLTE1MzU5MTE0MzgsLTk5NjE3MTY5NiwyMzQzNTY4MDYsMT
 AxMTM0NjY2OSwtMjA5NDUzNTA1NSwtMzA3MzE0NDcxLC0xOTAy
