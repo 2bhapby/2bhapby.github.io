@@ -433,13 +433,19 @@ $J(\Theta) = - \frac{1}{m} \sum_{i=1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(
 
 - 클래스 k에 대한 크로스 엔트로피의 그레디언트 벡터
 
-$\nabla_{\boldsymbol{\theta}^{(k)}}\textbf J(\boldsymbol{\Theta})= \frac{1}{m}\sum_{i=1}^{m}(\hat p_k^{(i)} - y_k^{(i)})\textbf{x}^{(i)}$
+	$\nabla_{\boldsymbol{\theta}^{(k)}}\textbf J(\boldsymbol{\Theta})= \frac{1}{m}\sum_{i=1}^{m}(\hat p_k^{(i)} - y_k^{(i)})\textbf{x}^{(i)}$
+
+
+sklearn의 LogisticRegression은 클래스가 둘 이상일 때 기본적으로 OvA 전략을 사용
+multi_class 매개변수를 "multinomial"로 바꾸면 소프트맥스 회귀를 사용할 수 있음
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNjAzMTE3LC0xMDk0NjU2OTQ2LDEwOD
-MwNDk5MjIsLTE1MzU5MTE0MzgsLTk5NjE3MTY5NiwyMzQzNTY4
-MDYsMTAxMTM0NjY2OSwtMjA5NDUzNTA1NSwtMzA3MzE0NDcxLC
-0xOTAyNTkyNTc0LDEyNTEwNTA0ODgsLTYzMTMxMzcyNiwtMTI2
-MTYxNjEzLDIwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2ND
-A3MSwtMjI2ODI2MzEsLTE0MjUxODc5NDMsMTgzMjc0MTc0OSw2
-NTgxMDI4MDFdfQ==
+eyJoaXN0b3J5IjpbLTU1ODAzODY0MywtMTA5NDY1Njk0NiwxMD
+gzMDQ5OTIyLC0xNTM1OTExNDM4LC05OTYxNzE2OTYsMjM0MzU2
+ODA2LDEwMTEzNDY2NjksLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MS
+wtMTkwMjU5MjU3NCwxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEy
+NjE2MTYxMywyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNj
+QwNzEsLTIyNjgyNjMxLC0xNDI1MTg3OTQzLDE4MzI3NDE3NDks
+NjU4MTAyODAxXX0=
 -->
