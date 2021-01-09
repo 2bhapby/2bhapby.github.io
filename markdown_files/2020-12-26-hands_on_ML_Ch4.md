@@ -433,13 +433,13 @@ $J(\Theta) = - \frac{1}{m} \sum_{i=1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(
 
 - 클래스 k에 대한 크로스 엔트로피의 그레디언트 벡터
 
-
+$\nabla_{\boldsymbol{\theta}^{(k)}}\textbf J(\boldsymbol{\Theta})= \frac{1}{m}\sum_{i=1}^{m}(\hat p_k^{(i)} - y_k^{(i)})\textbf{x}^{(i)}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ2NTY5NDYsMTA4MzA0OTkyMiwtMT
-UzNTkxMTQzOCwtOTk2MTcxNjk2LDIzNDM1NjgwNiwxMDExMzQ2
-NjY5LC0yMDk0NTM1MDU1LC0zMDczMTQ0NzEsLTE5MDI1OTI1Nz
-QsMTI1MTA1MDQ4OCwtNjMxMzEzNzI2LC0xMjYxNjE2MTMsMjA1
-MzUwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4Mj
-YzMSwtMTQyNTE4Nzk0MywxODMyNzQxNzQ5LDY1ODEwMjgwMSwx
-NTQyMDgzMDkzXX0=
+eyJoaXN0b3J5IjpbMjcwNjAzMTE3LC0xMDk0NjU2OTQ2LDEwOD
+MwNDk5MjIsLTE1MzU5MTE0MzgsLTk5NjE3MTY5NiwyMzQzNTY4
+MDYsMTAxMTM0NjY2OSwtMjA5NDUzNTA1NSwtMzA3MzE0NDcxLC
+0xOTAyNTkyNTc0LDEyNTEwNTA0ODgsLTYzMTMxMzcyNiwtMTI2
+MTYxNjEzLDIwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2ND
+A3MSwtMjI2ODI2MzEsLTE0MjUxODc5NDMsMTgzMjc0MTc0OSw2
+NTgxMDI4MDFdfQ==
 -->
