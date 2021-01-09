@@ -438,14 +438,17 @@ $J(\Theta) = - \frac{1}{m} \sum_{i=1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(
 
 sklearn의 LogisticRegression은 클래스가 둘 이상일 때 기본적으로 OvA 전략을 사용
 multi_class 매개변수를 "multinomial"로 바꾸면 소프트맥스 회귀를 사용할 수 있음
+solver 매개변수에 "lbfgs"와 같이 소프트맥스 회귀를 지원하는 알고리즘을 지정해야 함
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODAzODY0MywtMTA5NDY1Njk0NiwxMD
-gzMDQ5OTIyLC0xNTM1OTExNDM4LC05OTYxNzE2OTYsMjM0MzU2
-ODA2LDEwMTEzNDY2NjksLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MS
-wtMTkwMjU5MjU3NCwxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEy
-NjE2MTYxMywyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNj
-QwNzEsLTIyNjgyNjMxLC0xNDI1MTg3OTQzLDE4MzI3NDE3NDks
-NjU4MTAyODAxXX0=
+eyJoaXN0b3J5IjpbNTk0OTQxNDI1LC01NTgwMzg2NDMsLTEwOT
+Q2NTY5NDYsMTA4MzA0OTkyMiwtMTUzNTkxMTQzOCwtOTk2MTcx
+Njk2LDIzNDM1NjgwNiwxMDExMzQ2NjY5LC0yMDk0NTM1MDU1LC
+0zMDczMTQ0NzEsLTE5MDI1OTI1NzQsMTI1MTA1MDQ4OCwtNjMx
+MzEzNzI2LC0xMjYxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0Nzg2Nj
+Y5NiwxMDg5MzY0MDcxLC0yMjY4MjYzMSwtMTQyNTE4Nzk0Mywx
+ODMyNzQxNzQ5XX0=
 -->
