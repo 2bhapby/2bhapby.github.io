@@ -277,7 +277,7 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 - **특징**
 -- 덜 중요한 특성의 가중치를 제거하려고 한다.($\theta_i$를 0으로 만든다.)
 -- 자동으로 특성 선택을 하고 희소 모델을 만든다.
---$\theta_i = 0$에서 미분 불가능하다. 하지만 이때 서브그레디언트 벡터 $\bold g$를 사용하면 경사하강법을 적용하는데 문제 없다.
+--$\theta_i = 0$에서 미분 불가능하다. 하지만 이때 서브그레디언트 벡터 $\textbf g$를 사용하면 경사하강법을 적용하는데 문제 없다.
 
 
 
@@ -444,11 +444,11 @@ solver 매개변수에 "lbfgs"와 같이 소프트맥스 회귀를 지원하는 
 
 reference: Hands-on Machine Learning with Scikit-learn, Keras & Tensorflow, Second Ed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNTc3OTUxLC0zMjQ4OTUwNjksNTk0OT
-QxNDI1LC01NTgwMzg2NDMsLTEwOTQ2NTY5NDYsMTA4MzA0OTky
-MiwtMTUzNTkxMTQzOCwtOTk2MTcxNjk2LDIzNDM1NjgwNiwxMD
-ExMzQ2NjY5LC0yMDk0NTM1MDU1LC0zMDczMTQ0NzEsLTE5MDI1
-OTI1NzQsMTI1MTA1MDQ4OCwtNjMxMzEzNzI2LC0xMjYxNjE2MT
-MsMjA1MzUwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC0y
-MjY4MjYzMV19
+eyJoaXN0b3J5IjpbMTY3NDE4MDQ2NywtMzI0ODk1MDY5LDU5ND
+k0MTQyNSwtNTU4MDM4NjQzLC0xMDk0NjU2OTQ2LDEwODMwNDk5
+MjIsLTE1MzU5MTE0MzgsLTk5NjE3MTY5NiwyMzQzNTY4MDYsMT
+AxMTM0NjY2OSwtMjA5NDUzNTA1NSwtMzA3MzE0NDcxLC0xOTAy
+NTkyNTc0LDEyNTEwNTA0ODgsLTYzMTMxMzcyNiwtMTI2MTYxNj
+EzLDIwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2NDA3MSwt
+MjI2ODI2MzFdfQ==
 -->
