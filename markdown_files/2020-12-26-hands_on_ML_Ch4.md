@@ -62,7 +62,7 @@ LinearRegression 클래스를 사용하면 매우 쉽게 $\hat\boldsymbol{\theta
 
 LinearRegression 클래스는 scipy.linalg.lstsq() 함수를 기반으로 작동한다.
 
-이 함수는 $\hat\bm{\theta} = \textbf{X}^+\textbf{y}$를 계산한다.
+이 함수는 $\hat\boldsymbol{\theta} = \textbf{X}^+\textbf{y}$를 계산한다.
 
 $\textbf{X}^+$는 유사역행렬이다.
 > 유사역행렬은 특잇값 분해라는 표준 행렬 분해 기법을 사용해 계산된다.
@@ -85,9 +85,9 @@ $\textbf{X}^+$는 유사역행렬이다.
 ### 경사하강법이란?
  비용 함수를 최적화하기 위해 반복해서 파라미터를 조정해가는 것
  
->$\bm{\theta}$에 대해 비용 함수의 현재 gradient를 계산하고 이를 감소하는 방향으로 진행한다. 그리고 gradient가 0이 되며 최솟값에 도달한 것이다.
+>$\boldsymbol{\theta}$에 대해 비용 함수의 현재 gradient를 계산하고 이를 감소하는 방향으로 진행한다. 그리고 gradient가 0이 되며 최솟값에 도달한 것이다.
 
-$\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수렴할 때까지 점진적으로 진행한다.
+$\boldsymbol{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수렴할 때까지 점진적으로 진행한다.
 
 ### 학습률(learning rate)
 
@@ -104,9 +104,9 @@ $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수�
 배치 경사하강법을 구현하려면 각 모델 파라미터 $\theta_j$에 대해 비용 함수의 그레디언트를 계산해야한다.
 
 **비용함수의 편도함수**
-$$\frac{\partial }{\partial \bm{\theta} _{j}} MSE(\bm\theta) = \frac{2}{m}\sum_{i=1}^{m}(\bm\theta^{T}\textbf{x}^{(i)} - y^{(i)})x{_{j}}^{(i)}$$
+$$\frac{\partial }{\partial \boldsymbol{\theta} _{j}} MSE(\boldsymbol\theta) = \frac{2}{m}\sum_{i=1}^{m}(\boldsymbol\theta^{T}\textbf{x}^{(i)} - y^{(i)})x{_{j}}^{(i)}$$
 
-> $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$ 를 $\theta_j로$ 편미분한 것
+> $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\boldsymbol{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$ 를 $\theta_j로$ 편미분한 것
 
 일일이 편도함수를 계산하는 대신에 한꺼번에 계산할 수 있는 방법이 있다.
 
@@ -444,11 +444,11 @@ solver 매개변수에 "lbfgs"와 같이 소프트맥스 회귀를 지원하는 
 
 reference: Hands-on Machine Learning with Scikit-learn, Keras & Tensorflow, Second Ed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjExMzYzNywtMzI0ODk1MDY5LDU5ND
-k0MTQyNSwtNTU4MDM4NjQzLC0xMDk0NjU2OTQ2LDEwODMwNDk5
-MjIsLTE1MzU5MTE0MzgsLTk5NjE3MTY5NiwyMzQzNTY4MDYsMT
-AxMTM0NjY2OSwtMjA5NDUzNTA1NSwtMzA3MzE0NDcxLC0xOTAy
-NTkyNTc0LDEyNTEwNTA0ODgsLTYzMTMxMzcyNiwtMTI2MTYxNj
-EzLDIwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4OTM2NDA3MSwt
-MjI2ODI2MzFdfQ==
+eyJoaXN0b3J5IjpbLTEwNzQxNDkyNjcsLTMyNDg5NTA2OSw1OT
+Q5NDE0MjUsLTU1ODAzODY0MywtMTA5NDY1Njk0NiwxMDgzMDQ5
+OTIyLC0xNTM1OTExNDM4LC05OTYxNzE2OTYsMjM0MzU2ODA2LD
+EwMTEzNDY2NjksLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMTkw
+MjU5MjU3NCwxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MT
+YxMywyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNzEs
+LTIyNjgyNjMxXX0=
 -->
