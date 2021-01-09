@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 모델 훈련
+title: 모델훈련
 ---
-
 
 # 모델 훈련
 
@@ -32,38 +31,38 @@ $$\hat{y} = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + \cdots + \theta_{n}
  
  이를 벡터 형식으로 나타내면
 
-$$\hat{y} = h_{\theta}(\textbf{x}) = \bm{\theta} \cdot \textbf{x}$$
+$$\hat{y} = h_{\theta}(\textbf{x}) = \boldsymbol{\theta} \cdot \textbf{x}$$
 
 -	$\textbf{x}$ : 특성 벡터
--	$h_{\bm{\theta}}$ : 모델 파라미터 $\bm{\theta}$ 를 사용한 가설 함수
+-	$h_{\boldsymbol{\theta}}$ : 모델 파라미터 $\boldsymbol{\theta}$ 를 사용한 가설 함수
 
 MSE cost function은 아래와 같이 표현된다.
-- $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$
+- $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\boldsymbol{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$
 
 >cost function : 예측 값과 실제 값의 차이를 나타낸 함수(미묘한 차이가 있긴하지만 loss function이라고 생각해도 무관하다.)
->우리는 cost function이 최소가 되는 $\bm{\theta}$ 를 찾는 것이 목표이다.
+>우리는 cost function이 최소가 되는 $\boldsymbol{\theta}$ 를 찾는 것이 목표이다.
 
 ### 정규방정식
 
-$\bm{\theta}$를 구하기 위한 해석적인 방법이 있는데 이 방정식을 정규방정식이라 부른다.
+$\boldsymbol{\theta}$를 구하기 위한 해석적인 방법이 있는데 이 방정식을 정규방정식이라 부른다.
 
-$$\hat{\bm{\theta}} = (\textbf{X}^{T}\textbf{X})^{-1}\textbf{X}^T\textbf{y}$$
-- $\hat{\bm{\theta}}$ : 비용함수를 최소하하는 ${\bm{\theta}}$
+$$\hat{\boldsymbol{\theta}} = (\textbf{X}^{T}\textbf{X})^{-1}\textbf{X}^T\textbf{y}$$
+- $\hat{\boldsymbol{\theta}}$ : 비용함수를 최소하하는 ${\boldsymbol{\theta}}$
 - $\textbf{y}$ : 타깃 벡터
 
-$$\hat{\textbf{y}} = \textbf{X} \bm{\theta}  $$
+$$\hat{\textbf{y}} = \textbf{X} \boldsymbol{\theta}  $$
 
 - $\hat{\textbf{y}}$ : 예측 벡터
 
-위와 같은 방법으로 우리는 $\hat\bm{\theta}$를 구할 수 있고 이를 통해 $\hat{\textbf{y}}$를 예측할 수 있다.
+위와 같은 방법으로 우리는 $\hat\boldsymbol{\theta}$를 구할 수 있고 이를 통해 $\hat{\textbf{y}}$를 예측할 수 있다.
 
 ### 사이킷런에서의 선형회귀
 
-LinearRegression 클래스를 사용하면 매우 쉽게 $\hat\bm{\theta}$를 구할 수 있다.
+LinearRegression 클래스를 사용하면 매우 쉽게 $\hat\boldsymbol{\theta}$를 구할 수 있다.
 
 LinearRegression 클래스는 scipy.linalg.lstsq() 함수를 기반으로 작동한다.
 
-이 함수는 $\hat\bm{\theta} = \textbf{X}^+\textbf{y}$를 계산한다.
+이 함수는 $\hat\boldsymbol{\theta} = \textbf{X}^+\textbf{y}$를 계산한다.
 
 $\textbf{X}^+$는 유사역행렬이다.
 > 유사역행렬은 특잇값 분해라는 표준 행렬 분해 기법을 사용해 계산된다.
@@ -86,9 +85,9 @@ $\textbf{X}^+$는 유사역행렬이다.
 ### 경사하강법이란?
  비용 함수를 최적화하기 위해 반복해서 파라미터를 조정해가는 것
  
->$\bm{\theta}$에 대해 비용 함수의 현재 gradient를 계산하고 이를 감소하는 방향으로 진행한다. 그리고 gradient가 0이 되며 최솟값에 도달한 것이다.
+>$\boldsymbol{\theta}$에 대해 비용 함수의 현재 gradient를 계산하고 이를 감소하는 방향으로 진행한다. 그리고 gradient가 0이 되며 최솟값에 도달한 것이다.
 
-$\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수렴할 때까지 점진적으로 진행한다.
+$\boldsymbol{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수렴할 때까지 점진적으로 진행한다.
 
 ### 학습률(learning rate)
 
@@ -105,9 +104,9 @@ $\bm{\theta}$를 임의의 값으로 random initialization 후 최솟값에 수�
 배치 경사하강법을 구현하려면 각 모델 파라미터 $\theta_j$에 대해 비용 함수의 그레디언트를 계산해야한다.
 
 **비용함수의 편도함수**
-$$\frac{\partial }{\partial \bm{\theta} _{j}} MSE(\bm\theta) = \frac{2}{m}\sum_{i=1}^{m}(\bm\theta^{T}\textbf{x}^{(i)} - y^{(i)})x{_{j}}^{(i)}$$
+$$\frac{\partial }{\partial \boldsymbol{\theta} _{j}} MSE(\boldsymbol\theta) = \frac{2}{m}\sum_{i=1}^{m}(\boldsymbol\theta^{T}\textbf{x}^{(i)} - y^{(i)})x{_{j}}^{(i)}$$
 
-> $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\bm{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$ 를 $\theta_j로$ 편미분한 것
+> $MSE(\textbf{X}, h_{\theta}) = \frac{1}{m} \sum_{i=1}^{m}(\boldsymbol{\theta}^{T}\textbf{x}^{(i)} - y^{(i)})^2$ 를 $\theta_j로$ 편미분한 것
 
 일일이 편도함수를 계산하는 대신에 한꺼번에 계산할 수 있는 방법이 있다.
 
@@ -258,13 +257,13 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 **비용함수**
 $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum_{n}^{i=1}\theta_i^2$$
->$\bold{w}$ 를 특성의 가중치 벡터라고 정의하면 규제항은 $\frac12(\left \| \bold{w}\right \|_2)^2$와 같다.
+>$\textbf{w}$ 를 특성의 가중치 벡터라고 정의하면 규제항은 $\frac12(\left \| \textbf{w}\right \|_2)^2$와 같다.
 
 이때 편향 $\theta_0$는 규제되지 않는다.
 
 **릿지 회귀의 정규방정식**
 
-$\hat\theta = (\bold{X}^T\bold{X} + \alpha\bold A)^{-1}\bold X^T\bold y$
+$\hat\theta = (\textbf{X}^T\textbf{X} + \alpha\textbf A)^{-1}\textbf X^T\textbf y$
 
 ---
 
@@ -278,7 +277,7 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 - **특징**
 -- 덜 중요한 특성의 가중치를 제거하려고 한다.($\theta_i$를 0으로 만든다.)
 -- 자동으로 특성 선택을 하고 희소 모델을 만든다.
---$\theta_i = 0$에서 미분 불가능하다. 하지만 이때 서브그레디언트 벡터 $\bold g$를 사용하면 경사하강법을 적용하는데 문제 없다.
+--$\theta_i = 0$에서 미분 불가능하다. 하지만 이때 서브그레디언트 벡터 $\textbf g$를 사용하면 경사하강법을 적용하는데 문제 없다.
 
 
 
@@ -336,7 +335,7 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 입력 특성의 가중치의 합을 계산한다.(편향 더함) 대신 선형 회귀처럼 바로 결과를 출력하지 않고 결괏값의 로지스틱을 출력한다.
 
 
-$\hat{p}= h_\theta(\bold{x}) = \sigma(\boldsymbol{\theta}^T\bold{x})$
+$\hat{p}= h_\theta(\textbf{x}) = \sigma(\boldsymbol{\theta}^T\textbf{x})$
 > $\sigma$는 sigmoid 함수로 $\sigma(t) = \frac{1}{1+exp(-t)}$
 
 
@@ -427,6 +426,7 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 추정된 클래스의 확률이 타깃 클래스에 얼마나 잘 맞는지 측정하는 용도로 종종 사용됨
 
 - 크로스 엔트로피 비용 함수
+
 $J(\Theta) = - \frac{1}{m} \sum_{i=1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(i)})$
 
 >$y_k^{(i)}$는 $i$ 번째 샘플이 클래스 $k$에 속할 타깃 확률
