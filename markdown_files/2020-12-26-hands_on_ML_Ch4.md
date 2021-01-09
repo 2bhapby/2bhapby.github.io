@@ -426,11 +426,14 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 추정된 클래스의 확률이 타깃 클래스에 얼마나 잘 맞는지 측정하는 용도로 종종 사용됨
 
 - 크로스 엔트로피 비용 함수
-$J(\Theta) = - \frac{1}{m} \sum_{i-1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(i)})$
+$J(\Theta) = - \frac{1}{m} \sum_{i=1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(i)})$
+
+>$y_k^{(i)}$는 $i$ 번째 샘플이 클래스 $k$에 속할 타깃 확률
+>샘플이 클래스에 속하는지 아닌지에 따라 1 또는 0
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTg0MjYxMSwxMDgzMDQ5OTIyLC0xNT
+eyJoaXN0b3J5IjpbMTQ3OTE1MDk2MSwxMDgzMDQ5OTIyLC0xNT
 M1OTExNDM4LC05OTYxNzE2OTYsMjM0MzU2ODA2LDEwMTEzNDY2
 NjksLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMTkwMjU5MjU3NC
 wxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMywyMDUz
