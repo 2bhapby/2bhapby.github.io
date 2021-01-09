@@ -415,7 +415,11 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 
 *소프트맥스 회귀 분류기는 한 번에 하나의 클래스만 예측한다. 그래서 상호 배타적인 클래스에서만 사용해야한다.*
 
+---
+
 **훈련방법**
+
+>목표: 모델이 타깃 클래스에 대해서 높은 확률을 추정하도록 만드는 것
 
 
 
@@ -434,11 +438,11 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU5MTE0MzgsLTk5NjE3MTY5NiwyMz
-QzNTY4MDYsMTAxMTM0NjY2OSwtMjA5NDUzNTA1NSwtMzA3MzE0
-NDcxLC0xOTAyNTkyNTc0LDEyNTEwNTA0ODgsLTYzMTMxMzcyNi
-wtMTI2MTYxNjEzLDIwNTM1MDM4NDksLTE0NDc4NjY2OTYsMTA4
-OTM2NDA3MSwtMjI2ODI2MzEsLTE0MjUxODc5NDMsMTgzMjc0MT
-c0OSw2NTgxMDI4MDEsMTU0MjA4MzA5Myw1NzA2NTg1NDcsLTU1
-Mzc3MjZdfQ==
+eyJoaXN0b3J5IjpbLTMwMjE0MDg2MSwtMTUzNTkxMTQzOCwtOT
+k2MTcxNjk2LDIzNDM1NjgwNiwxMDExMzQ2NjY5LC0yMDk0NTM1
+MDU1LC0zMDczMTQ0NzEsLTE5MDI1OTI1NzQsMTI1MTA1MDQ4OC
+wtNjMxMzEzNzI2LC0xMjYxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0
+Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4MjYzMSwtMTQyNTE4Nz
+k0MywxODMyNzQxNzQ5LDY1ODEwMjgwMSwxNTQyMDgzMDkzLDU3
+MDY1ODU0N119
 -->
