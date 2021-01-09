@@ -433,8 +433,9 @@ $J(\Theta) = - \frac{1}{m} \sum_{i=1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(
 
 - 클래스 k에 대한 크로스 엔트로피의 그레디언트 벡터
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk1NjY1NjAsMTA4MzA0OTkyMiwtMT
+eyJoaXN0b3J5IjpbLTEwOTQ2NTY5NDYsMTA4MzA0OTkyMiwtMT
 UzNTkxMTQzOCwtOTk2MTcxNjk2LDIzNDM1NjgwNiwxMDExMzQ2
 NjY5LC0yMDk0NTM1MDU1LC0zMDczMTQ0NzEsLTE5MDI1OTI1Nz
 QsMTI1MTA1MDQ4OCwtNjMxMzEzNzI2LC0xMjYxNjE2MTMsMjA1
