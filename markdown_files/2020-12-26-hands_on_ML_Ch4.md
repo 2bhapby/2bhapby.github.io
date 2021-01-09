@@ -421,7 +421,7 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 
 >목표: 모델이 타깃 클래스에 대해서 높은 확률을 추정하도록 만드는 것
 
-
+크로스 엔트로피 비용함수를 최소화하는 것은 타깃 클래스에 대해 낮은 확률을예측하는 모델을 억제하므로 이 목적에 부합
 
 
 
@@ -438,7 +438,7 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjE0MDg2MSwtMTUzNTkxMTQzOCwtOT
+eyJoaXN0b3J5IjpbMTY5ODM2NzIwNiwtMTUzNTkxMTQzOCwtOT
 k2MTcxNjk2LDIzNDM1NjgwNiwxMDExMzQ2NjY5LC0yMDk0NTM1
 MDU1LC0zMDczMTQ0NzEsLTE5MDI1OTI1NzQsMTI1MTA1MDQ4OC
 wtNjMxMzEzNzI2LC0xMjYxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0
