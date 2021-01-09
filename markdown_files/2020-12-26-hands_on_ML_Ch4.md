@@ -436,9 +436,11 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 
 
 
+
+
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODM2NzIwNiwtMTUzNTkxMTQzOCwtOT
+eyJoaXN0b3J5IjpbMTA4MzA0OTkyMiwtMTUzNTkxMTQzOCwtOT
 k2MTcxNjk2LDIzNDM1NjgwNiwxMDExMzQ2NjY5LC0yMDk0NTM1
 MDU1LC0zMDczMTQ0NzEsLTE5MDI1OTI1NzQsMTI1MTA1MDQ4OC
 wtNjMxMzEzNzI2LC0xMjYxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0
