@@ -423,26 +423,14 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 
 크로스 엔트로피 비용함수를 최소화하는 것은 타깃 클래스에 대해 낮은 확률을예측하는 모델을 억제하므로 이 목적에 부합
 
+추정된 클래스의 확률이 타깃 클래스에 얼마나 잘 맞는지 측정하는 용도로 종종 사용됨
+
 - 크로스 엔트로피 비용 함수
 $J(\Theta) = - \frac{1}{m} \sum_{i-1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(i)})$
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTM3NTgxMiwxMDgzMDQ5OTIyLC0xNT
+eyJoaXN0b3J5IjpbMTQ1NTg0MjYxMSwxMDgzMDQ5OTIyLC0xNT
 M1OTExNDM4LC05OTYxNzE2OTYsMjM0MzU2ODA2LDEwMTEzNDY2
 NjksLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMTkwMjU5MjU3NC
 wxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMywyMDUz
