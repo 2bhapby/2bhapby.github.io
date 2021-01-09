@@ -257,13 +257,13 @@ PolynomialFeatures로 데이터를 전처리한 후 LinearRegression 을 통해�
 
 **비용함수**
 $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}{2}\sum_{n}^{i=1}\theta_i^2$$
->$\bold{w}$ 를 특성의 가중치 벡터라고 정의하면 규제항은 $\frac12(\left \| \bold{w}\right \|_2)^2$와 같다.
+>$\textbf{w}$ 를 특성의 가중치 벡터라고 정의하면 규제항은 $\frac12(\left \| \textbf{w}\right \|_2)^2$와 같다.
 
 이때 편향 $\theta_0$는 규제되지 않는다.
 
 **릿지 회귀의 정규방정식**
 
-$\hat\theta = (\bold{X}^T\bold{X} + \alpha\textbf A)^{-1}\textbf X^T\textbf y$
+$\hat\theta = (\textbf{X}^T\textbf{X} + \alpha\textbf A)^{-1}\textbf X^T\textbf y$
 
 ---
 
@@ -335,7 +335,7 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + r\alpha \frac{1
 입력 특성의 가중치의 합을 계산한다.(편향 더함) 대신 선형 회귀처럼 바로 결과를 출력하지 않고 결괏값의 로지스틱을 출력한다.
 
 
-$\hat{p}= h_\theta(\bold{x}) = \sigma(\boldsymbol{\theta}^T\bold{x})$
+$\hat{p}= h_\theta(\textbf{x}) = \sigma(\boldsymbol{\theta}^T\textbf{x})$
 > $\sigma$는 sigmoid 함수로 $\sigma(t) = \frac{1}{1+exp(-t)}$
 
 
@@ -444,7 +444,7 @@ solver 매개변수에 "lbfgs"와 같이 소프트맥스 회귀를 지원하는 
 
 reference: Hands-on Machine Learning with Scikit-learn, Keras & Tensorflow, Second Ed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDE4MDQ2NywtMzI0ODk1MDY5LDU5ND
+eyJoaXN0b3J5IjpbLTU4ODUzNjY3NywtMzI0ODk1MDY5LDU5ND
 k0MTQyNSwtNTU4MDM4NjQzLC0xMDk0NjU2OTQ2LDEwODMwNDk5
 MjIsLTE1MzU5MTE0MzgsLTk5NjE3MTY5NiwyMzQzNTY4MDYsMT
 AxMTM0NjY2OSwtMjA5NDUzNTA1NSwtMzA3MzE0NDcxLC0xOTAy
