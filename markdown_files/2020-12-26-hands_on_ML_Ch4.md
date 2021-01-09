@@ -263,7 +263,7 @@ $$\boldsymbol{J(\theta)} = MSE(\boldsymbol{\boldsymbol\theta}) + \alpha \frac{1}
 
 **릿지 회귀의 정규방정식**
 
-$\hat\theta = (\bold{X}^T\bold{X} + \alpha\bold A)^{-1}\bold X^T\bold y$
+$\hat\theta = (\bold{X}^T\bold{X} + \alpha\textbf A)^{-1}\textbf X^T\textbf y$
 
 ---
 
@@ -444,11 +444,11 @@ solver 매개변수에 "lbfgs"와 같이 소프트맥스 회귀를 지원하는 
 
 reference: Hands-on Machine Learning with Scikit-learn, Keras & Tensorflow, Second Ed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDg5NTA2OSw1OTQ5NDE0MjUsLTU1OD
-AzODY0MywtMTA5NDY1Njk0NiwxMDgzMDQ5OTIyLC0xNTM1OTEx
-NDM4LC05OTYxNzE2OTYsMjM0MzU2ODA2LDEwMTEzNDY2NjksLT
-IwOTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMTkwMjU5MjU3NCwxMjUx
-MDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMywyMDUzNTAzOD
-Q5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNzEsLTIyNjgyNjMxLC0x
-NDI1MTg3OTQzXX0=
+eyJoaXN0b3J5IjpbNjUwNTc3OTUxLC0zMjQ4OTUwNjksNTk0OT
+QxNDI1LC01NTgwMzg2NDMsLTEwOTQ2NTY5NDYsMTA4MzA0OTky
+MiwtMTUzNTkxMTQzOCwtOTk2MTcxNjk2LDIzNDM1NjgwNiwxMD
+ExMzQ2NjY5LC0yMDk0NTM1MDU1LC0zMDczMTQ0NzEsLTE5MDI1
+OTI1NzQsMTI1MTA1MDQ4OCwtNjMxMzEzNzI2LC0xMjYxNjE2MT
+MsMjA1MzUwMzg0OSwtMTQ0Nzg2NjY5NiwxMDg5MzY0MDcxLC0y
+MjY4MjYzMV19
 -->
