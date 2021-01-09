@@ -426,6 +426,7 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 추정된 클래스의 확률이 타깃 클래스에 얼마나 잘 맞는지 측정하는 용도로 종종 사용됨
 
 - 크로스 엔트로피 비용 함수
+
 $J(\Theta) = - \frac{1}{m} \sum_{i=1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(i)})$
 
 >$y_k^{(i)}$는 $i$ 번째 샘플이 클래스 $k$에 속할 타깃 확률
@@ -444,11 +445,11 @@ solver 매개변수에 "lbfgs"와 같이 소프트맥스 회귀를 지원하는 
 
 reference: Hands-on Machine Learning with Scikit-learn, Keras & Tensorflow, Second Ed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQxNDkyNjcsLTMyNDg5NTA2OSw1OT
-Q5NDE0MjUsLTU1ODAzODY0MywtMTA5NDY1Njk0NiwxMDgzMDQ5
-OTIyLC0xNTM1OTExNDM4LC05OTYxNzE2OTYsMjM0MzU2ODA2LD
-EwMTEzNDY2NjksLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMTkw
-MjU5MjU3NCwxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MT
-YxMywyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNzEs
-LTIyNjgyNjMxXX0=
+eyJoaXN0b3J5IjpbLTEzNzkzMzM2OTcsLTEwNzQxNDkyNjcsLT
+MyNDg5NTA2OSw1OTQ5NDE0MjUsLTU1ODAzODY0MywtMTA5NDY1
+Njk0NiwxMDgzMDQ5OTIyLC0xNTM1OTExNDM4LC05OTYxNzE2OT
+YsMjM0MzU2ODA2LDEwMTEzNDY2NjksLTIwOTQ1MzUwNTUsLTMw
+NzMxNDQ3MSwtMTkwMjU5MjU3NCwxMjUxMDUwNDg4LC02MzEzMT
+M3MjYsLTEyNjE2MTYxMywyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2
+LDEwODkzNjQwNzFdfQ==
 -->
