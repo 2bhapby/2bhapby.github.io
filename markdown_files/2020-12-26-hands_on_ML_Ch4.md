@@ -423,6 +423,8 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 
 크로스 엔트로피 비용함수를 최소화하는 것은 타깃 클래스에 대해 낮은 확률을예측하는 모델을 억제하므로 이 목적에 부합
 
+- 크로스 엔트로피 비용 함수
+$J(\Theta) = - \frac{1}{m} \sum_{i-1}^{m}\sum_{k=1}^{K}y_k^{(i)}log(\hat{p}_k^{(i)})$
 
 
 
@@ -440,11 +442,11 @@ $hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{a
 
 reference : hands-on Machine Learning 2편
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzA0OTkyMiwtMTUzNTkxMTQzOCwtOT
-k2MTcxNjk2LDIzNDM1NjgwNiwxMDExMzQ2NjY5LC0yMDk0NTM1
-MDU1LC0zMDczMTQ0NzEsLTE5MDI1OTI1NzQsMTI1MTA1MDQ4OC
-wtNjMxMzEzNzI2LC0xMjYxNjE2MTMsMjA1MzUwMzg0OSwtMTQ0
-Nzg2NjY5NiwxMDg5MzY0MDcxLC0yMjY4MjYzMSwtMTQyNTE4Nz
-k0MywxODMyNzQxNzQ5LDY1ODEwMjgwMSwxNTQyMDgzMDkzLDU3
-MDY1ODU0N119
+eyJoaXN0b3J5IjpbMTI5MTM3NTgxMiwxMDgzMDQ5OTIyLC0xNT
+M1OTExNDM4LC05OTYxNzE2OTYsMjM0MzU2ODA2LDEwMTEzNDY2
+NjksLTIwOTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMTkwMjU5MjU3NC
+wxMjUxMDUwNDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMywyMDUz
+NTAzODQ5LC0xNDQ3ODY2Njk2LDEwODkzNjQwNzEsLTIyNjgyNj
+MxLC0xNDI1MTg3OTQzLDE4MzI3NDE3NDksNjU4MTAyODAxLDE1
+NDIwODMwOTNdfQ==
 -->
