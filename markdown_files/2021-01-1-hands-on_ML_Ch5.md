@@ -19,7 +19,16 @@ title: 모델훈련
 - 도로 바깥쪽에 훈련 샘플을 더 추가해도 결정 경계에는 전혀 영향을 미치지 않는다.
 - 도로 경계에 위치한 샘플에 의해 전적으로 결정된다.
 
+위와 같은 샘플을 서포트 벡터라고 한다.
+
+
+### 소프트 마진 분류
+
+
+**하드 마진 분류(hard margin classification)**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjg1NTc2OCwxNDI0ODcwNTcsMjEzMD
-c4MzE3Nl19
+eyJoaXN0b3J5IjpbLTExNzA1Mzg5MDEsMTIwMjg1NTc2OCwxND
+I0ODcwNTcsMjEzMDc4MzE3Nl19
 -->
