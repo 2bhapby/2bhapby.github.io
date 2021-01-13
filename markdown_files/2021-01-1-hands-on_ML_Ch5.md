@@ -27,8 +27,13 @@ title: 모델훈련
 
 **하드 마진 분류(hard margin classification)**
 
+- 모든 샘플이 도로 바깥쪽에 올바르게 분류
+- 문제점
+--데이터가 선형적으로 구분될 수 있어야 함
+--이상치에 민감
 
+이러한 문제점을 피하기 위한 유연한 모델이 필요하다. 도로이 폭을 가능한 넓게 유지하는 것과 마ㅣㄴ 오류 사이에 적자
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzA1Mzg5MDEsMTIwMjg1NTc2OCwxND
+eyJoaXN0b3J5IjpbLTE5MTQ3Njk1OTgsMTIwMjg1NTc2OCwxND
 I0ODcwNTcsMjEzMDc4MzE3Nl19
 -->
