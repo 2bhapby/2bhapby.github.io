@@ -11,7 +11,11 @@ title: 모델훈련
 
 ## 선형 SVM 분류
 
+**SVM 분류기**
+- 클래스 사이에 가장 폭이 넓은 도로를 찾는 것 **(라지 마진 분류)**
 
+도로 바깥쪽에 훈련 샘ㅍ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDg3MDU3LDIxMzA3ODMxNzZdfQ==
+eyJoaXN0b3J5IjpbLTIxMjI1MTAxOTAsMTQyNDg3MDU3LDIxMz
+A3ODMxNzZdfQ==
 -->
