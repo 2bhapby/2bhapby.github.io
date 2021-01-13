@@ -32,8 +32,13 @@ title: 모델훈련
 --데이터가 선형적으로 구분될 수 있어야 함
 --이상치에 민감
 
-이러한 문제점을 피하기 위한 유연한 모델이 필요하다. 도로이 폭을 가능한 넓게 유지하는 것과 마ㅣㄴ 오류 사이에 적자
+**소프트 마진 분류(soft margin classification)**
+
+- 도로의 폭을 가능한 넓게 유지하는 것과 마진 오류사이에 적절한 균형을 잡아야 한다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ3Njk1OTgsMTIwMjg1NTc2OCwxND
-I0ODcwNTcsMjEzMDc4MzE3Nl19
+eyJoaXN0b3J5IjpbMTc5MzY5ODI5MywxMjAyODU1NzY4LDE0Mj
+Q4NzA1NywyMTMwNzgzMTc2XX0=
 -->
