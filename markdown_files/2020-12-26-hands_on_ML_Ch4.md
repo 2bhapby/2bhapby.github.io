@@ -410,7 +410,7 @@ $$\frac{\partial }{\partial\theta_j}J(\boldsymbol{\theta}) = \frac{1}{m}\sum_{i=
 >  - $\sigma(\textbf{s}(\textbf{x}))_k$ : 샘플  $\textbf{x}$에 대한 각 클래스의 점수가 주어졌을 때 이 샘플이 클래스 k에 속할 추정 확률
 
 
-$hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{argmax}s_k((\textbf x)) = \underset{k}{argmax}((\boldsymbol{\theta}^{(k)})^T\textbf x)$
+$\hat{y}  = \underset{k}{argmax}\sigma(\textbf{s}(\textbf{x}))_k = \underset{k}{argmax}s_k((\textbf x)) = \underset{k}{argmax}((\boldsymbol{\theta}^{(k)})^T\textbf x)$
  >argmax 는 함수를 최대화하는 변수의 값을 반환
 
 *소프트맥스 회귀 분류기는 한 번에 하나의 클래스만 예측한다. 그래서 상호 배타적인 클래스에서만 사용해야한다.*
@@ -445,11 +445,11 @@ solver 매개변수에 "lbfgs"와 같이 소프트맥스 회귀를 지원하는 
 
 reference: Hands-on Machine Learning with Scikit-learn, Keras & Tensorflow, Second Ed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkzMzM2OTcsLTEwNzQxNDkyNjcsLT
-MyNDg5NTA2OSw1OTQ5NDE0MjUsLTU1ODAzODY0MywtMTA5NDY1
-Njk0NiwxMDgzMDQ5OTIyLC0xNTM1OTExNDM4LC05OTYxNzE2OT
-YsMjM0MzU2ODA2LDEwMTEzNDY2NjksLTIwOTQ1MzUwNTUsLTMw
-NzMxNDQ3MSwtMTkwMjU5MjU3NCwxMjUxMDUwNDg4LC02MzEzMT
-M3MjYsLTEyNjE2MTYxMywyMDUzNTAzODQ5LC0xNDQ3ODY2Njk2
-LDEwODkzNjQwNzFdfQ==
+eyJoaXN0b3J5IjpbLTE1OTI3OTcxODUsLTEzNzkzMzM2OTcsLT
+EwNzQxNDkyNjcsLTMyNDg5NTA2OSw1OTQ5NDE0MjUsLTU1ODAz
+ODY0MywtMTA5NDY1Njk0NiwxMDgzMDQ5OTIyLC0xNTM1OTExND
+M4LC05OTYxNzE2OTYsMjM0MzU2ODA2LDEwMTEzNDY2NjksLTIw
+OTQ1MzUwNTUsLTMwNzMxNDQ3MSwtMTkwMjU5MjU3NCwxMjUxMD
+UwNDg4LC02MzEzMTM3MjYsLTEyNjE2MTYxMywyMDUzNTAzODQ5
+LC0xNDQ3ODY2Njk2XX0=
 -->
