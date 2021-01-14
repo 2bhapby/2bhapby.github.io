@@ -46,10 +46,12 @@ title: 모델훈련
 - SVC(kernel = 'linear', C = 1)이라고 쓴다.
 - SGDClassifier(loss = 'hinge', alpha = 1/(m*C)) 로 표현한다.
 - 선형 SVM 분류기를 훈련시키기 위해서 일반적인 확률적 경사 하강법을 적용한다.
--- 
+-- LinearSVC 만큼 빠르게 수렴하진 않지만 데이터셋이 아주 커서 메모리에 적쟇ㄹ 수 없거나 온라인 학습 분류 문제를 다룰 때 유용하다.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTQyODI2MywxMzA2ODc2NTIxLC0xOD
+eyJoaXN0b3J5IjpbMTUyNzYyOTU5NywxMzA2ODc2NTIxLC0xOD
 kzMDIxMzE5LC0xMjkzODk2NDIyLDE3OTM2OTgyOTNdfQ==
 -->
