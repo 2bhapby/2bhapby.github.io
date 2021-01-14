@@ -68,10 +68,13 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 - coef0는 모델이 높은 차수와 낮은 차수에 얼마나 영향을 받을지 조절한다.
 - 차수가 높으면 과대적합되기 쉽고 차수가 낮으면 과소적합되기 싶다.
 
+### 유사도 특성 
+
+- 각 샘플이 특정 랜드마크와 얼마나 닮았는지 측정하는 유사도 함수로 계산한 특성을 추가하는 것
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyNzUwNyw5ODY2MTgxNTAsNzAwNjA2MD
-YxLC02MzQ3ODg1NzksODY4NDk1MjI1LC02OTkyMzk1NjQsMTUy
-NzYyOTU5NywxMzA2ODc2NTIxLC0xODkzMDIxMzE5LC0xMjkzOD
-k2NDIyLDE3OTM2OTgyOTNdfQ==
+eyJoaXN0b3J5IjpbMTU5MTcxMTg4NSwyNDI3NTA3LDk4NjYxOD
+E1MCw3MDA2MDYwNjEsLTYzNDc4ODU3OSw4Njg0OTUyMjUsLTY5
+OTIzOTU2NCwxNTI3NjI5NTk3LDEzMDY4NzY1MjEsLTE4OTMwMj
+EzMTksLTEyOTM4OTY0MjIsMTc5MzY5ODI5M119
 -->
