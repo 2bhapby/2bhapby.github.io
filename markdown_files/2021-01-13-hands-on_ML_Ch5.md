@@ -61,10 +61,12 @@ title: 모델훈련
 높은 차수의 다항식은 느리고 낮은 차수의 다항식은 데이터 셋을 잘 표현하지 못한다.
 
 SVM은 **커널 트릭**을 적용할 수 있다.
->커널 트릭은 실ㅈ
+>커널 트릭은 실제로 특성을 추가하지 않으면서 다항식 특성을 많이 추가한 것과 같은 결과를 얻을 수 있다.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwOTA0ODEzLDcwMDYwNjA2MSwtNjM0Nz
+eyJoaXN0b3J5IjpbOTg2NjE4MTUwLDcwMDYwNjA2MSwtNjM0Nz
 g4NTc5LDg2ODQ5NTIyNSwtNjk5MjM5NTY0LDE1Mjc2Mjk1OTcs
 MTMwNjg3NjUyMSwtMTg5MzAyMTMxOSwtMTI5Mzg5NjQyMiwxNz
 kzNjk4MjkzXX0=
