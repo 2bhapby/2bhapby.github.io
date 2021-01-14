@@ -58,10 +58,12 @@ title: 모델훈련
 
 ### 다항식 커널
 
+높은 차수의 다항식은 느리고 낮은 차수의 다항식은 데이터 셋을 잘 표현하지 못한다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAxNTI2NjcsLTYzNDc4ODU3OSw4Nj
-g0OTUyMjUsLTY5OTIzOTU2NCwxNTI3NjI5NTk3LDEzMDY4NzY1
-MjEsLTE4OTMwMjEzMTksLTEyOTM4OTY0MjIsMTc5MzY5ODI5M1
-19
+eyJoaXN0b3J5IjpbNzAwNjA2MDYxLC02MzQ3ODg1NzksODY4ND
+k1MjI1LC02OTkyMzk1NjQsMTUyNzYyOTU5NywxMzA2ODc2NTIx
+LC0xODkzMDIxMzE5LC0xMjkzODk2NDIyLDE3OTM2OTgyOTNdfQ
+==
 -->
