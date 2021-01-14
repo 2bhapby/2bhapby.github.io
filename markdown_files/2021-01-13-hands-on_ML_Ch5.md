@@ -54,9 +54,10 @@ title: 모델훈련
 ## 비선형 SVM 분류
 
 비선형 데이터를 다루는 방법
-- 다항 특성과 같ㅇ
+- 다항 특성과 같은 특성을 더 추가한다. (ex. x^2 항을 추가한다)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTc2MjIzOCw4Njg0OTUyMjUsLTY5OT
+eyJoaXN0b3J5IjpbLTYzNDc4ODU3OSw4Njg0OTUyMjUsLTY5OT
 IzOTU2NCwxNTI3NjI5NTk3LDEzMDY4NzY1MjEsLTE4OTMwMjEz
 MTksLTEyOTM4OTY0MjIsMTc5MzY5ODI5M119
 -->
