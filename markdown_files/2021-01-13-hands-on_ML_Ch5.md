@@ -42,10 +42,11 @@ title: 모델훈련
 -- 과대적합이면 C를 감소시켜 모델을 규제
 -- 클래스에 대한 확률을 제공하지 않는다
 
-
+- LinearSVC 클래스를 대신 선형 커널을 사용하는 SVC 클래스로 대체할 수 있다.
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjU0MzYzOSwxMzA2ODc2NTIxLC0xOD
-kzMDIxMzE5LC0xMjkzODk2NDIyLDE3OTM2OTgyOTNdfQ==
+eyJoaXN0b3J5IjpbLTM1NjIxNDQ4LDEzMDY4NzY1MjEsLTE4OT
+MwMjEzMTksLTEyOTM4OTY0MjIsMTc5MzY5ODI5M119
 -->
