@@ -34,10 +34,12 @@ title: 모델훈련
 
 **소프트 마진 분류(soft margin classification)**
 
-- 도로의 폭을 가능한 넓게 유지하는 것과 마진 오류사이에 적절한 균형을 잡아야 한다.
+- 도로의 폭을 가능한 넓게 유지하는 것과 마진 오류사이에 적절한 균형을 잡는 것
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzY5ODI5M119
+eyJoaXN0b3J5IjpbLTEyOTM4OTY0MjIsMTc5MzY5ODI5M119
 -->
