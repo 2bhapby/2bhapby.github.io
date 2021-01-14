@@ -38,11 +38,13 @@ title: 모델훈련
 
 **사이킷런의 SVM 모델**
 - 하이퍼 파라미터 : C
--- 마진 오류의 정도를 잡아주는 것(숫자가 작으면 넓은 ㅁ)
+-- 마진 오류의 정도를 잡아주는 것(숫자가 작으면 넓은 마진, 숫자가 크면 좁은 마진)
+-- 과대적합이면 C를 감소시켜 모델을 규제
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTIzMjYzMywtMTg5MzAyMTMxOSwtMT
+eyJoaXN0b3J5IjpbMTMwNjg3NjUyMSwtMTg5MzAyMTMxOSwtMT
 I5Mzg5NjQyMiwxNzkzNjk4MjkzXX0=
 -->
