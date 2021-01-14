@@ -64,10 +64,14 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 >커널 트릭은 실제로 특성을 추가하지 않으면서 다항식 특성을 많이 추가한 것과 같은 결과를 얻을 수 있다.
 
 
-("svm_clf", SVC(kernel = 'poly', degree = 3, coef0 = 1, C = 5))에서 coef0는 모델이 높은 차수와 낮은 차수에 얼마나 영향을 받을지 조절한다.
+("svm_clf", SVC(kernel = 'poly', degree = 3, coef0 = 1, C = 5))
+- coef0는 모델이 높은 차수와 낮은 차수에 얼마나 영향을 받을지 조절한다.
+- 차수가 높으면 과대적합되기 쉽고 차수가 낮으면 과소적합되기 싶다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDc2OTEzMTgsOTg2NjE4MTUwLDcwMD
-YwNjA2MSwtNjM0Nzg4NTc5LDg2ODQ5NTIyNSwtNjk5MjM5NTY0
-LDE1Mjc2Mjk1OTcsMTMwNjg3NjUyMSwtMTg5MzAyMTMxOSwtMT
-I5Mzg5NjQyMiwxNzkzNjk4MjkzXX0=
+eyJoaXN0b3J5IjpbMjQyNzUwNyw5ODY2MTgxNTAsNzAwNjA2MD
+YxLC02MzQ3ODg1NzksODY4NDk1MjI1LC02OTkyMzk1NjQsMTUy
+NzYyOTU5NywxMzA2ODc2NTIxLC0xODkzMDIxMzE5LC0xMjkzOD
+k2NDIyLDE3OTM2OTgyOTNdfQ==
 -->
