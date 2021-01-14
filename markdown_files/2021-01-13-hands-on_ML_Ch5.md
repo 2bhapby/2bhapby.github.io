@@ -45,10 +45,11 @@ title: 모델훈련
 - LinearSVC 클래스를 대신 선형 커널을 사용하는 SVC 클래스로 대체할 수 있다.
 - SVC(kernel = 'linear', C = 1)이라고 쓴다.
 - SGDClassifier(loss = 'hinge', alpha = 1/(m*C)) 로 표현한다.
-
+- 선형 SVM 분류기를 훈련시키기 위해서 일반적인 확률적 경사 하강법을 적용한다.
+-- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc5NzA1ODUsMTMwNjg3NjUyMSwtMT
-g5MzAyMTMxOSwtMTI5Mzg5NjQyMiwxNzkzNjk4MjkzXX0=
+eyJoaXN0b3J5IjpbLTk5OTQyODI2MywxMzA2ODc2NTIxLC0xOD
+kzMDIxMzE5LC0xMjkzODk2NDIyLDE3OTM2OTgyOTNdfQ==
 -->
