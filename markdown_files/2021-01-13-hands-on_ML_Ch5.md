@@ -55,9 +55,13 @@ title: 모델훈련
 
 비선형 데이터를 다루는 방법
 - 다항 특성과 같은 특성을 더 추가한다. (ex. x^2 항을 추가한다)
-- 
+
+### 다항식 커널
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDc4ODU3OSw4Njg0OTUyMjUsLTY5OT
-IzOTU2NCwxNTI3NjI5NTk3LDEzMDY4NzY1MjEsLTE4OTMwMjEz
-MTksLTEyOTM4OTY0MjIsMTc5MzY5ODI5M119
+eyJoaXN0b3J5IjpbLTEwNjAxNTI2NjcsLTYzNDc4ODU3OSw4Nj
+g0OTUyMjUsLTY5OTIzOTU2NCwxNTI3NjI5NTk3LDEzMDY4NzY1
+MjEsLTE4OTMwMjEzMTksLTEyOTM4OTY0MjIsMTc5MzY5ODI5M1
+19
 -->
