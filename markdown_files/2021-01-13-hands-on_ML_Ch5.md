@@ -115,12 +115,14 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 SVM 알고리즘 : 선형, 비선형 분류, 선형, 비선형 회귀에서 사용 가능
 
 **SVM 회귀**
-- 일정한 마진 오류 안에서 두 클래스 간의 도로 폭이 가능한 한 최대가 되도록 하는 대신,
+- 제한된 마진 오류(도로 밖의 샘플) 안에서 도로 안에 가능한 많은 샘플이 들어가도록 학습
+- 도로의 폭은 하이퍼파라미터 $\varepsilon$으로 조절한다.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzg4MjczMDksLTg0NDU3MDY5OSwtMT
+eyJoaXN0b3J5IjpbLTEyNDkyNTA3NTcsLTg0NDU3MDY5OSwtMT
 U3ODYwNjA2NSw4NjU5MTE1MDEsLTkxMjgyMTgyMCwtMTM3NjM1
 MjEwMiwtMTc2MDU4MDE3NCwyNDg1OTAyNDcsMTU5MTcxMTg4NS
 wyNDI3NTA3LDk4NjYxODE1MCw3MDA2MDYwNjEsLTYzNDc4ODU3
