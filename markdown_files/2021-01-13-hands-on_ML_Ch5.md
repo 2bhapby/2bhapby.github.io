@@ -106,12 +106,16 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 **SVC** 는 커널트릭 알고리즘을 구현한 libsvm 라이브러리를 기반으로 한다.
 
 - 훈련 시간 복잡도는 $O(m^2\times n)$과 $O(m^3 \times n)$ 사이
-- 
+- 복잡하지만 작거나 중간 규모의 훈련세트에 잘 맞는다.
+- 특성의 개수에는 희소 특성(sparse features)인 경우에는 잘 확장된다.
+-- 이러한 경우는 알고리즘의 성능이 샘플이 가진 0이 아닌 특성의 평균 수에 거의 비례한다.
+
+## SVM 회기
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzQyNzU2NCwtODQ0NTcwNjk5LC0xNT
+eyJoaXN0b3J5IjpbMTMyMjMwOTAxNiwtODQ0NTcwNjk5LC0xNT
 c4NjA2MDY1LDg2NTkxMTUwMSwtOTEyODIxODIwLC0xMzc2MzUy
 MTAyLC0xNzYwNTgwMTc0LDI0ODU5MDI0NywxNTkxNzExODg1LD
 I0Mjc1MDcsOTg2NjE4MTUwLDcwMDYwNjA2MSwtNjM0Nzg4NTc5
