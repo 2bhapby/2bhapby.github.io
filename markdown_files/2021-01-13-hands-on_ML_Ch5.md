@@ -74,13 +74,14 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 - 가우시안 방사 기저 함수를 유사도 함수로 정의
 --$\phi_\gamma(\textbf x, l) = exp(-\gamma\left \|  \textbf x - l\right \|^2)$
 
-
+- 유사도 함수를 통해 새로운 특성을 만든다.
+- 변환된 데이터 셋은 선형적으로 구분이 가능하다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4NTkwMjQ3LDE1OTE3MTE4ODUsMjQyNz
-UwNyw5ODY2MTgxNTAsNzAwNjA2MDYxLC02MzQ3ODg1NzksODY4
-NDk1MjI1LC02OTkyMzk1NjQsMTUyNzYyOTU5NywxMzA2ODc2NT
-IxLC0xODkzMDIxMzE5LC0xMjkzODk2NDIyLDE3OTM2OTgyOTNd
-fQ==
+eyJoaXN0b3J5IjpbLTE3NjA1ODAxNzQsMjQ4NTkwMjQ3LDE1OT
+E3MTE4ODUsMjQyNzUwNyw5ODY2MTgxNTAsNzAwNjA2MDYxLC02
+MzQ3ODg1NzksODY4NDk1MjI1LC02OTkyMzk1NjQsMTUyNzYyOT
+U5NywxMzA2ODc2NTIxLC0xODkzMDIxMzE5LC0xMjkzODk2NDIy
+LDE3OTM2OTgyOTNdfQ==
 -->
