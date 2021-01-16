@@ -71,7 +71,7 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 ### 유사도 특성 
 
 - 각 샘플이 특정 랜드마크와 얼마나 닮았는지 측정하는 유사도 함수로 계산한 특성을 추가하는 것
-- 가우시안 방사 기저 함수를 유사도 함수로 정의
+- 가우시안 방사 기저 함수(RBF)를 유사도 함수로 정의
 --$\phi_\gamma(\textbf x, l) = exp(-\gamma\left \|  \textbf x - l\right \|^2)$
 
 - 유사도 함수를 통해 새로운 특성을 만든다.
@@ -80,12 +80,15 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 간단한 랜드마크 선택 방벙로는 데이터셋에 있는 모든 샘플 위치에 랜드마크를 설정하는 것이다.
 
 이렇게 하면 차원이 매우 커지고 변환된 훈련 세트가 선형적으로 구분될 가능성이 높다.
->단점: 훈련 ㅅ
+>단점: 훈련 세트에 있는 n개의 특성을 가진 m개의 샘플이 m개의 특성을 가진 m개의 샘플로 변환된다.
+
+### 가우시안 RBF 커널
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDg2NzU4NCwtMTc2MDU4MDE3NCwyND
-g1OTAyNDcsMTU5MTcxMTg4NSwyNDI3NTA3LDk4NjYxODE1MCw3
-MDA2MDYwNjEsLTYzNDc4ODU3OSw4Njg0OTUyMjUsLTY5OTIzOT
-U2NCwxNTI3NjI5NTk3LDEzMDY4NzY1MjEsLTE4OTMwMjEzMTks
-LTEyOTM4OTY0MjIsMTc5MzY5ODI5M119
+eyJoaXN0b3J5IjpbLTEzNzYzNTIxMDIsLTE3NjA1ODAxNzQsMj
+Q4NTkwMjQ3LDE1OTE3MTE4ODUsMjQyNzUwNyw5ODY2MTgxNTAs
+NzAwNjA2MDYxLC02MzQ3ODg1NzksODY4NDk1MjI1LC02OTkyMz
+k1NjQsMTUyNzYyOTU5NywxMzA2ODc2NTIxLC0xODkzMDIxMzE5
+LC0xMjkzODk2NDIyLDE3OTM2OTgyOTNdfQ==
 -->
