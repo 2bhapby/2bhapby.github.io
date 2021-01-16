@@ -103,15 +103,19 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 - 정밀도를 높혀서 길어지는 알고리즘 수행시간은 허용오차 파라미터 $\varepsilon$ 으로 조절함(사이킷런에서 매개변수 tol)
 >대부분의 분류문제는 허용오차를 기본값으로 두면 잘 작동함
 
+**SVC** 는 커널트릭 알고리즘을 구현한 libsvm 라이브러리를 기반으로 한다.
+
+- 훈련 시간 복잡도는 $O(m^2\times n)$과 $O(m^3 \times n)$ 사이
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDU3MDY5OSwtMTU3ODYwNjA2NSw4Nj
-U5MTE1MDEsLTkxMjgyMTgyMCwtMTM3NjM1MjEwMiwtMTc2MDU4
-MDE3NCwyNDg1OTAyNDcsMTU5MTcxMTg4NSwyNDI3NTA3LDk4Nj
-YxODE1MCw3MDA2MDYwNjEsLTYzNDc4ODU3OSw4Njg0OTUyMjUs
-LTY5OTIzOTU2NCwxNTI3NjI5NTk3LDEzMDY4NzY1MjEsLTE4OT
-MwMjEzMTksLTEyOTM4OTY0MjIsMTc5MzY5ODI5M119
+eyJoaXN0b3J5IjpbLTE1Mzc3NjYzNjksLTg0NDU3MDY5OSwtMT
+U3ODYwNjA2NSw4NjU5MTE1MDEsLTkxMjgyMTgyMCwtMTM3NjM1
+MjEwMiwtMTc2MDU4MDE3NCwyNDg1OTAyNDcsMTU5MTcxMTg4NS
+wyNDI3NTA3LDk4NjYxODE1MCw3MDA2MDYwNjEsLTYzNDc4ODU3
+OSw4Njg0OTUyMjUsLTY5OTIzOTU2NCwxNTI3NjI5NTk3LDEzMD
+Y4NzY1MjEsLTE4OTMwMjEzMTksLTEyOTM4OTY0MjIsMTc5MzY5
+ODI5M119
 -->
