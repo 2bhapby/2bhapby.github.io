@@ -100,14 +100,16 @@ LinearSVC 파이썬 클래스는 선형 SVM을 위한 최적화된 알고리즘�
 
 훈련 시간 복잡도는 대략 $O(m \times n)$
 
-정밀도를 높혀서 길어지는 알고리즘 수행시간은 허용오차 파라미터 $\varepsilon$ 을 사용함
+정밀도를 높혀서 길어지는 알고리즘 수행시간은 허용오차 파라미터 $\varepsilon$ 으로 조절함(사이킷런에서 매개변수 tol)
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzI0OTg1OCwtMTU3ODYwNjA2NSw4Nj
-U5MTE1MDEsLTkxMjgyMTgyMCwtMTM3NjM1MjEwMiwtMTc2MDU4
-MDE3NCwyNDg1OTAyNDcsMTU5MTcxMTg4NSwyNDI3NTA3LDk4Nj
-YxODE1MCw3MDA2MDYwNjEsLTYzNDc4ODU3OSw4Njg0OTUyMjUs
-LTY5OTIzOTU2NCwxNTI3NjI5NTk3LDEzMDY4NzY1MjEsLTE4OT
-MwMjEzMTksLTEyOTM4OTY0MjIsMTc5MzY5ODI5M119
+eyJoaXN0b3J5IjpbNzc1Mzc3MjQ4LC0xNTc4NjA2MDY1LDg2NT
+kxMTUwMSwtOTEyODIxODIwLC0xMzc2MzUyMTAyLC0xNzYwNTgw
+MTc0LDI0ODU5MDI0NywxNTkxNzExODg1LDI0Mjc1MDcsOTg2Nj
+E4MTUwLDcwMDYwNjA2MSwtNjM0Nzg4NTc5LDg2ODQ5NTIyNSwt
+Njk5MjM5NTY0LDE1Mjc2Mjk1OTcsMTMwNjg3NjUyMSwtMTg5Mz
+AyMTMxOSwtMTI5Mzg5NjQyMiwxNzkzNjk4MjkzXX0=
 -->
