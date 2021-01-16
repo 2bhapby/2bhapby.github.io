@@ -110,16 +110,21 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 - 특성의 개수에는 희소 특성(sparse features)인 경우에는 잘 확장된다.
 -- 이러한 경우는 알고리즘의 성능이 샘플이 가진 0이 아닌 특성의 평균 수에 거의 비례한다.
 
-## SVM 회기
+## SVM 회귀
+
+SVM 알고리즘 : 선형, 비선형 분류, 선형, 비선형 회귀에서 사용 가능
+
+**SVM 회귀**
+- 일정한 마진 오류 안에서 두 클래스 간의 도로 폭이 가능한 한 최대가 되도록 하는 대신,
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjMwOTAxNiwtODQ0NTcwNjk5LC0xNT
-c4NjA2MDY1LDg2NTkxMTUwMSwtOTEyODIxODIwLC0xMzc2MzUy
-MTAyLC0xNzYwNTgwMTc0LDI0ODU5MDI0NywxNTkxNzExODg1LD
-I0Mjc1MDcsOTg2NjE4MTUwLDcwMDYwNjA2MSwtNjM0Nzg4NTc5
-LDg2ODQ5NTIyNSwtNjk5MjM5NTY0LDE1Mjc2Mjk1OTcsMTMwNj
-g3NjUyMSwtMTg5MzAyMTMxOSwtMTI5Mzg5NjQyMiwxNzkzNjk4
-MjkzXX0=
+eyJoaXN0b3J5IjpbLTE1Nzg4MjczMDksLTg0NDU3MDY5OSwtMT
+U3ODYwNjA2NSw4NjU5MTE1MDEsLTkxMjgyMTgyMCwtMTM3NjM1
+MjEwMiwtMTc2MDU4MDE3NCwyNDg1OTAyNDcsMTU5MTcxMTg4NS
+wyNDI3NTA3LDk4NjYxODE1MCw3MDA2MDYwNjEsLTYzNDc4ODU3
+OSw4Njg0OTUyMjUsLTY5OTIzOTU2NCwxNTI3NjI5NTk3LDEzMD
+Y4NzY1MjEsLTE4OTMwMjEzMTksLTEyOTM4OTY0MjIsMTc5MzY5
+ODI5M119
 -->
