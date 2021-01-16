@@ -86,13 +86,18 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 
 유사도 특성 방식의 경우 추가 특성을 모두 계산하려면 연산 비용이 많이 들지만 커널 트릭을 사용하면 이 문제점을 해결할 수 있다.
 
-gamma 를 증가시키면 종 모양 그래프가 좁아진다. 그렇기에 각 샘플을 따라 구불구불 휘어진다.
+- gamma 를 증가시키면 종 모양 그래프가 좁아진다. 그렇기에 각 샘플을 따라 구불구불 휘어진다.
 
-gamma를 감소시키면 넓은 종 모양 그래프가 되고 결정 경계가 더 부드러워진다.
+- gamma를 감소시키면 넓은 종 모양 그래프가 되고 결정 경계가 더 부드러워진다.
 
-하이퍼파라미터 $\gamma$rk 
+하이퍼파라미터 $\gamma$가 규제의 역할을 한다.
+
+- 과대적합일 경우 감소시키고 과소적합일 경우 증가시킨다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDYzMDEzLC05MTI4MjE4MjAsLTEzNz
+eyJoaXN0b3J5IjpbODY1OTExNTAxLC05MTI4MjE4MjAsLTEzNz
 YzNTIxMDIsLTE3NjA1ODAxNzQsMjQ4NTkwMjQ3LDE1OTE3MTE4
 ODUsMjQyNzUwNyw5ODY2MTgxNTAsNzAwNjA2MDYxLC02MzQ3OD
 g1NzksODY4NDk1MjI1LC02OTkyMzk1NjQsMTUyNzYyOTU5Nywx
