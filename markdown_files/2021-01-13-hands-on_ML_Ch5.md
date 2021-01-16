@@ -72,9 +72,9 @@ SVM은 **커널 트릭**을 적용할 수 있다.
 
 - 각 샘플이 특정 랜드마크와 얼마나 닮았는지 측정하는 유사도 함수로 계산한 특성을 추가하는 것
 - 가우시안 방사 기저 함수를 유사도 함수로 정의
---$\$
+--$\phi_\gamma(\textbf x, l) = exp()$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTYzMTQ1OCwxNTkxNzExODg1LDI0Mj
+eyJoaXN0b3J5IjpbLTczMjY3NDA3OCwxNTkxNzExODg1LDI0Mj
 c1MDcsOTg2NjE4MTUwLDcwMDYwNjA2MSwtNjM0Nzg4NTc5LDg2
 ODQ5NTIyNSwtNjk5MjM5NTY0LDE1Mjc2Mjk1OTcsMTMwNjg3Nj
 UyMSwtMTg5MzAyMTMxOSwtMTI5Mzg5NjQyMiwxNzkzNjk4Mjkz
