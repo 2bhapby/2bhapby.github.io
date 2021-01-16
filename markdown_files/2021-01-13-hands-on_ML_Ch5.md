@@ -117,16 +117,17 @@ SVM 알고리즘 : 선형, 비선형 분류, 선형, 비선형 회귀에서 사�
 **SVM 회귀**
 - 제한된 마진 오류(도로 밖의 샘플) 안에서 도로 안에 가능한 많은 샘플이 들어가도록 학습
 - 도로의 폭은 하이퍼파라미터 $\varepsilon$으로 조절한다.
+- 마진 안에서는 훈련 샘플이 추가되어도 모델의 예측에는 영향이 없다. -> $\varepsilon$에 민감하지 않다.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDkyNTA3NTcsLTg0NDU3MDY5OSwtMT
-U3ODYwNjA2NSw4NjU5MTE1MDEsLTkxMjgyMTgyMCwtMTM3NjM1
-MjEwMiwtMTc2MDU4MDE3NCwyNDg1OTAyNDcsMTU5MTcxMTg4NS
-wyNDI3NTA3LDk4NjYxODE1MCw3MDA2MDYwNjEsLTYzNDc4ODU3
-OSw4Njg0OTUyMjUsLTY5OTIzOTU2NCwxNTI3NjI5NTk3LDEzMD
-Y4NzY1MjEsLTE4OTMwMjEzMTksLTEyOTM4OTY0MjIsMTc5MzY5
-ODI5M119
+eyJoaXN0b3J5IjpbLTExMDAyNjYyOTksLTEyNDkyNTA3NTcsLT
+g0NDU3MDY5OSwtMTU3ODYwNjA2NSw4NjU5MTE1MDEsLTkxMjgy
+MTgyMCwtMTM3NjM1MjEwMiwtMTc2MDU4MDE3NCwyNDg1OTAyND
+csMTU5MTcxMTg4NSwyNDI3NTA3LDk4NjYxODE1MCw3MDA2MDYw
+NjEsLTYzNDc4ODU3OSw4Njg0OTUyMjUsLTY5OTIzOTU2NCwxNT
+I3NjI5NTk3LDEzMDY4NzY1MjEsLTE4OTMwMjEzMTksLTEyOTM4
+OTY0MjJdfQ==
 -->
