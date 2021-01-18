@@ -128,11 +128,13 @@ LinearSVR : LinearSVC 회귀 버전
 이 파트는 나중에 다뤄보도록 하겠다. 
 
 
+
+---
 reference: Hands-on Machine Learning with Scikit-learn, Keras & Tensorflow, Second Ed.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjYyMDMyMSwxMjM5NjI3MTg3LC0xMj
+eyJoaXN0b3J5IjpbLTYzODkwMjMzMiwxMjM5NjI3MTg3LC0xMj
 Q5MjUwNzU3LC04NDQ1NzA2OTksLTE1Nzg2MDYwNjUsODY1OTEx
 NTAxLC05MTI4MjE4MjAsLTEzNzYzNTIxMDIsLTE3NjA1ODAxNz
 QsMjQ4NTkwMjQ3LDE1OTE3MTE4ODUsMjQyNzUwNyw5ODY2MTgx
