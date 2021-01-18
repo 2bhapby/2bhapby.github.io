@@ -120,15 +120,20 @@ SVM 알고리즘 : 선형, 비선형 분류, 선형, 비선형 회귀에서 사�
 - 마진 안에서는 훈련 샘플이 추가되어도 모델의 예측에는 영향이 없다. -> $\varepsilon$에 민감하지 않다.
 
 
+SVR : SVC 회귀 버전
+LinearSVR : LinearSVC 회귀 버전
+
+## SVM 이론
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTYyNzE4NywtMTI0OTI1MDc1NywtOD
-Q0NTcwNjk5LC0xNTc4NjA2MDY1LDg2NTkxMTUwMSwtOTEyODIx
-ODIwLC0xMzc2MzUyMTAyLC0xNzYwNTgwMTc0LDI0ODU5MDI0Ny
-wxNTkxNzExODg1LDI0Mjc1MDcsOTg2NjE4MTUwLDcwMDYwNjA2
-MSwtNjM0Nzg4NTc5LDg2ODQ5NTIyNSwtNjk5MjM5NTY0LDE1Mj
-c2Mjk1OTcsMTMwNjg3NjUyMSwtMTg5MzAyMTMxOSwtMTI5Mzg5
-NjQyMl19
+eyJoaXN0b3J5IjpbMjEwNTc1NjI4MywxMjM5NjI3MTg3LC0xMj
+Q5MjUwNzU3LC04NDQ1NzA2OTksLTE1Nzg2MDYwNjUsODY1OTEx
+NTAxLC05MTI4MjE4MjAsLTEzNzYzNTIxMDIsLTE3NjA1ODAxNz
+QsMjQ4NTkwMjQ3LDE1OTE3MTE4ODUsMjQyNzUwNyw5ODY2MTgx
+NTAsNzAwNjA2MDYxLC02MzQ3ODg1NzksODY4NDk1MjI1LC02OT
+kyMzk1NjQsMTUyNzYyOTU5NywxMzA2ODc2NTIxLC0xODkzMDIx
+MzE5XX0=
 -->
