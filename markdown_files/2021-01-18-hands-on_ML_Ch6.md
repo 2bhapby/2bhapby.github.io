@@ -16,8 +16,11 @@ value : 노드에서 각 클래스에 얼마나 많은 훈련 샘플이 있는�
 gini : 불순도(impurity) 측정
 > 한 노드의 모든 샘플이 같은 클래스에 속해 있다면 이 노드를 순수하다고 한다.
 > $G_i = 1 - \sum_{k=1}^{n}p_{i, k}^3$
-> 
+
+화이트 박스
+- 직관적이고 결정 방식을 이해하기 쉽다.(결정 트리)
+블랙 박스 : 성능이 뛰어나고 예측을 마드는 연산 과정을 쉽게 확인할 수 있다. 왜 그런 예측을 만드는지는 쉽게 설명하기 어렵다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTMwOTgzNDksLTUzNjQ0MDAzNSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTE1NTM1MzY0MywtNTM2NDQwMDM1LC0yMD
+g4NzQ2NjEyXX0=
 -->
