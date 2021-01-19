@@ -5,7 +5,8 @@
 
 ## 결정 트리 학습과 시각화
 
-
+![iris decision tree](https://2bhapby.github.io/images/iris_decision_tree.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjQ0MDAzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNjYxOTk0Nzg4LC01MzY0NDAwMzUsLTIwOD
+g3NDY2MTJdfQ==
 -->
