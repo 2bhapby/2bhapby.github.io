@@ -13,8 +13,10 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 samples : 얼마나 많은 훈련 샘플이 적용되었는가
 value : 노드에서 각 클래스에 얼마나 많은 훈련 샘플이 있는지
-
+gini : 불순도(impurity) 측정
+> 한 노드의 모든 샘플이 같은 클래스에 속해 있다면 이 노드를 순수하다고 한다.
+> $G_i = 1 - \sum_{k=1}^{n}p_$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzUwMywtNTM2NDQwMDM1LC0yMDg4Nz
+eyJoaXN0b3J5IjpbNjQ0OTcyNiwtNTM2NDQwMDM1LC0yMDg4Nz
 Q2NjEyXX0=
 -->
