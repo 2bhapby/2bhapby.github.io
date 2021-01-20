@@ -40,10 +40,10 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 - 분류에 대한 CART 비용함수
 -- $J(k, t_k) = \frac{m_{left}}{m}G_{left} + \frac{m_{right}}{m}G_{right}$
 >$G_{left/right}$는 왼쪽/오른쪽 서브셋의 불순도
->$ㅡ_{left/right}$는 왼쪽/오른쪽 서브셋의 샘플 수
+>$m_{left/right}$는 왼쪽/오른쪽 서브셋의 샘플 수
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTkxNTQ2NjMsMjAyOTA3NjUyNiwtNT
-M2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEzMTMwOTE3MSwyMDI5MDc2NTI2LC01Mz
+Y0NDAwMzUsLTIwODg3NDY2MTJdfQ==
 -->
