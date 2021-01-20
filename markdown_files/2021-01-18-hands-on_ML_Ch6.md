@@ -31,8 +31,10 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 ## 클래스 확률 추정
 
+샘플에 대한 리프 노드를 찾기 위해 트리를 탐색하고 그 노드에 있는 클래스 $k$의 훈련 샘플의 비율을 반환한다.
 
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTk5Nzc5NDM5NSwyMDI5MDc2NTI2LC01Mz
+Y0NDAwMzUsLTIwODg3NDY2MTJdfQ==
 -->
