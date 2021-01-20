@@ -37,8 +37,9 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 결정 트리를 훈련시키기 위해 CART(classification and regression tree) 알고리즘을 사용한다.
 
-
+- 분류에 대한 CART 비용함수
+-- $J(k, t_k) = \frac{m_{left}}{m}G_{left} + \frac{m_{right}}{m}G_{right}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwMTE3OTQ5LDIwMjkwNzY1MjYsLTUzNj
-Q0MDAzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE4NDE1MjY3MTksMjAyOTA3NjUyNiwtNT
+M2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
 -->
