@@ -42,8 +42,12 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 >$G_{left/right}$는 왼쪽/오른쪽 서브셋의 불순도
 >$m_{left/right}$는 왼쪽/오른쪽 서브셋의 샘플 수
 
+서브셋을 나누면서 최대 깊이가 되면 중지하거나 불순도를 줄이는 분할을 찾을 수 없을 때 멈추게 된다.
+- 중지 조건
+--min_samples_split, min_samples_leaf, min_weight_fraction_leaf, max_leaf_nodes)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTMwOTE3MSwyMDI5MDc2NTI2LC01Mz
-Y0NDAwMzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTExNTE4NzcxNDgsMjAyOTA3NjUyNiwtNT
+M2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
 -->
