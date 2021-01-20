@@ -33,8 +33,12 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 샘플에 대한 리프 노드를 찾기 위해 트리를 탐색하고 그 노드에 있는 클래스 $k$의 훈련 샘플의 비율을 반환한다.
 
-###
+## CART 훈련 알고리즘
+
+결정 트리를 훈련시키기 위해 CART(classification and regression tree) 알고리즘을 사용한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Nzc5NDM5NSwyMDI5MDc2NTI2LC01Mz
-Y0NDAwMzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbODUwMTE3OTQ5LDIwMjkwNzY1MjYsLTUzNj
+Q0MDAzNSwtMjA4ODc0NjYxMl19
 -->
