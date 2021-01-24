@@ -91,9 +91,13 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 과대 적합을 피하기 위해 결정 트리의 **자유도를 제한**할 필요가 있다.
 
+- 사이킷런에서는 max_depth 매개변수로 결정 트리의 **최대 깊이**를 제어한다.
 
+DecisionTreeClassifier 에는 비슷하게 결정 트리의 형태를 제한하는 다른 매개변수가 몇개 있다.
+- min_samples_split
+- min_samp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1ODUxNzAxLDE3ODMyMjY5MTYsLTExNT
-E4NzcxNDgsMjAyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbMTM0ODY0NjkxOCwzNjU4NTE3MDEsMTc4Mz
+IyNjkxNiwtMTE1MTg3NzE0OCwyMDI5MDc2NTI2LC01MzY0NDAw
+MzUsLTIwODg3NDY2MTJdfQ==
 -->
