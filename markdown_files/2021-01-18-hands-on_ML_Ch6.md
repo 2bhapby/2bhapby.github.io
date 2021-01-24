@@ -64,8 +64,10 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 **엔트로피**
 - $H_i = - \sum_{\overset{k = 1}{p_{i, k \neq 0}}}^{n}p_{i, k}log_2(p_{i,k})$
+-- 어떤 세트에 한 클래스의 샘플만 담고 있다면 엔트로피는 0
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzMyMDc1MjUsLTExNTE4NzcxNDgsMj
-AyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE2OTcxOTY3NSwtMTE1MTg3NzE0OCwyMD
+I5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
 -->
