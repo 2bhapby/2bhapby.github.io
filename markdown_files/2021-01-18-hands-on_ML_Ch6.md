@@ -68,9 +68,9 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 계산 속도 : 지니 불순도 > 엔트로피
 균형 잡힌 트리 : 엔트로피 > 지니 불순도
-> 지니 불순도가 가장 빈도 높은 클래스를 한쪽 가지로 고림시키는 경향이 있다.
+>지니 불순도가 가장 빈도 높은 클래스를 한쪽 가지로 고림시키는 경향이 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA1NjkyNTksLTExNTE4NzcxNDgsMj
-AyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3NzczMTI5NywtMTE1MTg3NzE0OCwyMD
+I5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
 -->
