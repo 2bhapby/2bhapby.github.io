@@ -87,8 +87,9 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 선형 모델은 **파라미터 모델(parametric model)** 이다.
 - 미리 정의된 모델 파라미터 수를 가진다.
 - 자유도가 제한되고 과대적합 위험이 줄어든다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNTIyMjk1LDE3ODMyMjY5MTYsLTExNT
+eyJoaXN0b3J5IjpbMTU3Nzk1NDI5LDE3ODMyMjY5MTYsLTExNT
 E4NzcxNDgsMjAyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMDg4NzQ2
 NjEyXX0=
 -->
