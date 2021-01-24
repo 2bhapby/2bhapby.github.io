@@ -51,14 +51,14 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 ## 계산복잡도
 
-평균적으로 $O(log_2(m))$ 으로 매우 빠르다.
+평균적으로 $O(log_2(m))$ 이다.
 
-
+훈련 세트가 적을 경우 사이킷런은 presort=True 매개변수를 통해 미리 데이터를 정렬하여 훈련 속도를 높일 수 있다.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDM5NDE0MiwtMTE1MTg3NzE0OCwyMD
+eyJoaXN0b3J5IjpbMTQ1MzM2MTc0NCwtMTE1MTg3NzE0OCwyMD
 I5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
 -->
