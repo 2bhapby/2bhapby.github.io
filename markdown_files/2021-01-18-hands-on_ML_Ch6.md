@@ -63,9 +63,9 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 하지만 criterion 매개변수를 "entropy"로 지정하여 **엔트로피 불순도**를 사용할 수 있다.
 
 **엔트로피**
-- $H_i = - \sum_{}^{}$
+- $H_i = - \sum_{\overset{k = 1}{p_{i, k \neq 0}}}^{n}p_{i, k}log_2(p_{i,k})$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDk0ODkyMywtMTE1MTg3NzE0OCwyMD
-I5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNzMyMDc1MjUsLTExNTE4NzcxNDgsMj
+AyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
 -->
