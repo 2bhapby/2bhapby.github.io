@@ -76,11 +76,11 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 ## 규제 매개변수
 
-선형 모델은 데이터가 선형이라고 가정하지만 결정 트리는 훈련 데이터에 대한 제약이 거의 없다.
+**선형 모델**은 데이터가 선형이라고 가정하지만 **결정 트리**는 훈련 데이터에 대한 제약이 거의 없다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjQ2ODg3MywxNzgzMjI2OTE2LC0xMT
-UxODc3MTQ4LDIwMjkwNzY1MjYsLTUzNjQ0MDAzNSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMzczMjE2NTIxLDE3ODMyMjY5MTYsLTExNT
+E4NzcxNDgsMjAyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMDg4NzQ2
+NjEyXX0=
 -->
