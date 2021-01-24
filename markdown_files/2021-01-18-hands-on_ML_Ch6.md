@@ -88,9 +88,11 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 - 미리 정의된 모델 파라미터 수를 가진다.
 - 자유도가 제한되고 과대적합 위험이 줄어든다.
 
-과대 적합을 피하기 위해 결정 트리의 자유도를 제한할 필요가 있다.
+과대 적합을 피하기 위해 결정 트리의 **자유도를 제한**할 필요가 있다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyNTMyNTIsMTc4MzIyNjkxNiwtMTE1MT
-g3NzE0OCwyMDI5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2
-MTJdfQ==
+eyJoaXN0b3J5IjpbMTg5NDEzMDc4NCwxNzgzMjI2OTE2LC0xMT
+UxODc3MTQ4LDIwMjkwNzY1MjYsLTUzNjQ0MDAzNSwtMjA4ODc0
+NjYxMl19
 -->
