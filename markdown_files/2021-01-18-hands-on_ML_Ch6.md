@@ -59,11 +59,13 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 ## 지니 불순도 또는 엔트로피?
 
-기본적으로는 지니 불순도를 사용한다. 
-하지만 criterion 매개변수를 "entropy"로 지정하여 엔트로피 불순도를 사용할 수 있다.
+기본적으로는 **지니 불순도**를 사용한다. 
+하지만 criterion 매개변수를 "entropy"로 지정하여 **엔트로피 불순도**를 사용할 수 있다.
 
+**엔트로피**
+- $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA5OTc2MiwtMTE1MTg3NzE0OCwyMD
+eyJoaXN0b3J5IjpbLTYxMTY5NTE4MSwtMTE1MTg3NzE0OCwyMD
 I5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
 -->
