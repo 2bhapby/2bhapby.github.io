@@ -51,9 +51,14 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 ## 계산복잡도
 
-평균적으로 $O(log_2(m))$
+평균적으로 $O(log_2(m))$ 으로 매우 빠르다.
+
+
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTAwNDU4NTAsLTExNTE4NzcxNDgsMj
-AyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTc0MDM5NDE0MiwtMTE1MTg3NzE0OCwyMD
+I5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
 -->
