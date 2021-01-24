@@ -35,6 +35,8 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 ## CART 훈련 알고리즘
 
+> CART 알고리즘은 greedy 이다.
+
 결정 트리를 훈련시키기 위해 CART(classification and regression tree) 알고리즘을 사용한다.
 
 - 분류에 대한 CART 비용함수
@@ -48,6 +50,6 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE4NzcxNDgsMjAyOTA3NjUyNiwtNT
-M2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTM2NjE0NjI4LC0xMTUxODc3MTQ4LDIwMj
+kwNzY1MjYsLTUzNjQ0MDAzNSwtMjA4ODc0NjYxMl19
 -->
