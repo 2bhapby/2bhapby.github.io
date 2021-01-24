@@ -108,12 +108,16 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 제한 없이 결정 트리를 훈련시키고 불필요한 노드를 **가지치기(pruning)** 하는 알고리즘도 있다.
 
-순도를 높이는 것이 통계적으로 큰 효과가 없다면 리프 노드 바로 위의 노드는 불필요할 수 있다.
-
+>순도를 높이는 것이 통계적으로 큰 효과가 없다면 리프 노드 바로 위의 노드는 불필요할 수 있다.
 chi-square test 같은 통계적 검정을 사용하여 우연히 향상된 것인지 추정한다.(귀무가설)
-p-value 보다 높으면 그 노드는 불필요한 것으로 간주하고 그 자식 노드는 삭제
+p-value 보다 높으면 그 노드는 불필요한 것으로 간주하고 그 자식 노드는 삭제한다.
+가지치기는 불필요한 모든 노드가 없어질 때까지 반복한다.
+
+## 회귀
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA1NzEwNDEsMzY1ODUxNzAxLDE3OD
-MyMjY5MTYsLTExNTE4NzcxNDgsMjAyOTA3NjUyNiwtNTM2NDQw
-MDM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTE0NTY0NTc2NiwzNjU4NTE3MDEsMTc4Mz
+IyNjkxNiwtMTE1MTg3NzE0OCwyMDI5MDc2NTI2LC01MzY0NDAw
+MzUsLTIwODg3NDY2MTJdfQ==
 -->
