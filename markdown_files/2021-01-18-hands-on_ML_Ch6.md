@@ -94,21 +94,21 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 - 사이킷런에서는 max_depth 매개변수로 결정 트리의 **최대 깊이**를 제어한다.
 
 **DecisionTreeClassifier** 에는 비슷하게 결정 트리의 형태를 제한하는 다른 매개변수가 몇개 있다.
-- min_samples_split
+- **min_samples_split**
 --분할되기 위해 노드가 가져야 하는 최소 샘플 수
-- min_samples_leaf
+- **min_samples_leaf**
 -- 리프 노드가 가지고 있어야 할 최소 샘플 수
-- min_weight_fraction_leaf
+- **min_weight_fraction_leaf**
 -- min_samples_leaf와 같지만 가중치가 부여된 전체 샘플 수에서의 비율
-- max_leaf_nodes
+- **max_leaf_nodes**
 -- 리프 노드의 최대 수
-- max_features
+- **max_features**
 -- 각 노드에서 분할에 사용할 특성의 최대 수
 
 
  min_으로 시작하는 매개변수를 증가시키거나 max_로 시작하는 매개변수를 감소시키면 규제가 커진다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc1NzAyMTAsMzY1ODUxNzAxLDE3OD
-MyMjY5MTYsLTExNTE4NzcxNDgsMjAyOTA3NjUyNiwtNTM2NDQw
-MDM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNDEzMDU4MjIsMzY1ODUxNzAxLDE3ODMyMj
+Y5MTYsLTExNTE4NzcxNDgsMjAyOTA3NjUyNiwtNTM2NDQwMDM1
+LC0yMDg4NzQ2NjEyXX0=
 -->
