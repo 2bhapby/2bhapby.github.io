@@ -106,9 +106,11 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 -- 각 노드에서 분할에 사용할 특성의 최대 수
 >min_으로 시작하는 매개변수를 증가시키거나 max_로 시작하는 매개변수를 감소시키면 규제가 커진다.
 
-제한 없이 결정 트리를 훈련시키고 불필요한 노드를 가지치기(pruning) 하는 알고리즘도 있다.
+제한 없이 결정 트리를 훈련시키고 불필요한 노드를 **가지치기(pruning)** 하는 알고리즘도 있다.
+
+순도
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM2MTc4OTEsMzY1ODUxNzAxLDE3OD
-MyMjY5MTYsLTExNTE4NzcxNDgsMjAyOTA3NjUyNiwtNTM2NDQw
-MDM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTczNjI0OTEwNSwzNjU4NTE3MDEsMTc4Mz
+IyNjkxNiwtMTE1MTg3NzE0OCwyMDI5MDc2NTI2LC01MzY0NDAw
+MzUsLTIwODg3NDY2MTJdfQ==
 -->
