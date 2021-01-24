@@ -36,6 +36,7 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 ## CART 훈련 알고리즘
 
 > CART 알고리즘은 greedy 이다.
+> 최적의 트리를 찾는것은 NPC 문제이다.
 
 결정 트리를 훈련시키기 위해 CART(classification and regression tree) 알고리즘을 사용한다.
 
@@ -50,6 +51,6 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjE0NjI4LC0xMTUxODc3MTQ4LDIwMj
-kwNzY1MjYsLTUzNjQ0MDAzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTYyMTI5OTgzNywtMTE1MTg3NzE0OCwyMD
+I5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
 -->
