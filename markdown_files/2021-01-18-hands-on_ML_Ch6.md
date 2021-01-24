@@ -80,6 +80,7 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 하지만 제약을 두지 않으면 훈련데이터에 맞추려해 **overfitting** 되기 쉽다.
 
+---
 결정 트리는 **비파라미터(nonparametric model) 모델**이다.
 - 훈련되기 전에 파라미터 수가 결정되지 않는 모델
 - 자유도가 높고 overfitting 되기 쉽다.
@@ -92,7 +93,7 @@ graphviz를 사용하면 위와 같이 결정트리를 시각화 시킬 수 있�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDEzMDc4NCwxNzgzMjI2OTE2LC0xMT
-UxODc3MTQ4LDIwMjkwNzY1MjYsLTUzNjQ0MDAzNSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMzY1ODUxNzAxLDE3ODMyMjY5MTYsLTExNT
+E4NzcxNDgsMjAyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMDg4NzQ2
+NjEyXX0=
 -->
