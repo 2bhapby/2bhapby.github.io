@@ -123,11 +123,10 @@ p-value 보다 높으면 그 노드는 불필요한 것으로 간주하고 그 �
 
 - 회귀에 대한 CART 비용함수
 -- $J(k, t_k) = \frac{m_{left}}{m}MSE_{left} + \frac{m_{right}}{m}MSE_{right}$
->$G_{left/right}$는 왼쪽/오른쪽 서브셋의 불순도
->$m_{left/right}$는 왼쪽/오른쪽 서브셋의 샘플 수
+> $MSE_{node} = \sum_$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzAxNjU4NiwxMTQ1NjQ1NzY2LDM2NT
+eyJoaXN0b3J5IjpbMTI3NTY3NzEzNSwxMTQ1NjQ1NzY2LDM2NT
 g1MTcwMSwxNzgzMjI2OTE2LC0xMTUxODc3MTQ4LDIwMjkwNzY1
 MjYsLTUzNjQ0MDAzNSwtMjA4ODc0NjYxMl19
 -->
