@@ -127,11 +127,11 @@ p-value 보다 높으면 그 노드는 불필요한 것으로 간주하고 그 �
 > $\hat y_{node} = \frac{1}{m_{node}}\sum_{i\in node}y^{(i)}$
 
 회귀에서 또한 **overfitting** 되기 쉽다. 
-min_samples_leaf 라는 매개변수를 통해서 
+min_samples_leaf 라는 매개변수를 통해서 규제를 할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4Mzc0OTU3LDEyNzU2NzcxMzUsMTE0NT
-Y0NTc2NiwzNjU4NTE3MDEsMTc4MzIyNjkxNiwtMTE1MTg3NzE0
-OCwyMDI5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTc1MDQ3ODUzMSwxMjc1Njc3MTM1LDExND
+U2NDU3NjYsMzY1ODUxNzAxLDE3ODMyMjY5MTYsLTExNTE4Nzcx
+NDgsMjAyOTA3NjUyNiwtNTM2NDQwMDM1LC0yMDg4NzQ2NjEyXX
+0=
 -->
