@@ -144,10 +144,9 @@ min_samples_leaf 라는 매개변수를 통해서 규제를 할 수 있다.
 위와 같은 단점을 해결하는 방법으로는 훈련 데이터를 더 좋은 방향으로 회전시키는 PCA 기법을 사용하는 것이다.
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTI5MjAyOSwtMTQxNDk0MzU2NSwtNz
-UwNDc4NTMxLDEyNzU2NzcxMzUsMTE0NTY0NTc2NiwzNjU4NTE3
-MDEsMTc4MzIyNjkxNiwtMTE1MTg3NzE0OCwyMDI5MDc2NTI2LC
-01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNzY4MjAyMDksLTE0MTQ5NDM1NjUsLT
+c1MDQ3ODUzMSwxMjc1Njc3MTM1LDExNDU2NDU3NjYsMzY1ODUx
+NzAxLDE3ODMyMjY5MTYsLTExNTE4NzcxNDgsMjAyOTA3NjUyNi
+wtNTM2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
 -->
