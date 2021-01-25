@@ -123,10 +123,14 @@ p-value 보다 높으면 그 노드는 불필요한 것으로 간주하고 그 �
 
 - 회귀에 대한 CART 비용함수
 -- $J(k, t_k) = \frac{m_{left}}{m}MSE_{left} + \frac{m_{right}}{m}MSE_{right}$
-> $MSE_{node} = \sum_$
+> $MSE_{node} = \sum_{i\in node} (\hat y_{node}-y^{(i)})^2$
+> $\hat y_{node} = \frac{1}{m_{node}}\sum_{i\in node}y^{(i)}$
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTY3NzEzNSwxMTQ1NjQ1NzY2LDM2NT
-g1MTcwMSwxNzgzMjI2OTE2LC0xMTUxODc3MTQ4LDIwMjkwNzY1
-MjYsLTUzNjQ0MDAzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbODQxNjIxOTEzLDEyNzU2NzcxMzUsMTE0NT
+Y0NTc2NiwzNjU4NTE3MDEsMTc4MzIyNjkxNiwtMTE1MTg3NzE0
+OCwyMDI5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ
+==
 -->
