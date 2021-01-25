@@ -117,9 +117,13 @@ p-value 보다 높으면 그 노드는 불필요한 것으로 간주하고 그 �
 
 **DecisionTreeRegressor** 를 사용해 회귀트리를 만들 수 있다.
 
+분류 트리와의 차이점은 각 노드에서 클래스를 예측하는 것이 아닌 어떤 값을 예측한다는 것이다.
+
+각 영역의 예측값은 항상 그 영역에 있는 타깃값의 평균이 된다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg5MTI5MDUsMTE0NTY0NTc2NiwzNj
-U4NTE3MDEsMTc4MzIyNjkxNiwtMTE1MTg3NzE0OCwyMDI5MDc2
-NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTI4OTkzOTY2LDExNDU2NDU3NjYsMzY1OD
+UxNzAxLDE3ODMyMjY5MTYsLTExNTE4NzcxNDgsMjAyOTA3NjUy
+NiwtNTM2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
 -->
