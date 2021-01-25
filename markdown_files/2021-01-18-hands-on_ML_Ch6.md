@@ -138,9 +138,10 @@ min_samples_leaf 라는 매개변수를 통해서 규제를 할 수 있다.
 - 성능이 뛰어나다
 
 **단점**
-- 
+- 계단 모양의 결정 경계를 만들어서 훈련 세트의 회전에 민감하다.
+- 예시로 정확히 반으로 나눠지는
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTk4MzI5MCwtNzUwNDc4NTMxLDEyNz
+eyJoaXN0b3J5IjpbLTc1MTI0ODE0NCwtNzUwNDc4NTMxLDEyNz
 U2NzcxMzUsMTE0NTY0NTc2NiwzNjU4NTE3MDEsMTc4MzIyNjkx
 NiwtMTE1MTg3NzE0OCwyMDI5MDc2NTI2LC01MzY0NDAwMzUsLT
 IwODg3NDY2MTJdfQ==
