@@ -131,9 +131,16 @@ min_samples_leaf 라는 매개변수를 통해서 규제를 할 수 있다.
 
 ## 불안정성
 
+**장점**
+- 이해하고 해석하기 쉽다
+- 사용하기 편하다
+- 여러 용도로 사용될 수 있다
+- 성능이 뛰어나다
 
+**단점**
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjM5NTYyNSwtNzUwNDc4NTMxLDEyNz
+eyJoaXN0b3J5IjpbLTk5NTk4MzI5MCwtNzUwNDc4NTMxLDEyNz
 U2NzcxMzUsMTE0NTY0NTc2NiwzNjU4NTE3MDEsMTc4MzIyNjkx
 NiwtMTE1MTg3NzE0OCwyMDI5MDc2NTI2LC01MzY0NDAwMzUsLT
 IwODg3NDY2MTJdfQ==
