@@ -115,9 +115,11 @@ p-value 보다 높으면 그 노드는 불필요한 것으로 간주하고 그 �
 
 ## 회귀
 
+**DecisionTreeRegressor** 를 사용해 회귀트리를 만들 수 있다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTY0NTc2NiwzNjU4NTE3MDEsMTc4Mz
-IyNjkxNiwtMTE1MTg3NzE0OCwyMDI5MDc2NTI2LC01MzY0NDAw
-MzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEyOTg5MTI5MDUsMTE0NTY0NTc2NiwzNj
+U4NTE3MDEsMTc4MzIyNjkxNiwtMTE1MTg3NzE0OCwyMDI5MDc2
+NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
 -->
