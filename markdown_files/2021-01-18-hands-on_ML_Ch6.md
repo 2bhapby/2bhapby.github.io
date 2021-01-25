@@ -139,10 +139,12 @@ min_samples_leaf 라는 매개변수를 통해서 규제를 할 수 있다.
 
 **단점**
 - 계단 모양의 결정 경계를 만들어서 훈련 세트의 회전에 민감하다.
-- 예시로 정확히 반으로 나눠지는
+- 예시로 정확히 반으로 구분되는 데이터셋이 45도 회전하게 되면 불필요하게 구불구불해진다.
+
+위와 같은 단점을 해결하는 방법으로는 훈련 데이터를 더 좋은 방향으로 회전시키는 PCA 기법을 사용하는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTI0ODE0NCwtNzUwNDc4NTMxLDEyNz
-U2NzcxMzUsMTE0NTY0NTc2NiwzNjU4NTE3MDEsMTc4MzIyNjkx
-NiwtMTE1MTg3NzE0OCwyMDI5MDc2NTI2LC01MzY0NDAwMzUsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE0MTQ5NDM1NjUsLTc1MDQ3ODUzMSwxMj
+c1Njc3MTM1LDExNDU2NDU3NjYsMzY1ODUxNzAxLDE3ODMyMjY5
+MTYsLTExNTE4NzcxNDgsMjAyOTA3NjUyNiwtNTM2NDQwMDM1LC
+0yMDg4NzQ2NjEyXX0=
 -->
