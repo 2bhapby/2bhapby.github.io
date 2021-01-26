@@ -1,3 +1,8 @@
+---
+layout: post
+title: 결정 트리
+---
+
 # 결정 트리
 
 - 분류, 회귀, 다중출력 작업이 가능한 알고리즘
@@ -145,8 +150,9 @@ min_samples_leaf 라는 매개변수를 통해서 규제를 할 수 있다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzY4MjAyMDksLTE0MTQ5NDM1NjUsLT
-c1MDQ3ODUzMSwxMjc1Njc3MTM1LDExNDU2NDU3NjYsMzY1ODUx
-NzAxLDE3ODMyMjY5MTYsLTExNTE4NzcxNDgsMjAyOTA3NjUyNi
-wtNTM2NDQwMDM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTE1NTIyMjAxOCwtMTM3NjgyMDIwOSwtMT
+QxNDk0MzU2NSwtNzUwNDc4NTMxLDEyNzU2NzcxMzUsMTE0NTY0
+NTc2NiwzNjU4NTE3MDEsMTc4MzIyNjkxNiwtMTE1MTg3NzE0OC
+wyMDI5MDc2NTI2LC01MzY0NDAwMzUsLTIwODg3NDY2MTJdfQ==
+
 -->
