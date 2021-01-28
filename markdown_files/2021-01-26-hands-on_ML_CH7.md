@@ -28,7 +28,9 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 - 이것이 가능한 이유는 **큰 수의 법칙(law of large numbers)** 때문이다.
 - 앙상블 방법은 예측기가 가능한 서로 독립적일 때 최고의 성능을 발휘한다.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzY0Njk5Miw1NzQyMTA3MTgsOTI3ND
-A4MDY4LC0xMjIxMjI3ODAwLC0xMTkyOTk1NzE5XX0=
+eyJoaXN0b3J5IjpbMTYyMTAzNDE3NCwxNzMzNjQ2OTkyLDU3ND
+IxMDcxOCw5Mjc0MDgwNjgsLTEyMjEyMjc4MDAsLTExOTI5OTU3
+MTldfQ==
 -->
