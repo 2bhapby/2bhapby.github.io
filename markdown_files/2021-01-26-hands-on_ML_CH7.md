@@ -21,8 +21,10 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 ## 투표 기반 분류기
 
+**직접 투표 분류기**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk0NzA3OTgsOTI3NDA4MDY4LC0xMj
+eyJoaXN0b3J5IjpbLTEzNTQyNjU2OTQsOTI3NDA4MDY4LC0xMj
 IxMjI3ODAwLC0xMTkyOTk1NzE5XX0=
 -->
