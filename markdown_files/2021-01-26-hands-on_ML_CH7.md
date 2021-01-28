@@ -25,9 +25,11 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 - 여러 분류기의 예측을 모아서 가장 많이 선택된 클래스를 예측하는 것
 -- 다수결 투표로 정해지는 것
 - 각 분류기가 **약한 학습기** 라도 충분하게 많고 다양하면 **강한 학습기**가 될 수 있다.
+- 이것이 가능한 이유는 **큰 수의 법칙(law of large numbers)** 때문이다.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTU2MjgwMCw5Mjc0MDgwNjgsLTEyMj
-EyMjc4MDAsLTExOTI5OTU3MTldfQ==
+eyJoaXN0b3J5IjpbNTc0MjEwNzE4LDkyNzQwODA2OCwtMTIyMT
+IyNzgwMCwtMTE5Mjk5NTcxOV19
 -->
