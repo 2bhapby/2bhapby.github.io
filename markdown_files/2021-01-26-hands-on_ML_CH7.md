@@ -11,7 +11,11 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 **앙상블 방법**
 
+- 훈련 세트로부터 무작위로 각기 다른 서브셋을 만들어 일련의 결정 트리 분류기를 훈련시킨다.
+- 예측은 모든 개별 트리의 예측을 구하면 된다.
+- 그 후 가장 많은 선택을 받은 클래스를 예측으로 삼는ㄷ
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDE3NzU2MCw5Mjc0MDgwNjgsLTEyMj
+eyJoaXN0b3J5IjpbLTM1MDY4MDcxOCw5Mjc0MDgwNjgsLTEyMj
 EyMjc4MDAsLTExOTI5OTU3MTldfQ==
 -->
