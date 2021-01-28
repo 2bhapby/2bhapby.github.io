@@ -26,10 +26,9 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 -- 다수결 투표로 정해지는 것
 - 각 분류기가 **약한 학습기** 라도 충분하게 많고 다양하면 **강한 학습기**가 될 수 있다.
 - 이것이 가능한 이유는 **큰 수의 법칙(law of large numbers)** 때문이다.
-
-
+- 앙상블 방법은 예측기가 가능한 서로 독립적일 때 최고의 성능을 발휘한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MjEwNzE4LDkyNzQwODA2OCwtMTIyMT
-IyNzgwMCwtMTE5Mjk5NTcxOV19
+eyJoaXN0b3J5IjpbMTczMzY0Njk5Miw1NzQyMTA3MTgsOTI3ND
+A4MDY4LC0xMjIxMjI3ODAwLC0xMTkyOTk1NzE5XX0=
 -->
