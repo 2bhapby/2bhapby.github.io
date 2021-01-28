@@ -15,8 +15,14 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 - 예측은 모든 개별 트리의 예측을 구하면 된다.
 - 그 후 가장 많은 선택을 받은 클래스를 예측으로 삼는다.
 - 결정 트리의 앙상블을 **랜덤 포레스트** 라고 한다.
+-- 가장 강력한 ML 알고리즘 중 하나
+- 예로는 **배깅, 부스팅, 스태킹**이 있다.
+
+
+## 투표 기반 분류기
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDY1MzE1Nyw5Mjc0MDgwNjgsLTEyMj
-EyMjc4MDAsLTExOTI5OTU3MTldfQ==
+eyJoaXN0b3J5IjpbLTE2Mjk0NzA3OTgsOTI3NDA4MDY4LC0xMj
+IxMjI3ODAwLC0xMTkyOTk1NzE5XX0=
 -->
