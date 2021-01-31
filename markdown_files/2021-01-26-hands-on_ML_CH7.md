@@ -67,7 +67,9 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 배깅을 사용하면 어떤 샘플은 한 예측기를 위해 여러 번 샘플링되고 어떤 것은 전혀 선택되지 않는다.
 
 BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 크기만큼인 m 개 샘플을 선택한다.
-> 평귡
+> 평균적으로 63% 정도만 샘플링이 된다.
+> 선택되지 않은 훈련 샘플의 나머지 37%를 oob(out-of-bag) 샘플이라고 한다.
+
 
 
 
@@ -80,7 +82,7 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTc2MzQ0NywtMTc1NzQ3MjM3NiwtMT
+eyJoaXN0b3J5IjpbMTcyMTAzOTY4MywtMTc1NzQ3MjM3NiwtMT
 E1MzM5MDQ4NCwtMTA0MDQ0MzgyNCwtMTkzNjExOCw1OTk1OTI4
 NzIsNjM0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02NT
 Y4NzE3ODYsLTE5NTM4NDMwNDgsLTEzODUxNTMzMDIsMTczMzY0
