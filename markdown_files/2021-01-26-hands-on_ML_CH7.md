@@ -58,13 +58,15 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 - 페이스팅은 bootstrap=False를 사용
 - n_jobs 매개변수는 사이킷런이 훈련과 예측에 사용할 CPU 코어 수를 지정한다.
 
-앙상
+앙상블은 비슷한 편향에서 더 작은 분산을 만든다.(오차수는 비슷하지만 결정 경계는 덜 불규칙)
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjM5NTYwNCwtMTkzNjExOCw1OTk1OT
-I4NzIsNjM0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02
-NTY4NzE3ODYsLTE5NTM4NDMwNDgsLTEzODUxNTMzMDIsMTczMz
-Y0Njk5Miw1NzQyMTA3MTgsOTI3NDA4MDY4LC0xMjIxMjI3ODAw
-LC0xMTkyOTk1NzE5XX0=
+eyJoaXN0b3J5IjpbLTEwNDA0NDM4MjQsLTE5MzYxMTgsNTk5NT
+kyODcyLDYzNDQxOTU2MCwxODU0MTc4MDk0LDk2Mzc2MTQ0Mywt
+NjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMzg1MTUzMzAyLDE3Mz
+M2NDY5OTIsNTc0MjEwNzE4LDkyNzQwODA2OCwtMTIyMTIyNzgw
+MCwtMTE5Mjk5NTcxOV19
 -->
