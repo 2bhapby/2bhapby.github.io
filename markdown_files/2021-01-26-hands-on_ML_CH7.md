@@ -31,9 +31,10 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 **간접 투표 분류기**
 - 개별 분류기의 예측을 평균 내어 확률이 가장 높은 클래스를 예측한다.
 - 확률이 높은 투표에 비중을 더 두기 때문에 직접 투표 방식 보다 성능이 높다.
-
+- 이를 사용하기 위해서는 voting="hard"를 voting="soft" 로 바꾸고 모든 분류기가 클래스의 확률을 추정할 수 있으면 된다.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM4NDMwNDgsLTEzODUxNTMzMDIsMT
-czMzY0Njk5Miw1NzQyMTA3MTgsOTI3NDA4MDY4LC0xMjIxMjI3
-ODAwLC0xMTkyOTk1NzE5XX0=
+eyJoaXN0b3J5IjpbLTY1Njg3MTc4NiwtMTk1Mzg0MzA0OCwtMT
+M4NTE1MzMwMiwxNzMzNjQ2OTkyLDU3NDIxMDcxOCw5Mjc0MDgw
+NjgsLTEyMjEyMjc4MDAsLTExOTI5OTU3MTldfQ==
 -->
