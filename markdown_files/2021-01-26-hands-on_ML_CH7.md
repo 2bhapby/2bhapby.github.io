@@ -52,10 +52,12 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 개별 예측기는 원본 훈련 세트로 훈련시킨 것보다 훨씬 크게 편향되어 있지만 수집 함수를 통과하면 편향과 분산이 모두 감소한다.
 
+### 사이킷런의 배깅과 페이스팅
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNz
-YxNDQzLC02NTY4NzE3ODYsLTE5NTM4NDMwNDgsLTEzODUxNTMz
-MDIsMTczMzY0Njk5Miw1NzQyMTA3MTgsOTI3NDA4MDY4LC0xMj
-IxMjI3ODAwLC0xMTkyOTk1NzE5XX0=
+eyJoaXN0b3J5IjpbNTk5NTkyODcyLDYzNDQxOTU2MCwxODU0MT
+c4MDk0LDk2Mzc2MTQ0MywtNjU2ODcxNzg2LC0xOTUzODQzMDQ4
+LC0xMzg1MTUzMzAyLDE3MzM2NDY5OTIsNTc0MjEwNzE4LDkyNz
+QwODA2OCwtMTIyMTIyNzgwMCwtMTE5Mjk5NTcxOV19
 -->
