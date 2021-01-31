@@ -64,7 +64,9 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 ### oob  평가
 
-배깅을 사용하면 
+배깅을 사용하면 어떤 샘플은 한 예측기를 위해 여러 번 샘플링되고 어떤 것은 전혀 선택되지 않는다.
+
+
 
 
 
@@ -77,10 +79,10 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTYwNTQ4OCwtMTE1MzM5MDQ4NCwtMT
-A0MDQ0MzgyNCwtMTkzNjExOCw1OTk1OTI4NzIsNjM0NDE5NTYw
-LDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02NTY4NzE3ODYsLTE5NT
-M4NDMwNDgsLTEzODUxNTMzMDIsMTczMzY0Njk5Miw1NzQyMTA3
-MTgsOTI3NDA4MDY4LC0xMjIxMjI3ODAwLC0xMTkyOTk1NzE5XX
-0=
+eyJoaXN0b3J5IjpbLTE3NTc0NzIzNzYsLTExNTMzOTA0ODQsLT
+EwNDA0NDM4MjQsLTE5MzYxMTgsNTk5NTkyODcyLDYzNDQxOTU2
+MCwxODU0MTc4MDk0LDk2Mzc2MTQ0MywtNjU2ODcxNzg2LC0xOT
+UzODQzMDQ4LC0xMzg1MTUzMzAyLDE3MzM2NDY5OTIsNTc0MjEw
+NzE4LDkyNzQwODA2OCwtMTIyMTIyNzgwMCwtMTE5Mjk5NTcxOV
+19
 -->
