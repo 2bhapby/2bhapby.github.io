@@ -46,9 +46,13 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 -- 중복을 허용하지 않는 방식
 
 모든 예측기가 훈련을 마치면 앙상블은 모든 예측기의 예측을 모아서 새로운 샘플에 대한 예측을 만든다.
-- 수집함수는 전형적인 분류일 ㄸ
+- 수집함수는 전형적인 분류일 때는 통계적 최빈값(statistical mode)을 예측한다.
+
+- 회귀일 때는 평균을 계산해 예측한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzgyNTgyOSwxODU0MTc4MDk0LDk2Mz
+eyJoaXN0b3J5IjpbMTA5MTIxOTM5MCwxODU0MTc4MDk0LDk2Mz
 c2MTQ0MywtNjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMzg1MTUz
 MzAyLDE3MzM2NDY5OTIsNTc0MjEwNzE4LDkyNzQwODA2OCwtMT
 IyMTIyNzgwMCwtMTE5Mjk5NTcxOV19
