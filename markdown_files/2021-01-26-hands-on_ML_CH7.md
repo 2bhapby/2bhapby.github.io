@@ -60,13 +60,13 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 앙상블은 비슷한 편향에서 더 작은 분산을 만든다.(오차수는 비슷하지만 결정 경계는 덜 불규칙)
 
-
+부트스트래핑은 각 예측기가 학습하는 서브셋에 다양성을 증가시키므로 배깅이 페이스팅보다 편향이 조금 더 높다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA0NDM4MjQsLTE5MzYxMTgsNTk5NT
-kyODcyLDYzNDQxOTU2MCwxODU0MTc4MDk0LDk2Mzc2MTQ0Mywt
-NjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMzg1MTUzMzAyLDE3Mz
-M2NDY5OTIsNTc0MjEwNzE4LDkyNzQwODA2OCwtMTIyMTIyNzgw
-MCwtMTE5Mjk5NTcxOV19
+eyJoaXN0b3J5IjpbLTExNTMzOTA0ODQsLTEwNDA0NDM4MjQsLT
+E5MzYxMTgsNTk5NTkyODcyLDYzNDQxOTU2MCwxODU0MTc4MDk0
+LDk2Mzc2MTQ0MywtNjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMz
+g1MTUzMzAyLDE3MzM2NDY5OTIsNTc0MjEwNzE4LDkyNzQwODA2
+OCwtMTIyMTIyNzgwMCwtMTE5Mjk5NTcxOV19
 -->
