@@ -50,10 +50,12 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 - 회귀일 때는 평균을 계산해 예측한다.
 
+개별 예측기는 원본 훈련 세트로 훈련시킨 것보다 훨씬 크게 편향되어 있지만 수집 함수를 통과하면 편향과 분산이 모두 감소한다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTIxOTM5MCwxODU0MTc4MDk0LDk2Mz
-c2MTQ0MywtNjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMzg1MTUz
-MzAyLDE3MzM2NDY5OTIsNTc0MjEwNzE4LDkyNzQwODA2OCwtMT
-IyMTIyNzgwMCwtMTE5Mjk5NTcxOV19
+eyJoaXN0b3J5IjpbNjM0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNz
+YxNDQzLC02NTY4NzE3ODYsLTE5NTM4NDMwNDgsLTEzODUxNTMz
+MDIsMTczMzY0Njk5Miw1NzQyMTA3MTgsOTI3NDA4MDY4LC0xMj
+IxMjI3ODAwLC0xMTkyOTk1NzE5XX0=
 -->
