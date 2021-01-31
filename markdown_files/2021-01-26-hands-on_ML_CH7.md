@@ -54,15 +54,18 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 ### 사이킷런의 배깅과 페이스팅
 
-**BaggingClassifier, BaggingRegressor** - 페이스팅은 bootstrap=False를 사용
+**BaggingClassifier, BaggingRegressor** 
+- 페이스팅은 bootstrap=False를 사용
+- n_jobs 매개변수는 사이킷런이 훈련과 예측에 사용할 CPU 코어 수를 지정한다.
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODM2Mjg4LDU5OTU5Mjg3Miw2MzQ0MT
-k1NjAsMTg1NDE3ODA5NCw5NjM3NjE0NDMsLTY1Njg3MTc4Niwt
-MTk1Mzg0MzA0OCwtMTM4NTE1MzMwMiwxNzMzNjQ2OTkyLDU3ND
-IxMDcxOCw5Mjc0MDgwNjgsLTEyMjEyMjc4MDAsLTExOTI5OTU3
-MTldfQ==
+eyJoaXN0b3J5IjpbLTE5MzYxMTgsNTk5NTkyODcyLDYzNDQxOT
+U2MCwxODU0MTc4MDk0LDk2Mzc2MTQ0MywtNjU2ODcxNzg2LC0x
+OTUzODQzMDQ4LC0xMzg1MTUzMzAyLDE3MzM2NDY5OTIsNTc0Mj
+EwNzE4LDkyNzQwODA2OCwtMTIyMTIyNzgwMCwtMTE5Mjk5NTcx
+OV19
 -->
