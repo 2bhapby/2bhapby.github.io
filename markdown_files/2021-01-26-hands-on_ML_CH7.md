@@ -35,10 +35,20 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 ## 배깅과 페이스팅
 
+알고리즘을 사용하고 훈련 세트의 서브셋을 무작위로 구성하여 분류기를 각기 다르게 학습시킨다.
+
+**샘플링 방식**
+- 배깅(bagging)
+-- 훈련세트에서 중복을 허용하는 방식
+
+- 페이스팅(pasting)
+-- 중복을 허용하지 않는 방식
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNzYxNDQzLC02NTY4NzE3ODYsLTE5NT
-M4NDMwNDgsLTEzODUxNTMzMDIsMTczMzY0Njk5Miw1NzQyMTA3
-MTgsOTI3NDA4MDY4LC0xMjIxMjI3ODAwLC0xMTkyOTk1NzE5XX
-0=
+eyJoaXN0b3J5IjpbMTg1NDE3ODA5NCw5NjM3NjE0NDMsLTY1Nj
+g3MTc4NiwtMTk1Mzg0MzA0OCwtMTM4NTE1MzMwMiwxNzMzNjQ2
+OTkyLDU3NDIxMDcxOCw5Mjc0MDgwNjgsLTEyMjEyMjc4MDAsLT
+ExOTI5OTU3MTldfQ==
 -->
