@@ -33,10 +33,12 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 - 확률이 높은 투표에 비중을 더 두기 때문에 직접 투표 방식 보다 성능이 높다.
 - 이를 사용하기 위해서는 voting="hard"를 voting="soft" 로 바꾸고 모든 분류기가 클래스의 확률을 추정할 수 있으면 된다.
 
-## qorldrhk
+## 배깅과 페이스팅
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjM1NzAwNCwtNjU2ODcxNzg2LC0xOT
-UzODQzMDQ4LC0xMzg1MTUzMzAyLDE3MzM2NDY5OTIsNTc0MjEw
-NzE4LDkyNzQwODA2OCwtMTIyMTIyNzgwMCwtMTE5Mjk5NTcxOV
-19
+eyJoaXN0b3J5IjpbOTYzNzYxNDQzLC02NTY4NzE3ODYsLTE5NT
+M4NDMwNDgsLTEzODUxNTMzMDIsMTczMzY0Njk5Miw1NzQyMTA3
+MTgsOTI3NDA4MDY4LC0xMjIxMjI3ODAwLC0xMTkyOTk1NzE5XX
+0=
 -->
