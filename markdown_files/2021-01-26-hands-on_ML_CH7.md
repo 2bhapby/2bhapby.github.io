@@ -40,6 +40,7 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 **샘플링 방식**
 - 배깅(bagging)
 -- 훈련세트에서 중복을 허용하는 방식
+-- 한 예측기를 위해 같은 훈련 샘플을 여러번 샘플링 할 수 있다.
 
 - 페이스팅(pasting)
 -- 중복을 허용하지 않는 방식
@@ -47,8 +48,8 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDE3ODA5NCw5NjM3NjE0NDMsLTY1Nj
-g3MTc4NiwtMTk1Mzg0MzA0OCwtMTM4NTE1MzMwMiwxNzMzNjQ2
-OTkyLDU3NDIxMDcxOCw5Mjc0MDgwNjgsLTEyMjEyMjc4MDAsLT
-ExOTI5OTU3MTldfQ==
+eyJoaXN0b3J5IjpbLTg0OTg4NjA2NywxODU0MTc4MDk0LDk2Mz
+c2MTQ0MywtNjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMzg1MTUz
+MzAyLDE3MzM2NDY5OTIsNTc0MjEwNzE4LDkyNzQwODA2OCwtMT
+IyMTIyNzgwMCwtMTE5Mjk5NTcxOV19
 -->
