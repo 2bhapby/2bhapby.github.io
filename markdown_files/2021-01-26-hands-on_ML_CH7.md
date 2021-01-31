@@ -62,11 +62,25 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 
 부트스트래핑은 각 예측기가 학습하는 서브셋에 다양성을 증가시키므로 배깅이 페이스팅보다 편향이 조금 더 높다.
 
+### oob  평가
+
+배깅을 사용하면 
+
+
+
+
+
+
+
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTMzOTA0ODQsLTEwNDA0NDM4MjQsLT
-E5MzYxMTgsNTk5NTkyODcyLDYzNDQxOTU2MCwxODU0MTc4MDk0
-LDk2Mzc2MTQ0MywtNjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMz
-g1MTUzMzAyLDE3MzM2NDY5OTIsNTc0MjEwNzE4LDkyNzQwODA2
-OCwtMTIyMTIyNzgwMCwtMTE5Mjk5NTcxOV19
+eyJoaXN0b3J5IjpbMTI3NTYwNTQ4OCwtMTE1MzM5MDQ4NCwtMT
+A0MDQ0MzgyNCwtMTkzNjExOCw1OTk1OTI4NzIsNjM0NDE5NTYw
+LDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02NTY4NzE3ODYsLTE5NT
+M4NDMwNDgsLTEzODUxNTMzMDIsMTczMzY0Njk5Miw1NzQyMTA3
+MTgsOTI3NDA4MDY4LC0xMjIxMjI3ODAwLC0xMTkyOTk1NzE5XX
+0=
 -->
