@@ -77,7 +77,9 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 BaggingClassifier는 특성 샘플링도 지원한다.
 - 샘플링은 **max_features, bootstrap_features** 두 매개변수로 조절
 - 샘플이 아닌 특성에 대한 샘플링
-- 
+- 각 예측기는 무작위로 선택한 입력 특성의 일부분으로 훈련된다.
+
+
 
 
 
@@ -90,7 +92,7 @@ BaggingClassifier는 특성 샘플링도 지원한다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTU5MzQxOSwtMTA5MzUwODksLTE4NT
+eyJoaXN0b3J5IjpbLTE2MDU2Mzk3NSwtMTA5MzUwODksLTE4NT
 U2MzY0ODQsMTcyMTAzOTY4MywtMTc1NzQ3MjM3NiwtMTE1MzM5
 MDQ4NCwtMTA0MDQ0MzgyNCwtMTkzNjExOCw1OTk1OTI4NzIsNj
 M0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02NTY4NzE3
