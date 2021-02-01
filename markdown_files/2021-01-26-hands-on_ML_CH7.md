@@ -70,6 +70,7 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 > 평균적으로 63% 정도만 샘플링이 된다.
 > 선택되지 않은 훈련 샘플의 나머지 37%를 oob(out-of-bag) 샘플이라고 한다.
 
+예측기가 훈련되는 동안 oob 샘플은 사용되지 않으므로 별도의 검증 세트를 사용하지 않고 oob 샘플을 사용해 평가할 수 있다.
 
 
 
@@ -82,10 +83,10 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTAzOTY4MywtMTc1NzQ3MjM3NiwtMT
-E1MzM5MDQ4NCwtMTA0MDQ0MzgyNCwtMTkzNjExOCw1OTk1OTI4
-NzIsNjM0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02NT
-Y4NzE3ODYsLTE5NTM4NDMwNDgsLTEzODUxNTMzMDIsMTczMzY0
-Njk5Miw1NzQyMTA3MTgsOTI3NDA4MDY4LC0xMjIxMjI3ODAwLC
-0xMTkyOTk1NzE5XX0=
+eyJoaXN0b3J5IjpbLTE4NTU2MzY0ODQsMTcyMTAzOTY4MywtMT
+c1NzQ3MjM3NiwtMTE1MzM5MDQ4NCwtMTA0MDQ0MzgyNCwtMTkz
+NjExOCw1OTk1OTI4NzIsNjM0NDE5NTYwLDE4NTQxNzgwOTQsOT
+YzNzYxNDQzLC02NTY4NzE3ODYsLTE5NTM4NDMwNDgsLTEzODUx
+NTMzMDIsMTczMzY0Njk5Miw1NzQyMTA3MTgsOTI3NDA4MDY4LC
+0xMjIxMjI3ODAwLC0xMTkyOTk1NzE5XX0=
 -->
