@@ -72,6 +72,10 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 
 예측기가 훈련되는 동안 oob 샘플은 사용되지 않으므로 별도의 검증 세트를 사용하지 않고 oob 샘플을 사용해 평가할 수 있다.
 
+### 랜덤 패치와 랜덤 서브스페이스
+
+
+
 
 
 
@@ -83,10 +87,11 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU2MzY0ODQsMTcyMTAzOTY4MywtMT
-c1NzQ3MjM3NiwtMTE1MzM5MDQ4NCwtMTA0MDQ0MzgyNCwtMTkz
-NjExOCw1OTk1OTI4NzIsNjM0NDE5NTYwLDE4NTQxNzgwOTQsOT
-YzNzYxNDQzLC02NTY4NzE3ODYsLTE5NTM4NDMwNDgsLTEzODUx
-NTMzMDIsMTczMzY0Njk5Miw1NzQyMTA3MTgsOTI3NDA4MDY4LC
-0xMjIxMjI3ODAwLC0xMTkyOTk1NzE5XX0=
+eyJoaXN0b3J5IjpbLTc0OTE3MDM0OSwtMTg1NTYzNjQ4NCwxNz
+IxMDM5NjgzLC0xNzU3NDcyMzc2LC0xMTUzMzkwNDg0LC0xMDQw
+NDQzODI0LC0xOTM2MTE4LDU5OTU5Mjg3Miw2MzQ0MTk1NjAsMT
+g1NDE3ODA5NCw5NjM3NjE0NDMsLTY1Njg3MTc4NiwtMTk1Mzg0
+MzA0OCwtMTM4NTE1MzMwMiwxNzMzNjQ2OTkyLDU3NDIxMDcxOC
+w5Mjc0MDgwNjgsLTEyMjEyMjc4MDAsLTExOTI5OTU3MTldfQ==
+
 -->
