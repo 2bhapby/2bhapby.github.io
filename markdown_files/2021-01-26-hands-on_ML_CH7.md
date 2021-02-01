@@ -74,7 +74,9 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 
 ### 랜덤 패치와 랜덤 서브스페이스
 
-
+BaggingClassifier는 특성 샘플링도 지원한다.
+- 샘플링은 **max_features, bootstrap_features** 두 매개변수로 조절
+- 
 
 
 
@@ -87,11 +89,10 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTE3MDM0OSwtMTg1NTYzNjQ4NCwxNz
-IxMDM5NjgzLC0xNzU3NDcyMzc2LC0xMTUzMzkwNDg0LC0xMDQw
-NDQzODI0LC0xOTM2MTE4LDU5OTU5Mjg3Miw2MzQ0MTk1NjAsMT
-g1NDE3ODA5NCw5NjM3NjE0NDMsLTY1Njg3MTc4NiwtMTk1Mzg0
-MzA0OCwtMTM4NTE1MzMwMiwxNzMzNjQ2OTkyLDU3NDIxMDcxOC
-w5Mjc0MDgwNjgsLTEyMjEyMjc4MDAsLTExOTI5OTU3MTldfQ==
-
+eyJoaXN0b3J5IjpbLTEwOTM1MDg5LC0xODU1NjM2NDg0LDE3Mj
+EwMzk2ODMsLTE3NTc0NzIzNzYsLTExNTMzOTA0ODQsLTEwNDA0
+NDM4MjQsLTE5MzYxMTgsNTk5NTkyODcyLDYzNDQxOTU2MCwxOD
+U0MTc4MDk0LDk2Mzc2MTQ0MywtNjU2ODcxNzg2LC0xOTUzODQz
+MDQ4LC0xMzg1MTUzMzAyLDE3MzM2NDY5OTIsNTc0MjEwNzE4LD
+kyNzQwODA2OCwtMTIyMTIyNzgwMCwtMTE5Mjk5NTcxOV19
 -->
