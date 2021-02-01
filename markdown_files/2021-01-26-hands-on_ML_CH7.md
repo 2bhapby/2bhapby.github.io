@@ -79,8 +79,12 @@ BaggingClassifier는 특성 샘플링도 지원한다.
 - 샘플이 아닌 특성에 대한 샘플링
 - 각 예측기는 무작위로 선택한 입력 특성의 일부분으로 훈련된다.
 - 매우 고차원의 데이터셋을 다룰 때 유용하다
-*
 
+**랜덤 패치 방식(random patches method)**
+- 훈련 특성과 샘플을 모두 샘플링
+
+**랜덤 서브스페이스 방식(random subspaces method)**
+- 훈련 샘플을 모두 사용하고 특성은
 
 
 
@@ -92,7 +96,7 @@ BaggingClassifier는 특성 샘플링도 지원한다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQ4MzY3NCwtMTA5MzUwODksLTE4NT
+eyJoaXN0b3J5IjpbMTE1NTU1NTk0MSwtMTA5MzUwODksLTE4NT
 U2MzY0ODQsMTcyMTAzOTY4MywtMTc1NzQ3MjM3NiwtMTE1MzM5
 MDQ4NCwtMTA0MDQ0MzgyNCwtMTkzNjExOCw1OTk1OTI4NzIsNj
 M0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02NTY4NzE3
