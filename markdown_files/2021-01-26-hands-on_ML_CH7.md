@@ -81,10 +81,10 @@ BaggingClassifier는 특성 샘플링도 지원한다.
 - 매우 고차원의 데이터셋을 다룰 때 유용하다
 
 **랜덤 패치 방식(random patches method)**
-- 훈련 특성과 샘플을 모두 샘플링
+- 훈련 특성과 샘플을 모두 샘플링하는 방식
 
 **랜덤 서브스페이스 방식(random subspaces method)**
-- 훈련 샘플을 모두 사용하고 특성은
+- 훈련 샘플을 모두 사용하고 특성은 샘플링하는 방식
 
 
 
@@ -96,11 +96,11 @@ BaggingClassifier는 특성 샘플링도 지원한다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTU1NTk0MSwtMTA5MzUwODksLTE4NT
-U2MzY0ODQsMTcyMTAzOTY4MywtMTc1NzQ3MjM3NiwtMTE1MzM5
-MDQ4NCwtMTA0MDQ0MzgyNCwtMTkzNjExOCw1OTk1OTI4NzIsNj
-M0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02NTY4NzE3
-ODYsLTE5NTM4NDMwNDgsLTEzODUxNTMzMDIsMTczMzY0Njk5Mi
-w1NzQyMTA3MTgsOTI3NDA4MDY4LC0xMjIxMjI3ODAwLC0xMTky
-OTk1NzE5XX0=
+eyJoaXN0b3J5IjpbMzU0MjIzMTAyLC0xMDkzNTA4OSwtMTg1NT
+YzNjQ4NCwxNzIxMDM5NjgzLC0xNzU3NDcyMzc2LC0xMTUzMzkw
+NDg0LC0xMDQwNDQzODI0LC0xOTM2MTE4LDU5OTU5Mjg3Miw2Mz
+Q0MTk1NjAsMTg1NDE3ODA5NCw5NjM3NjE0NDMsLTY1Njg3MTc4
+NiwtMTk1Mzg0MzA0OCwtMTM4NTE1MzMwMiwxNzMzNjQ2OTkyLD
+U3NDIxMDcxOCw5Mjc0MDgwNjgsLTEyMjEyMjc4MDAsLTExOTI5
+OTU3MTldfQ==
 -->
