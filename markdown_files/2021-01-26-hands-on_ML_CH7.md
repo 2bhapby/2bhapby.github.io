@@ -94,18 +94,15 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 - **BaggingClassifier**에 **DecisionTreeClassifier**를 넣어 만든다.
 - 결정 트리에 최적화 되어 사용하기 편리한 **RandomForestClassifier**를 사용할 수 있다.
 
-
-
-
-
+**RandomForestClassifier**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDUzMzQ1NzAsLTIwNTUwNTg0NTQsMj
-A0ODA1NjM2MywxNjY4MDk5MTk4LC0xMDkzNTA4OSwtMTg1NTYz
-NjQ4NCwxNzIxMDM5NjgzLC0xNzU3NDcyMzc2LC0xMTUzMzkwND
-g0LC0xMDQwNDQzODI0LC0xOTM2MTE4LDU5OTU5Mjg3Miw2MzQ0
-MTk1NjAsMTg1NDE3ODA5NCw5NjM3NjE0NDMsLTY1Njg3MTc4Ni
-wtMTk1Mzg0MzA0OCwtMTM4NTE1MzMwMiwxNzMzNjQ2OTkyLDU3
-NDIxMDcxOF19
+eyJoaXN0b3J5IjpbMTY3ODY2MDM2MywtMjAwNTMzNDU3MCwtMj
+A1NTA1ODQ1NCwyMDQ4MDU2MzYzLDE2NjgwOTkxOTgsLTEwOTM1
+MDg5LC0xODU1NjM2NDg0LDE3MjEwMzk2ODMsLTE3NTc0NzIzNz
+YsLTExNTMzOTA0ODQsLTEwNDA0NDM4MjQsLTE5MzYxMTgsNTk5
+NTkyODcyLDYzNDQxOTU2MCwxODU0MTc4MDk0LDk2Mzc2MTQ0My
+wtNjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMzg1MTUzMzAyLDE3
+MzM2NDY5OTJdfQ==
 -->
