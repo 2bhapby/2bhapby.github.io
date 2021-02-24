@@ -87,6 +87,8 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 - 훈련 샘플을 모두 사용하고 특성은 샘플링하는 방식
 
 
+### 랜덤 포레스트
+
 
 
 
@@ -96,11 +98,11 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODA5OTE5OCwtMTA5MzUwODksLTE4NT
-U2MzY0ODQsMTcyMTAzOTY4MywtMTc1NzQ3MjM3NiwtMTE1MzM5
-MDQ4NCwtMTA0MDQ0MzgyNCwtMTkzNjExOCw1OTk1OTI4NzIsNj
-M0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02NTY4NzE3
-ODYsLTE5NTM4NDMwNDgsLTEzODUxNTMzMDIsMTczMzY0Njk5Mi
-w1NzQyMTA3MTgsOTI3NDA4MDY4LC0xMjIxMjI3ODAwLC0xMTky
-OTk1NzE5XX0=
+eyJoaXN0b3J5IjpbMjA0ODA1NjM2MywxNjY4MDk5MTk4LC0xMD
+kzNTA4OSwtMTg1NTYzNjQ4NCwxNzIxMDM5NjgzLC0xNzU3NDcy
+Mzc2LC0xMTUzMzkwNDg0LC0xMDQwNDQzODI0LC0xOTM2MTE4LD
+U5OTU5Mjg3Miw2MzQ0MTk1NjAsMTg1NDE3ODA5NCw5NjM3NjE0
+NDMsLTY1Njg3MTc4NiwtMTk1Mzg0MzA0OCwtMTM4NTE1MzMwMi
+wxNzMzNjQ2OTkyLDU3NDIxMDcxOCw5Mjc0MDgwNjgsLTEyMjEy
+Mjc4MDBdfQ==
 -->
