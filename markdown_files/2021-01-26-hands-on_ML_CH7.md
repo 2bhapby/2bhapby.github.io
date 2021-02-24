@@ -38,7 +38,7 @@ wisdom of the crowd와 비슷하게 일련의 예측기로부터 예측을 수�
 알고리즘을 사용하고 훈련 세트의 서브셋을 무작위로 구성하여 분류기를 각기 다르게 학습시킨다.
 
 **샘플링 방식**
-- 배깅(bagging/bootstrap aggrestion)
+- 배깅(bagging/bootstrap aggregation)
 -- 훈련세트에서 중복을 허용하는 방식
 -- 한 예측기를 위해 같은 훈련 샘플을 여러번 샘플링 할 수 있다.
 
@@ -98,11 +98,11 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjU1MDAwNSwyMDQ4MDU2MzYzLDE2Nj
-gwOTkxOTgsLTEwOTM1MDg5LC0xODU1NjM2NDg0LDE3MjEwMzk2
-ODMsLTE3NTc0NzIzNzYsLTExNTMzOTA0ODQsLTEwNDA0NDM4Mj
-QsLTE5MzYxMTgsNTk5NTkyODcyLDYzNDQxOTU2MCwxODU0MTc4
-MDk0LDk2Mzc2MTQ0MywtNjU2ODcxNzg2LC0xOTUzODQzMDQ4LC
-0xMzg1MTUzMzAyLDE3MzM2NDY5OTIsNTc0MjEwNzE4LDkyNzQw
-ODA2OF19
+eyJoaXN0b3J5IjpbLTIwNTUwNTg0NTQsMjA0ODA1NjM2MywxNj
+Y4MDk5MTk4LC0xMDkzNTA4OSwtMTg1NTYzNjQ4NCwxNzIxMDM5
+NjgzLC0xNzU3NDcyMzc2LC0xMTUzMzkwNDg0LC0xMDQwNDQzOD
+I0LC0xOTM2MTE4LDU5OTU5Mjg3Miw2MzQ0MTk1NjAsMTg1NDE3
+ODA5NCw5NjM3NjE0NDMsLTY1Njg3MTc4NiwtMTk1Mzg0MzA0OC
+wtMTM4NTE1MzMwMiwxNzMzNjQ2OTkyLDU3NDIxMDcxOCw5Mjc0
+MDgwNjhdfQ==
 -->
