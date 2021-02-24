@@ -94,15 +94,15 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 - **BaggingClassifier**에 **DecisionTreeClassifier**를 넣어 만든다.
 - 결정 트리에 최적화 되어 사용하기 편리한 **RandomForestClassifier**를 사용할 수 있다.
 
-**RandomForestClassifier**
+**RandomForestClassifier**는 몇 가지 예외가 있지만 **Decision Tree Classifier**의 매개변수와 앙상블 자체를 제어하는 데 필요한 **BaggingClassifier**의 매개변수를 모두 가지고 있다.
 
-
+랜덤 포레스트 알고리즘은 트리의 노드를 분할
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODY2MDM2MywtMjAwNTMzNDU3MCwtMj
-A1NTA1ODQ1NCwyMDQ4MDU2MzYzLDE2NjgwOTkxOTgsLTEwOTM1
-MDg5LC0xODU1NjM2NDg0LDE3MjEwMzk2ODMsLTE3NTc0NzIzNz
-YsLTExNTMzOTA0ODQsLTEwNDA0NDM4MjQsLTE5MzYxMTgsNTk5
-NTkyODcyLDYzNDQxOTU2MCwxODU0MTc4MDk0LDk2Mzc2MTQ0My
-wtNjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMzg1MTUzMzAyLDE3
-MzM2NDY5OTJdfQ==
+eyJoaXN0b3J5IjpbOTgxODA2MjI5LC0yMDA1MzM0NTcwLC0yMD
+U1MDU4NDU0LDIwNDgwNTYzNjMsMTY2ODA5OTE5OCwtMTA5MzUw
+ODksLTE4NTU2MzY0ODQsMTcyMTAzOTY4MywtMTc1NzQ3MjM3Ni
+wtMTE1MzM5MDQ4NCwtMTA0MDQ0MzgyNCwtMTkzNjExOCw1OTk1
+OTI4NzIsNjM0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC
+02NTY4NzE3ODYsLTE5NTM4NDMwNDgsLTEzODUxNTMzMDIsMTcz
+MzY0Njk5Ml19
 -->
