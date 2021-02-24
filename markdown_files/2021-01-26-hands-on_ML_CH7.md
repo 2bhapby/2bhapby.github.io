@@ -97,12 +97,14 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 **RandomForestClassifier**는 몇 가지 예외가 있지만 **Decision Tree Classifier**의 매개변수와 앙상블 자체를 제어하는 데 필요한 **BaggingClassifier**의 매개변수를 모두 가지고 있다.
 
 랜덤 포레스트 알고리즘은 트리의 노드를 분할할 때 전체 특성 중에서 최선의 특성을 찾는 대신 무작위로 선택한 특성 후보 중에서 최적의 특성을 찾는 식으로 무작위성을 더 주입한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjA5NzQyLC0yMDA1MzM0NTcwLC0yMD
-U1MDU4NDU0LDIwNDgwNTYzNjMsMTY2ODA5OTE5OCwtMTA5MzUw
-ODksLTE4NTU2MzY0ODQsMTcyMTAzOTY4MywtMTc1NzQ3MjM3Ni
-wtMTE1MzM5MDQ4NCwtMTA0MDQ0MzgyNCwtMTkzNjExOCw1OTk1
-OTI4NzIsNjM0NDE5NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC
-02NTY4NzE3ODYsLTE5NTM4NDMwNDgsLTEzODUxNTMzMDIsMTcz
-MzY0Njk5Ml19
+eyJoaXN0b3J5IjpbMTA0MDE5Mzk2MiwtMjAwNTMzNDU3MCwtMj
+A1NTA1ODQ1NCwyMDQ4MDU2MzYzLDE2NjgwOTkxOTgsLTEwOTM1
+MDg5LC0xODU1NjM2NDg0LDE3MjEwMzk2ODMsLTE3NTc0NzIzNz
+YsLTExNTMzOTA0ODQsLTEwNDA0NDM4MjQsLTE5MzYxMTgsNTk5
+NTkyODcyLDYzNDQxOTU2MCwxODU0MTc4MDk0LDk2Mzc2MTQ0My
+wtNjU2ODcxNzg2LC0xOTUzODQzMDQ4LC0xMzg1MTUzMzAyLDE3
+MzM2NDY5OTJdfQ==
 -->
