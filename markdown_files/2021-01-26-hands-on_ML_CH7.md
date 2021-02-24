@@ -92,7 +92,7 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 - 일반적으로 배깅 방법을 적용한 결정 트리의 앙상블
 - max_sample : 훈련 세트 크기 지정
 - **BaggingClassifier**에 **DecisionTreeClassifier**를 넣어 만든다.
-- 결정 트리에 최적화 되어 사용하기 편리한 **
+- 결정 트리에 최적화 되어 사용하기 편리한 **RandomForestClassifier**를 사용할 수 있다.
 
 
 
@@ -101,11 +101,11 @@ BaggingClassifier 는 기본값으로 중복을 허용하여 훈련 세트의 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjA4MzE0LC0yMDU1MDU4NDU0LDIwND
-gwNTYzNjMsMTY2ODA5OTE5OCwtMTA5MzUwODksLTE4NTU2MzY0
-ODQsMTcyMTAzOTY4MywtMTc1NzQ3MjM3NiwtMTE1MzM5MDQ4NC
-wtMTA0MDQ0MzgyNCwtMTkzNjExOCw1OTk1OTI4NzIsNjM0NDE5
-NTYwLDE4NTQxNzgwOTQsOTYzNzYxNDQzLC02NTY4NzE3ODYsLT
-E5NTM4NDMwNDgsLTEzODUxNTMzMDIsMTczMzY0Njk5Miw1NzQy
-MTA3MThdfQ==
+eyJoaXN0b3J5IjpbLTIwMDUzMzQ1NzAsLTIwNTUwNTg0NTQsMj
+A0ODA1NjM2MywxNjY4MDk5MTk4LC0xMDkzNTA4OSwtMTg1NTYz
+NjQ4NCwxNzIxMDM5NjgzLC0xNzU3NDcyMzc2LC0xMTUzMzkwND
+g0LC0xMDQwNDQzODI0LC0xOTM2MTE4LDU5OTU5Mjg3Miw2MzQ0
+MTk1NjAsMTg1NDE3ODA5NCw5NjM3NjE0NDMsLTY1Njg3MTc4Ni
+wtMTk1Mzg0MzA0OCwtMTM4NTE1MzMwMiwxNzMzNjQ2OTkyLDU3
+NDIxMDcxOF19
 -->
